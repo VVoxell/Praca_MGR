@@ -1,0 +1,9 @@
+# Ignorowanie folderów build i install (niepotrzebne w repozytorium)
+build/
+install/
+
+# Ignorowanie plików binarnych
+*.so
+*.o
+*.exe
+

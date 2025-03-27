@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib/python3.12/site-packages",
+        "/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages",
+        "/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib/python3.12/site-packages",
+        "/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages",
+        "/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

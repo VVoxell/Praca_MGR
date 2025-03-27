@@ -1,0 +1,5 @@
+*.so filter=lfs diff=lfs merge=lfs -text
+build/ros_gz_bridge/test_ros_subscriber filter=lfs diff=lfs merge=lfs -text
+build/ros_gz_bridge/libros_gz_bridge.so filter=lfs diff=lfs merge=lfs -text
+install/ros_gz_bridge/lib/libros_gz_bridge.so filter=lfs diff=lfs merge=lfs -text
+*.o filter=lfs diff=lfs merge=lfs -text

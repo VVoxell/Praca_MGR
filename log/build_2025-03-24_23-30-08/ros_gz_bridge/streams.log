@@ -1,0 +1,284 @@
+[0.032s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera/lib:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib:/home/vvoxel/ros2_ws_mgr/install/g2o/lib:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge
+[0.218s] -- The C compiler identification is GNU 13.3.0
+[0.406s] -- The CXX compiler identification is GNU 13.3.0
+[0.468s] -- Detecting C compiler ABI info
+[0.761s] -- Detecting C compiler ABI info - done
+[0.793s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.795s] -- Detecting C compile features
+[0.797s] -- Detecting C compile features - done
+[0.820s] -- Detecting CXX compiler ABI info
+[1.085s] -- Detecting CXX compiler ABI info - done
+[1.116s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.116s] -- Detecting CXX compile features
+[1.117s] -- Detecting CXX compile features - done
+[1.129s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.596s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.832s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.967s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.114s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.184s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.599s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.613s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.885s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.948s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.021s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.313s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.434s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[3.434s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[3.450s] -- Found gz_transport_vendor: 0.0.6 (/opt/ros/jazzy/share/gz_transport_vendor/cmake)
+[3.500s] -- Looking for gz-transport13 -- found version 13.4.1
+[3.516s] -- Searching for dependencies of gz-transport13
+[3.815s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[3.851s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.866s] -- Checking for module 'libzmq >= 4'
+[3.916s] --   Found libzmq, version 4.3.5
+[4.031s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.048s] -- Checking for module 'uuid'
+[4.090s] --   Found uuid, version 2.39.3
+[4.194s] -- Found UUID: TRUE  
+[4.201s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.208s] -- Searching for dependencies of gz-utils2
+[4.208s] -- Searching for <gz-utils2> component [cli]
+[4.210s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[4.212s] -- Searching for dependencies of gz-utils2-cli
+[4.218s] -- Looking for gz-msgs10 -- found version 10.3.2
+[4.223s] -- Searching for dependencies of gz-msgs10
+[4.274s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.283s] -- Looking for gz-math7 -- found version 7.5.2
+[4.285s] -- Searching for dependencies of gz-math7
+[4.287s] -- Looking for gz-utils2 -- found version 2.2.1
+[4.302s] -- Checking for module 'tinyxml2'
+[4.345s] --   Found tinyxml2, version 10.0.0
+[4.439s] -- Looking for gz-msgs10 -- found version 10.3.2
+[4.774s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[4.893s] -- Found actuator_msgs: 0.0.1 (/opt/ros/jazzy/share/actuator_msgs/cmake)
+[4.949s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[5.009s] -- Found gps_msgs: 2.0.4 (/opt/ros/jazzy/share/gps_msgs/cmake)
+[5.106s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[5.109s] -- Found rcl_interfaces: 2.0.2 (/opt/ros/jazzy/share/rcl_interfaces/cmake)
+[5.215s] -- Found ros_gz_interfaces: 1.0.11 (/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake)
+[5.215s] -- Found rosgraph_msgs: 2.0.2 (/opt/ros/jazzy/share/rosgraph_msgs/cmake)
+[5.300s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[5.301s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.504s] -- Found tf2_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[5.581s] -- Found trajectory_msgs: 5.3.5 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[5.651s] -- Found vision_msgs: 4.1.1 (/opt/ros/jazzy/share/vision_msgs/cmake)
+[6.239s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.574s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.981s] -- Found PythonExtra: /usr/bin/python3  
+[7.051s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.064s] -- Found Threads: TRUE  
+[7.154s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.171s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.175s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_bridge/include>;$<BUILD_INTERFACE:/home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_bridge/src>;/home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_bridge/include;/home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_bridge/test;/home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_bridge/test/subscribers;/home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_bridge/src
+[7.177s] -- Configured cppcheck exclude dirs and/or files: 
+[7.194s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.195s] -- Configured cpplint exclude dirs and/or files: 
+[7.201s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.201s] -- Configured 'flake8' exclude dirs and/or files: 
+[7.201s] -- Added test 'lint_cmake' to check CMake code style
+[7.205s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.222s] -- Added test 'uncrustify' to check C / C++ code style
+[7.222s] -- Configured uncrustify additional arguments: 
+[7.226s] -- Added test 'xmllint' to check XML markup files
+[7.239s] -- Configuring done (7.2s)
+[7.651s] -- Generating done (0.3s)
+[7.762s] -- Build files have been written to: /home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge
+[7.810s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera/lib:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib:/home/vvoxel/ros2_ws_mgr/install/g2o/lib:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge
+[7.815s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera/lib:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib:/home/vvoxel/ros2_ws_mgr/install/g2o/lib:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge -- -j8 -l8
+[7.974s] [  0%] Built target ament_cmake_python_symlink_ros_gz_bridge_setup
+[8.037s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[18.822s] [  2%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.961s] [  2%] Built target gtest
+[19.006s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[21.359s] [  4%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.456s] [  4%] Built target gtest_main
+[21.514s] [  5%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/gz_test_msg.cpp.o[0m
+[33.681s] [  6%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o[0m
+[44.068s] [  7%] [32m[1mLinking CXX static library libtest_utils.a[0m
+[44.192s] [  7%] Built target test_utils
+[44.222s] [  8%] [34m[1mGenerating factories for interface types[0m
+[44.239s] [  9%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces.cpp.o[0m
+[44.249s] [ 10%] [32mBuilding CXX object CMakeFiles/bridge_node.dir/rclcpp_components/node_main_bridge_node.cpp.o[0m
+[45.274s] [ 12%] [34m[1mGenerating test helpers[0m
+[45.347s] [ 13%] [32mBuilding CXX object CMakeFiles/test_gz_server.dir/test/serverclient/gz_server.cpp.o[0m
+[46.357s] [ 14%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_config.cpp.o[0m
+[46.490s] [ 15%] [32mBuilding CXX object CMakeFiles/test_gz_publisher.dir/generated/test/gz_publisher.cpp.o[0m
+[46.511s] [ 16%] [32mBuilding CXX object CMakeFiles/test_ros_publisher.dir/generated/test/ros_publisher.cpp.o[0m
+[46.579s] [ 16%] Built target ament_cmake_python_symlink_ros_gz_bridge
+[46.634s] [ 17%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle.cpp.o[0m
+[47.116s] [ 18%] [32mBuilding CXX object CMakeFiles/test_gz_subscriber.dir/generated/test/gz_subscriber.cpp.o[0m
+[47.943s] [ 19%] [32mBuilding CXX object CMakeFiles/test_rcl_interfaces.dir/src/convert/rcl_interfaces_TEST.cpp.o[0m
+[53.146s] [ 20%] [32m[1mLinking CXX executable test_rcl_interfaces[0m
+[54.281s] [ 20%] Built target test_rcl_interfaces
+[58.031s] [ 21%] [32m[1mLinking CXX executable bridge_node[0m
+[58.707s] [ 21%] Built target bridge_node
+[63.461s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_ros_to_gz.cpp.o[0m
+[66.960s] [ 24%] [32m[1mLinking CXX executable test_gz_server[0m
+[68.168s] [ 24%] Built target test_gz_server
+[69.563s] [ 25%] [32m[1mLinking CXX executable test_gz_publisher[0m
+[70.845s] [ 26%] Built target test_gz_publisher
+[72.826s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/factory_interface.cpp.o[0m
+[78.940s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factory_interface.cpp.o[0m
+[83.763s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o[0m
+[84.486s] [ 30%] [32m[1mLinking CXX executable test_gz_subscriber[0m
+[86.948s] [ 30%] Built target test_gz_subscriber
+[88.972s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/utils.cpp.o[0m
+[89.577s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/ros_gz_bridge.cpp.o[0m
+[90.602s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/builtin_interfaces.cpp.o[0m
+[91.647s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/bridge_handle_gz_to_ros.cpp.o[0m
+[103.829s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/gps_msgs.cpp.o[0m
+[106.864s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/nav_msgs.cpp.o[0m
+[108.702s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/rcl_interfaces.cpp.o[0m
+[110.498s] [ 39%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[117.929s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/rosgraph_msgs.cpp.o[0m
+[118.950s] [ 41%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/sensor_msgs.cpp.o[0m
+[119.855s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/geometry_msgs.cpp.o[0m
+[119.855s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/actuator_msgs.cpp.o[0m
+[120.906s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/std_msgs.cpp.o[0m
+[123.829s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/tf2_msgs.cpp.o[0m
+[128.587s] [ 47%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/get_factory.cpp.o[0m
+[138.678s] [ 48%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/get_mappings.cpp.o[0m
+[140.571s] [ 49%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/builtin_interfaces.cpp.o[0m
+[165.516s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/actuator_msgs.cpp.o[0m
+[185.837s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/geometry_msgs.cpp.o[0m
+[186.431s] [ 52%] [32m[1mLinking CXX executable test_ros_publisher[0m
+[191.359s] [ 53%] Built target test_ros_publisher
+[194.374s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/nav_msgs.cpp.o[0m
+[195.395s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/gps_msgs.cpp.o[0m
+[197.418s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/vision_msgs.cpp.o[0m
+[199.469s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/trajectory_msgs.cpp.o[0m
+[201.456s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/rcl_interfaces.cpp.o[0m
+[259.788s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/std_msgs.cpp.o[0m
+[260.810s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/sensor_msgs.cpp.o[0m
+[261.843s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/rosgraph_msgs.cpp.o[0m
+[262.882s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/ros_gz_interfaces.cpp.o[0m
+[419.098s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/trajectory_msgs.cpp.o[0m
+[419.108s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/vision_msgs.cpp.o[0m
+[461.280s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/tf2_msgs.cpp.o[0m
+[483.071s] [ 68%] [32m[1mLinking CXX shared library libros_gz_bridge.so[0m
+[524.334s] [ 68%] Built target ros_gz_bridge
+[526.244s] running egg_info
+[526.252s] creating ros_gz_bridge.egg-info
+[526.422s] writing ros_gz_bridge.egg-info/PKG-INFO
+[526.426s] writing dependency_links to ros_gz_bridge.egg-info/dependency_links.txt
+[526.426s] writing entry points to ros_gz_bridge.egg-info/entry_points.txt
+[526.426s] writing top-level names to ros_gz_bridge.egg-info/top_level.txt
+[526.426s] writing manifest file 'ros_gz_bridge.egg-info/SOURCES.txt'
+[526.897s] reading manifest file 'ros_gz_bridge.egg-info/SOURCES.txt'
+[526.897s] writing manifest file 'ros_gz_bridge.egg-info/SOURCES.txt'
+[527.073s] [ 68%] Built target ament_cmake_python_build_ros_gz_bridge_egg
+[527.183s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge_bridge_config.dir/test/bridge_config.cpp.o[0m
+[531.726s] [ 70%] [32m[1mLinking CXX executable ros_gz_bridge_bridge_config[0m
+[549.813s] [ 70%] Built target ros_gz_bridge_bridge_config
+[549.839s] [ 71%] [32mBuilding CXX object CMakeFiles/test_ros_gz_interfaces.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[556.644s] [ 72%] [32mBuilding CXX object CMakeFiles/test_ros_gz_interfaces.dir/src/convert/ros_gz_interfaces_TEST.cpp.o[0m
+[568.497s] [ 73%] [32m[1mLinking CXX executable test_ros_gz_interfaces[0m
+[593.704s] [ 73%] Built target test_ros_gz_interfaces
+[593.736s] [ 74%] [32mBuilding CXX object CMakeFiles/parameter_bridge.dir/src/parameter_bridge.cpp.o[0m
+[593.737s] [ 75%] [32mBuilding CXX object CMakeFiles/static_bridge.dir/src/static_bridge.cpp.o[0m
+[593.745s] [ 76%] [32mBuilding CXX object CMakeFiles/bridge_types.dir/src/bridge_types.cpp.o[0m
+[594.938s] [ 78%] [32m[1mLinking CXX executable bridge_types[0m
+[600.558s] [ 79%] [32m[1mLinking CXX executable parameter_bridge[0m
+[600.623s] [ 80%] [32m[1mLinking CXX executable static_bridge[0m
+[618.461s] [ 80%] Built target bridge_types
+[618.529s] [ 81%] [32mBuilding CXX object CMakeFiles/test_ros_client.dir/test/serverclient/ros_client.cpp.o[0m
+[618.536s] [ 82%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/geometry_msgs_subscriber.cpp.o[0m
+[618.538s] [ 83%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/test/subscribers/ros_subscriber.cpp.o[0m
+[618.543s] [ 84%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/builtin_interfaces_subscriber.cpp.o[0m
+[618.546s] [ 85%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/actuator_msgs_subscriber.cpp.o[0m
+[618.548s] [ 86%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/gps_msgs_subscriber.cpp.o[0m
+[631.209s] [ 87%] [32m[1mLinking CXX executable test_ros_client[0m
+[632.603s] [ 87%] Built target test_ros_client
+[633.403s] [ 87%] Built target parameter_bridge
+[635.596s] [ 87%] Built target static_bridge
+[649.373s] [ 90%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/std_msgs_subscriber.cpp.o[0m
+[649.373s] [ 90%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/tf2_msgs_subscriber.cpp.o[0m
+[650.394s] [ 91%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/sensor_msgs_subscriber.cpp.o[0m
+[651.416s] [ 92%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rosgraph_msgs_subscriber.cpp.o[0m
+[652.439s] [ 93%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/ros_gz_interfaces_subscriber.cpp.o[0m
+[653.462s] [ 94%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rcl_interfaces_subscriber.cpp.o[0m
+[654.506s] [ 95%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/nav_msgs_subscriber.cpp.o[0m
+[710.477s] [ 96%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/trajectory_msgs_subscriber.cpp.o[0m
+[710.481s] [ 97%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/vision_msgs_subscriber.cpp.o[0m
+[743.287s] [ 98%] [32m[1mLinking CXX executable test_ros_subscriber[0m
+[757.368s] [100%] Built target test_ros_subscriber
+[757.381s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera/lib:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib:/home/vvoxel/ros2_ws_mgr/install/g2o/lib:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge -- -j8 -l8
+[757.383s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera/lib:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib:/home/vvoxel/ros2_ws_mgr/install/g2o/lib:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge
+[757.391s] -- Install configuration: ""
+[757.391s] -- Execute custom install script
+[757.392s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/pythonpath.sh
+[757.401s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/pythonpath.dsv
+[757.411s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/PKG-INFO
+[757.422s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/SOURCES.txt
+[757.432s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/dependency_links.txt
+[757.441s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/entry_points.txt
+[757.450s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/top_level.txt
+[757.460s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/__init__.py
+[757.469s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions/__init__.py
+[757.478s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions/ros_gz_bridge.py
+[757.487s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/mappings.py
+[757.497s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_node
+[757.506s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/bridge_config.hpp
+[757.515s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert.hpp
+[757.526s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/actuator_msgs.hpp
+[757.535s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/builtin_interfaces.hpp
+[757.544s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/geometry_msgs.hpp
+[757.554s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/gps_msgs.hpp
+[757.563s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/nav_msgs.hpp
+[757.572s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/rcl_interfaces.hpp
+[757.581s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/ros_gz_interfaces.hpp
+[757.590s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/rosgraph_msgs.hpp
+[757.599s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/sensor_msgs.hpp
+[757.608s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/std_msgs.hpp
+[757.618s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/tf2_msgs.hpp
+[757.628s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/trajectory_msgs.hpp
+[757.637s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/vision_msgs.hpp
+[757.646s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert_decl.hpp
+[757.656s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/ros_gz_bridge.hpp
+[757.674s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/launch/ros_gz_bridge.launch
+[757.683s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/launch/ros_gz_bridge.launch.py
+[757.693s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/parameter_bridge
+[757.702s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/static_bridge
+[757.711s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_types
+[757.721s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_publisher
+[757.731s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_subscriber
+[757.740s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_publisher
+[757.749s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_subscriber
+[757.759s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_server
+[757.768s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_client
+[757.777s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.sh
+[757.786s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.dsv
+[757.796s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ament_index/resource_index/package_run_dependencies/ros_gz_bridge
+[757.805s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ament_index/resource_index/parent_prefix_path/ros_gz_bridge
+[757.815s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.sh
+[757.825s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.dsv
+[757.834s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.sh
+[757.843s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.dsv
+[757.853s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.bash
+[757.862s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.sh
+[757.871s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.zsh
+[757.881s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.dsv
+[757.890s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/package.dsv
+[757.899s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ament_index/resource_index/packages/ros_gz_bridge
+[757.908s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ament_index/resource_index/rclcpp_components/ros_gz_bridge
+[757.918s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[757.928s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[757.937s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[757.946s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[757.955s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig.cmake
+[757.965s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig-version.cmake
+[757.974s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/package.xml
+[758.052s] Listing '/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge'...
+[758.052s] Compiling '/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/__init__.py'...
+[758.052s] Listing '/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions'...
+[758.052s] Compiling '/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions/__init__.py'...
+[758.052s] Compiling '/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions/ros_gz_bridge.py'...
+[758.052s] Compiling '/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/mappings.py'...
+[758.058s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/libros_gz_bridge.so
+[758.186s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/libros_gz_bridge.so" to ""
+[758.186s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/export_ros_gz_bridgeExport.cmake
+[758.186s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/export_ros_gz_bridgeExport-noconfig.cmake
+[758.188s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera/lib:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib:/home/vvoxel/ros2_ws_mgr/install/g2o/lib:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages:/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/ros_gz_bridge

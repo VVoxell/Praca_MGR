@@ -1,0 +1,884 @@
+[0.024s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/g2o': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/g2o -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/install/g2o
+[0.152s] -- The C compiler identification is GNU 13.3.0
+[0.289s] -- The CXX compiler identification is GNU 13.3.0
+[0.318s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.539s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.540s] -- Detecting C compile features
+[0.540s] -- Detecting C compile features - done
+[0.557s] -- Detecting CXX compiler ABI info
+[0.772s] -- Detecting CXX compiler ABI info - done
+[0.802s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.803s] -- Detecting CXX compile features
+[0.806s] -- Detecting CXX compile features - done
+[0.830s] -- Compiling on Unix
+[1.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.279s] -- Found Threads: TRUE  
+[2.806s] -- Found AMD headers in: /usr/include/suitesparse
+[2.812s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[2.818s] -- Found CAMD headers in: /usr/include/suitesparse
+[2.825s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[2.829s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[2.834s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[2.838s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[2.846s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[2.855s] -- Found COLAMD headers in: /usr/include/suitesparse
+[2.859s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[2.861s] -- Found SPQR headers in: /usr/include/suitesparse
+[2.868s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[2.873s] -- Found Config headers in: /usr/include/suitesparse
+[2.881s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[2.900s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[2.900s] -- Looking for shm_open in rt
+[3.255s] -- Looking for shm_open in rt - found
+[3.256s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[3.287s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[3.294s] -- Found SuiteSparse: /usr/include/suitesparse (found version "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+[3.294s] -- Enable support for Cholmod
+[3.295s] -- Building LGPL code as a shared library
+[3.311s] -- Found CSparse: /usr/include/suitesparse  
+[3.320s] -- Enable support for CSparse
+[3.408s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.409s] -- Compiling with OpenGL support
+[3.671s] -- Found QGLViewer: /usr/include/QGLViewer  
+[3.705s] -- Compiling with logging support
+[3.716s] -- Compiling SLAM 3D types
+[3.717s] -- Compiling built in types slam2d slam2d (addons) data sclam2d slam3d slam3d (addons) sba icp sim3
+[3.717s] -- Compiling g2o apps
+[3.717s] -- Compiling g2o examples
+[3.729s] -- Performing Test SSE2_AVAILABLE
+[4.134s] -- Performing Test SSE2_AVAILABLE - Success
+[4.140s] -- Performing Test SSE3_AVAILABLE
+[4.698s] -- Performing Test SSE3_AVAILABLE - Success
+[4.702s] -- Performing Test SSSE3_AVAILABLE
+[5.146s] -- Performing Test SSSE3_AVAILABLE - Success
+[5.149s] -- Performing Test SSE41_AVAILABLE
+[5.604s] -- Performing Test SSE41_AVAILABLE - Success
+[5.616s] -- Performing Test SSE42_AVAILABLE
+[6.063s] -- Performing Test SSE42_AVAILABLE - Success
+[6.063s] -- Compiling with GCC
+[6.106s] -- Found Eigen3: /usr/include/eigen3 (Required is at least version "3.3") 
+[6.314s] -- Generating position independent code for slam2d because Qt5 was built with -reduce-relocations
+[6.338s] -- Configuring done (6.3s)
+[7.026s] -- Generating done (0.5s)
+[7.147s] -- Build files have been written to: /home/vvoxel/ros2_ws_mgr/build/g2o
+[7.196s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/g2o' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/g2o -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/install/g2o
+[7.198s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/g2o': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/g2o -- -j8 -l8
+[11.669s] [  0%] [32mBuilding CXX object g2o/EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o[0m
+[11.669s] [  1%] [32mBuilding CXX object g2o/stuff/CMakeFiles/opengl_helper.dir/opengl_primitives.cpp.o[0m
+[11.669s] [  2%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.o[0m
+[11.670s] [  2%] [32mBuilding CXX object g2o/EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o[0m
+[11.670s] [  1%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.o[0m
+[11.670s] [  3%] [32mBuilding CXX object g2o/EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o[0m
+[11.670s] [  3%] [32mBuilding CXX object g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.o[0m
+[11.671s] [  3%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.o[0m
+[11.671s] [  3%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.o[0m
+[11.671s] [  4%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.o[0m
+[11.671s] [  4%] [32mBuilding CXX object g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.o[0m
+[11.672s] [  4%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/property.cpp.o[0m
+[11.672s] [  4%] [32m[1mLinking CXX shared library ../../lib/libg2o_opengl_helper.so[0m
+[11.672s] [  4%] [32m[1mLinking CXX shared library ../../../lib/libg2o_ext_freeglut_minimal.so[0m
+[11.672s] [  4%] Built target freeglut_minimal
+[11.672s] [  4%] Built target opengl_helper
+[11.673s] [  4%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.o[0m
+[11.677s] [  5%] [32mBuilding CXX object g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.o[0m
+[11.677s] [  6%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/tictoc.cpp.o[0m
+[11.711s] [  6%] [32mBuilding CXX object g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.o[0m
+[13.811s] [  6%] [32mBuilding CXX object g2o/stuff/CMakeFiles/stuff.dir/logger.cpp.o[0m
+[16.643s] [  6%] [32m[1mLinking CXX shared library ../../../../../lib/libg2o_parser.so[0m
+[17.643s] [  6%] Built target parser_library
+[17.741s] [  6%] [32mBuilding CXX object g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/parser_interface.cpp.o[0m
+[17.754s] [  6%] [32mBuilding CXX object g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/slam_context_interface.cpp.o[0m
+[19.005s] [  7%] [32m[1mLinking CXX shared library ../../../../../lib/libg2o_interface.so[0m
+[19.263s] [  7%] Built target interface_library
+[36.161s] [  7%] [32m[1mLinking CXX shared library ../../lib/libg2o_stuff.so[0m
+[36.480s] [  7%] Built target stuff
+[36.555s] [  7%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/hyper_graph_action.cpp.o[0m
+[50.453s] [  8%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/parameter.cpp.o[0m
+[51.090s] [  8%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/cache.cpp.o[0m
+[61.621s] [  8%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/optimizable_graph.cpp.o[0m
+[79.659s] [  9%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/solver.cpp.o[0m
+[80.678s] [  9%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/batch_stats.cpp.o[0m
+[81.532s] [  9%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/matrix_structure.cpp.o[0m
+[82.577s] [  9%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/optimization_algorithm_factory.cpp.o[0m
+[83.289s] [ 10%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/marginal_covariance_cholesky.cpp.o[0m
+[83.681s] [ 10%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/estimate_propagator.cpp.o[0m
+[97.203s] [ 11%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/parameter_container.cpp.o[0m
+[106.891s] [ 11%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/optimization_algorithm.cpp.o[0m
+[109.551s] [ 11%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/optimization_algorithm_with_hessian.cpp.o[0m
+[112.429s] [ 12%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/optimization_algorithm_gauss_newton.cpp.o[0m
+[115.511s] [ 12%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/optimization_algorithm_levenberg.cpp.o[0m
+[118.744s] [ 12%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/optimization_algorithm_dogleg.cpp.o[0m
+[119.766s] [ 13%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/sparse_optimizer_terminate_action.cpp.o[0m
+[120.797s] [ 13%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/hyper_dijkstra.cpp.o[0m
+[121.847s] [ 13%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/sparse_optimizer.cpp.o[0m
+[122.888s] [ 14%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/factory.cpp.o[0m
+[123.925s] [ 14%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/hyper_graph.cpp.o[0m
+[143.435s] [ 14%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/robust_kernel_factory.cpp.o[0m
+[150.429s] [ 15%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/robust_kernel_impl.cpp.o[0m
+[152.977s] [ 15%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/robust_kernel.cpp.o[0m
+[154.774s] [ 15%] [32mBuilding CXX object g2o/core/CMakeFiles/core.dir/jacobian_workspace.cpp.o[0m
+[156.999s] [ 15%] [32m[1mLinking CXX shared library ../../lib/libg2o_core.so[0m
+[157.237s] [ 15%] Built target core
+[157.279s] [ 15%] [32mBuilding CXX object g2o/examples/logging/CMakeFiles/logging_application.dir/logging.cpp.o[0m
+[157.286s] [ 15%] [32mBuilding CXX object g2o/solvers/csparse/CMakeFiles/csparse_extension.dir/csparse_helper.cpp.o[0m
+[158.510s] [ 16%] [32mBuilding CXX object g2o/solvers/csparse/CMakeFiles/csparse_extension.dir/csparse_extension.cpp.o[0m
+[159.316s] [ 16%] [32mBuilding CXX object g2o/solvers/dense/CMakeFiles/solver_dense.dir/solver_dense.cpp.o[0m
+[159.319s] [ 16%] [32mBuilding CXX object g2o/solvers/eigen/CMakeFiles/solver_eigen.dir/solver_eigen.cpp.o[0m
+[160.384s] [ 17%] [32mBuilding CXX object g2o/solvers/pcg/CMakeFiles/solver_pcg.dir/solver_pcg.cpp.o[0m
+[160.611s] [ 17%] [32m[1mLinking CXX shared library ../../../lib/libg2o_csparse_extension.so[0m
+[161.050s] [ 17%] Built target csparse_extension
+[161.056s] [ 17%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o[0m
+[161.095s] [ 17%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o[0m
+[161.151s] [ 17%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.o[0m
+[162.234s] [ 18%] [32mBuilding CXX object g2o/apps/g2o_cli/CMakeFiles/g2o_cli_library.dir/dl_wrapper.cpp.o[0m
+[165.442s] [ 18%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.o[0m
+[170.125s] [ 18%] [32m[1mLinking CXX executable ../../../bin/logging_example[0m
+[170.531s] [ 18%] Built target logging_application
+[172.136s] [ 19%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.o[0m
+[176.792s] [ 20%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o[0m
+[178.553s] [ 20%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.o[0m
+[185.999s] [ 20%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o[0m
+[187.266s] [ 20%] [32mBuilding CXX object g2o/apps/g2o_cli/CMakeFiles/g2o_cli_library.dir/g2o_common.cpp.o[0m
+[194.972s] [ 20%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o[0m
+[198.888s] [ 20%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.o[0m
+[200.131s] [ 20%] [32mBuilding CXX object g2o/apps/g2o_cli/CMakeFiles/g2o_cli_library.dir/output_helper.cpp.o[0m
+[205.632s] [ 21%] [32m[1mLinking CXX shared library ../../../lib/libg2o_cli.so[0m
+[205.956s] [ 21%] Built target g2o_cli_library
+[206.651s] [ 22%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o[0m
+[209.918s] [ 23%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.o[0m
+[215.912s] [ 23%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o[0m
+[225.462s] [ 23%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o[0m
+[226.375s] [ 23%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.o[0m
+[230.325s] [ 24%] [32m[1mLinking CXX shared library ../../../lib/libg2o_solver_dense.so[0m
+[230.615s] [ 24%] Built target solver_dense
+[231.062s] [ 24%] [32m[1mLinking CXX shared library ../../../lib/libg2o_solver_eigen.so[0m
+[231.364s] [ 24%] Built target solver_eigen
+[233.561s] [ 25%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o[0m
+[234.041s] [ 25%] [32m[1mLinking CXX shared library ../../../lib/libg2o_solver_pcg.so[0m
+[234.216s] [ 25%] Built target solver_pcg
+[236.724s] [ 25%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o[0m
+[238.972s] [ 25%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.o[0m
+[240.839s] [ 26%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.o[0m
+[242.108s] [ 26%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o[0m
+[244.111s] [ 26%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.o[0m
+[244.114s] [ 26%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.o[0m
+[245.390s] [ 27%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.o[0m
+[248.854s] [ 28%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o[0m
+[252.457s] [ 28%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.o[0m
+[256.422s] [ 28%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o[0m
+[264.536s] [ 28%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o[0m
+[276.252s] [ 28%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.o[0m
+[279.669s] [ 28%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_xy_prior.cpp.o[0m
+[286.147s] [ 29%] [32mBuilding CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o[0m
+[289.855s] [ 29%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o[0m
+[294.880s] [ 29%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_xyz_prior.cpp.o[0m
+[295.919s] [ 30%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_xyzprior.cpp.o[0m
+[298.260s] [ 30%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_slam2d.so[0m
+[298.635s] [ 30%] Built target types_slam2d
+[298.674s] [ 31%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o[0m
+[298.693s] [ 32%] [32mBuilding CXX object g2o/examples/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o[0m
+[310.373s] [ 32%] [32mBuilding CXX object g2o/examples/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o[0m
+[312.053s] [ 32%] [32mBuilding CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o[0m
+[313.489s] [ 32%] [32mBuilding CXX object g2o/examples/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o[0m
+[316.315s] [ 33%] [32mBuilding CXX object g2o/examples/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o[0m
+[318.402s] [ 33%] [32mBuilding CXX object g2o/examples/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o[0m
+[321.469s] [ 33%] [32mBuilding CXX object g2o/examples/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o[0m
+[322.882s] [ 33%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_slam3d.so[0m
+[323.105s] [ 33%] Built target types_slam3d
+[324.122s] [ 34%] [34m[1mGenerating ui_base_properties_widget.h[0m
+[324.145s] [ 34%] [32mBuilding CXX object g2o/types/data/CMakeFiles/types_data.dir/types_data.cpp.o[0m
+[324.149s] [ 34%] [34m[1mGenerating moc_main_window.cpp[0m
+[324.174s] [ 34%] [34m[1mGenerating moc_properties_widget.cpp[0m
+[324.204s] [ 34%] [34m[1mGenerating ui_base_main_window.h[0m
+[324.291s] [ 35%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/g2o_qglviewer.cpp.o[0m
+[325.310s] [ 36%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/types_slam2d_addons.cpp.o[0m
+[326.388s] [ 36%] [32mBuilding CXX object g2o/apps/g2o_cli/CMakeFiles/g2o_cli_application.dir/g2o.cpp.o[0m
+[327.443s] [ 36%] [32mBuilding CXX object g2o/solvers/cholmod/CMakeFiles/solver_cholmod.dir/cholmod_wrapper.cpp.o[0m
+[328.498s] [ 36%] [32mBuilding CXX object g2o/solvers/csparse/CMakeFiles/solver_csparse.dir/solver_csparse.cpp.o[0m
+[328.699s] [ 37%] [32mBuilding CXX object g2o/solvers/cholmod/CMakeFiles/solver_cholmod.dir/solver_cholmod.cpp.o[0m
+[329.461s] [ 37%] [32mBuilding CXX object g2o/types/data/CMakeFiles/types_data.dir/robot_data.cpp.o[0m
+[332.679s] [ 38%] [32mBuilding CXX object g2o/types/data/CMakeFiles/types_data.dir/vertex_tag.cpp.o[0m
+[333.538s] [ 38%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/main_window.cpp.o[0m
+[337.394s] [ 38%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/vertex_segment2d.cpp.o[0m
+[338.045s] [ 38%] [32mBuilding CXX object g2o/types/data/CMakeFiles/types_data.dir/vertex_ellipse.cpp.o[0m
+[340.402s] [ 38%] [32m[1mLinking CXX executable ../../../bin/g2o[0m
+[340.750s] [ 38%] Built target g2o_cli_application
+[347.993s] [ 38%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/stream_redirect.cpp.o[0m
+[349.264s] [ 38%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_se2_segment2d.cpp.o[0m
+[352.744s] [ 39%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/gui_hyper_graph_action.cpp.o[0m
+[353.995s] [ 40%] [32m[1mLinking CXX shared library ../../../lib/libg2o_hierarchical.so[0m
+[354.272s] [ 40%] Built target g2o_hierarchical_library
+[355.174s] [ 41%] [32mBuilding CXX object g2o/types/data/CMakeFiles/types_data.dir/raw_laser.cpp.o[0m
+[356.949s] [ 41%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/properties_widget.cpp.o[0m
+[359.915s] [ 42%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_se2_segment2d_line.cpp.o[0m
+[360.063s] [ 42%] [32mBuilding CXX object g2o/types/data/CMakeFiles/types_data.dir/laser_parameters.cpp.o[0m
+[361.074s] [ 42%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/viewer_properties_widget.cpp.o[0m
+[363.167s] [ 42%] [32mBuilding CXX object g2o/types/data/CMakeFiles/types_data.dir/robot_laser.cpp.o[0m
+[365.687s] [ 43%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/run_g2o_viewer.cpp.o[0m
+[368.540s] [ 43%] [32mBuilding CXX object g2o/types/data/CMakeFiles/types_data.dir/data_queue.cpp.o[0m
+[370.355s] [ 43%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_se2_segment2d_pointLine.cpp.o[0m
+[372.057s] [ 44%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_data.so[0m
+[372.371s] [ 44%] Built target types_data
+[374.419s] [ 44%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_main_window.cpp.o[0m
+[378.632s] [ 44%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_properties_widget.cpp.o[0m
+[380.259s] [ 44%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/vertex_line2d.cpp.o[0m
+[381.186s] [ 45%] [32m[1mLinking CXX shared library ../../../lib/libg2o_viewer.so[0m
+[381.779s] [ 45%] Built target viewer_library
+[386.879s] [ 46%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_se2_line2d.cpp.o[0m
+[388.564s] [ 47%] [32mBuilding CXX object g2o/solvers/csparse/CMakeFiles/solver_csparse.dir/csparse_wrapper.cpp.o[0m
+[391.402s] [ 47%] [32m[1mLinking CXX shared library ../../../lib/libg2o_solver_csparse.so[0m
+[391.593s] [ 47%] [32m[1mLinking CXX shared library ../../../lib/libg2o_solver_cholmod.so[0m
+[391.659s] [ 47%] Built target solver_csparse
+[391.791s] [ 47%] Built target solver_cholmod
+[393.352s] [ 47%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_line2d_pointxy.cpp.o[0m
+[397.555s] [ 47%] [32mBuilding CXX object g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_line2d.cpp.o[0m
+[399.371s] [ 48%] [32mBuilding CXX object g2o/examples/dynamic_vertex/CMakeFiles/polynomial_fit.dir/polynomial_fit.cpp.o[0m
+[401.407s] [ 48%] [32mBuilding CXX object g2o/examples/data_fitting/CMakeFiles/curve_fit.dir/curve_fit.cpp.o[0m
+[402.081s] [ 49%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_slam2d_addons.so[0m
+[402.356s] [ 49%] Built target types_slam2d_addons
+[403.410s] [ 49%] [32mBuilding CXX object g2o/examples/dynamic_vertex/CMakeFiles/static_dynamic_function_fit.dir/static_dynamic_function_fit.cpp.o[0m
+[404.477s] [ 49%] [32mBuilding CXX object g2o/examples/data_fitting/CMakeFiles/circle_fit.dir/circle_fit.cpp.o[0m
+[405.543s] [ 49%] [32mBuilding CXX object g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.o[0m
+[406.602s] [ 50%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/types_sba.cpp.o[0m
+[407.659s] [ 50%] [32mBuilding CXX object g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/edge_se2_sensor_calib.cpp.o[0m
+[407.726s] [ 50%] [32mBuilding CXX object g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/structure_only.cpp.o[0m
+[417.180s] [ 50%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/types_six_dof_expmap.cpp.o[0m
+[422.106s] [ 51%] [32m[1mLinking CXX executable ../../../bin/curve_fit[0m
+[422.608s] [ 51%] Built target curve_fit
+[423.515s] [ 52%] [32mBuilding CXX object g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/vertex_odom_differential_params.cpp.o[0m
+[428.906s] [ 53%] [32m[1mLinking CXX shared library ../../../lib/libg2o_solver_structure_only.so[0m
+[429.560s] [ 53%] Built target solver_structure_only
+[434.148s] [ 53%] [32mBuilding CXX object g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/edge_se2_odom_differential_calib.cpp.o[0m
+[438.574s] [ 54%] [32m[1mLinking CXX executable ../../../bin/circle_fit[0m
+[438.840s] [ 54%] Built target circle_fit
+[439.857s] [ 54%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/vertex_intrinsics.cpp.o[0m
+[442.628s] [ 54%] [32m[1mLinking CXX executable ../../../bin/polynomial_fit[0m
+[442.821s] [ 54%] Built target polynomial_fit
+[443.548s] [ 54%] [32mBuilding CXX object g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/odometry_measurement.cpp.o[0m
+[445.785s] [ 55%] [32mBuilding CXX object g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/types_sclam2d.cpp.o[0m
+[446.690s] [ 56%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/vertex_cam.cpp.o[0m
+[447.864s] [ 57%] [32mBuilding CXX object g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.o[0m
+[449.176s] [ 57%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_sclam2d.so[0m
+[449.452s] [ 57%] Built target types_sclam2d
+[457.351s] [ 57%] [32m[1mLinking CXX shared library ../../../lib/libg2o_solver_slam2d_linear.so[0m
+[457.538s] [ 57%] [32m[1mLinking CXX executable ../../../bin/static_dynamic_function_fit[0m
+[457.557s] [ 57%] Built target solver_slam2d_linear
+[457.697s] [ 57%] Built target static_dynamic_function_fit
+[457.913s] [ 57%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_sba_cam.cpp.o[0m
+[463.141s] [ 57%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_sba_scale.cpp.o[0m
+[464.935s] [ 57%] [32mBuilding CXX object g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.o[0m
+[465.971s] [ 57%] [32mBuilding CXX object g2o/examples/anonymize_observations/CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o[0m
+[467.004s] [ 58%] [32mBuilding CXX object g2o/examples/sphere/CMakeFiles/create_sphere.dir/create_sphere.cpp.o[0m
+[468.098s] [ 58%] [32mBuilding CXX object g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/edge_se2_pointxy.cpp.o[0m
+[469.150s] [ 58%] [32mBuilding CXX object g2o/examples/target/CMakeFiles/constant_velocity_target.dir/constant_velocity_target.cpp.o[0m
+[471.588s] [ 59%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_p2mc.cpp.o[0m
+[483.969s] [ 60%] [32mBuilding CXX object g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/edge_se2.cpp.o[0m
+[484.180s] [ 61%] [32m[1mLinking CXX executable ../../../bin/g2o_anonymize_observations[0m
+[484.454s] [ 61%] Built target g2o_anonymize_observations_application
+[492.881s] [ 61%] [32m[1mLinking CXX executable ../../../bin/create_sphere[0m
+[493.142s] [ 61%] [32mBuilding CXX object g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/vertex_se2.cpp.o[0m
+[493.384s] [ 61%] Built target create_sphere
+[496.890s] [ 61%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_p2sc.cpp.o[0m
+[502.617s] [ 61%] [32mBuilding CXX object g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/vertex_point_xy.cpp.o[0m
+[511.346s] [ 62%] [32mBuilding CXX object g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/parameter_se2_offset.cpp.o[0m
+[513.603s] [ 63%] [32mBuilding CXX object g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.o[0m
+[516.185s] [ 63%] [32mBuilding CXX object g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/types_tutorial_slam2d.cpp.o[0m
+[516.812s] [ 63%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/sbacam.cpp.o[0m
+[519.982s] [ 63%] [32m[1mLinking CXX executable ../../../bin/constant_velocity_target[0m
+[520.460s] [ 63%] Built target constant_velocity_target
+[521.725s] [ 63%] [32mBuilding CXX object g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/simulator.cpp.o[0m
+[525.941s] [ 64%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/parameter_cameraparameters.cpp.o[0m
+[527.756s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:294[m[K,
+[527.757s]                  from [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/se2.h:30[m[K,
+[527.757s]                  from [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.h:34[m[K,
+[527.757s]                  from [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:27[m[K:
+[527.757s] In constructor ‘[01m[KEigen::PlainObjectBase<Derived>::[01;32m[KPlainObjectBase[m[K(Eigen::PlainObjectBase<Derived>&&) [35m[K[with Derived = Eigen::Matrix<double, 2, 1>][m[K[m[K’,
+[527.757s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::[01;32m[KMatrix[m[K(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [35m[K[with _Scalar = double; int _Rows = 2; int _Cols = 1; int _Options = 0; int _MaxRows = 2; int _MaxCols = 1][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:274:30[m[K,
+[527.757s]     inlined from ‘[01m[Kg2o::tutorial::Simulator::LandmarkEdge::[01;32m[KLandmarkEdge[m[K(g2o::tutorial::Simulator::LandmarkEdge&&)[m[K’ at [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.h:82:34[m[K,
+[527.758s]     inlined from ‘[01m[Kvoid std::__new_allocator<_Tp>::[01;32m[Kconstruct[m[K(_Up*, _Args&& ...) [35m[K[with _Up = g2o::tutorial::Simulator::LandmarkEdge; _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/new_allocator.h:191:4[m[K,
+[527.758s]     inlined from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = g2o::tutorial::Simulator::LandmarkEdge; _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/alloc_traits.h:538:17[m[K,
+[527.758s]     inlined from ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::[01;32m[Kemplace_back[m[K(_Args&& ...) [35m[K[with _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge; _Alloc = std::allocator<g2o::tutorial::Simulator::LandmarkEdge>][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/vector.tcc:117:30[m[K,
+[527.760s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[Kpush_back[m[K(value_type&&) [35m[K[with _Tp = g2o::tutorial::Simulator::LandmarkEdge; _Alloc = std::allocator<g2o::tutorial::Simulator::LandmarkEdge>][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/stl_vector.h:1299:21[m[K,
+[527.761s]     inlined from ‘[01m[Kvoid g2o::tutorial::Simulator::[01;32m[Ksimulate[m[K(int, const g2o::tutorial::SE2&)[m[K’ at [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:266:40[m[K:
+[527.761s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:496:9:[m[K [01;35m[Kwarning: [m[K‘[01m[K<unnamed>.g2o::tutorial::Simulator::LandmarkEdge::trueMeas.Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1> >::m_storage[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[527.761s]   496 |       : [01;35m[Km_storage( std::move(other.m_storage) )[m[K
+[527.761s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[527.762s] [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:[m[K In member function ‘[01m[Kvoid g2o::tutorial::Simulator::[01;32m[Ksimulate[m[K(int, const g2o::tutorial::SE2&)[m[K’:
+[527.762s] [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:266:54:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+[527.762s]   266 |         _landmarkObservations.push_back(LandmarkEdge([01;36m[K)[m[K);
+[527.762s]       |                                                      [01;36m[K^[m[K
+[527.762s] In constructor ‘[01m[KEigen::PlainObjectBase<Derived>::[01;32m[KPlainObjectBase[m[K(Eigen::PlainObjectBase<Derived>&&) [35m[K[with Derived = Eigen::Matrix<double, 2, 1>][m[K[m[K’,
+[527.762s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::[01;32m[KMatrix[m[K(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [35m[K[with _Scalar = double; int _Rows = 2; int _Cols = 1; int _Options = 0; int _MaxRows = 2; int _MaxCols = 1][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:274:30[m[K,
+[527.763s]     inlined from ‘[01m[Kg2o::tutorial::Simulator::LandmarkEdge::[01;32m[KLandmarkEdge[m[K(g2o::tutorial::Simulator::LandmarkEdge&&)[m[K’ at [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.h:82:34[m[K,
+[527.763s]     inlined from ‘[01m[Kvoid std::__new_allocator<_Tp>::[01;32m[Kconstruct[m[K(_Up*, _Args&& ...) [35m[K[with _Up = g2o::tutorial::Simulator::LandmarkEdge; _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/new_allocator.h:191:4[m[K,
+[527.763s]     inlined from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = g2o::tutorial::Simulator::LandmarkEdge; _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/alloc_traits.h:538:17[m[K,
+[527.763s]     inlined from ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::[01;32m[Kemplace_back[m[K(_Args&& ...) [35m[K[with _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge; _Alloc = std::allocator<g2o::tutorial::Simulator::LandmarkEdge>][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/vector.tcc:117:30[m[K,
+[527.763s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[Kpush_back[m[K(value_type&&) [35m[K[with _Tp = g2o::tutorial::Simulator::LandmarkEdge; _Alloc = std::allocator<g2o::tutorial::Simulator::LandmarkEdge>][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/stl_vector.h:1299:21[m[K,
+[527.764s]     inlined from ‘[01m[Kvoid g2o::tutorial::Simulator::[01;32m[Ksimulate[m[K(int, const g2o::tutorial::SE2&)[m[K’ at [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:266:40[m[K:
+[527.767s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:496:9:[m[K [01;35m[Kwarning: [m[K‘[01m[K<unnamed>.g2o::tutorial::Simulator::LandmarkEdge::simulatorMeas.Eigen::Matrix<double, 2, 1, 0, 2, 1>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 1> >::m_storage[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[527.767s]   496 |       : [01;35m[Km_storage( std::move(other.m_storage) )[m[K
+[527.768s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[527.768s] [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:[m[K In member function ‘[01m[Kvoid g2o::tutorial::Simulator::[01;32m[Ksimulate[m[K(int, const g2o::tutorial::SE2&)[m[K’:
+[527.768s] [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:266:54:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+[527.768s]   266 |         _landmarkObservations.push_back(LandmarkEdge([01;36m[K)[m[K);
+[527.768s]       |                                                      [01;36m[K^[m[K
+[527.769s] In constructor ‘[01m[KEigen::PlainObjectBase<Derived>::[01;32m[KPlainObjectBase[m[K(Eigen::PlainObjectBase<Derived>&&) [35m[K[with Derived = Eigen::Matrix<double, 2, 2>][m[K[m[K’,
+[527.769s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::[01;32m[KMatrix[m[K(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [35m[K[with _Scalar = double; int _Rows = 2; int _Cols = 2; int _Options = 0; int _MaxRows = 2; int _MaxCols = 2][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:274:30[m[K,
+[527.769s]     inlined from ‘[01m[Kg2o::tutorial::Simulator::LandmarkEdge::[01;32m[KLandmarkEdge[m[K(g2o::tutorial::Simulator::LandmarkEdge&&)[m[K’ at [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.h:82:34[m[K,
+[527.769s]     inlined from ‘[01m[Kvoid std::__new_allocator<_Tp>::[01;32m[Kconstruct[m[K(_Up*, _Args&& ...) [35m[K[with _Up = g2o::tutorial::Simulator::LandmarkEdge; _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/new_allocator.h:191:4[m[K,
+[527.769s]     inlined from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = g2o::tutorial::Simulator::LandmarkEdge; _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/alloc_traits.h:538:17[m[K,
+[527.770s]     inlined from ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::[01;32m[Kemplace_back[m[K(_Args&& ...) [35m[K[with _Args = {g2o::tutorial::Simulator::LandmarkEdge}; _Tp = g2o::tutorial::Simulator::LandmarkEdge; _Alloc = std::allocator<g2o::tutorial::Simulator::LandmarkEdge>][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/vector.tcc:117:30[m[K,
+[527.770s]     inlined from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::[01;32m[Kpush_back[m[K(value_type&&) [35m[K[with _Tp = g2o::tutorial::Simulator::LandmarkEdge; _Alloc = std::allocator<g2o::tutorial::Simulator::LandmarkEdge>][m[K[m[K’ at [01m[K/usr/include/c++/13/bits/stl_vector.h:1299:21[m[K,
+[527.770s]     inlined from ‘[01m[Kvoid g2o::tutorial::Simulator::[01;32m[Ksimulate[m[K(int, const g2o::tutorial::SE2&)[m[K’ at [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:266:40[m[K:
+[527.770s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:496:9:[m[K [01;35m[Kwarning: [m[K‘[01m[K<unnamed>.g2o::tutorial::Simulator::LandmarkEdge::information.Eigen::Matrix<double, 2, 2, 0, 2, 2>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 2, 2> >::m_storage[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[527.770s]   496 |       : [01;35m[Km_storage( std::move(other.m_storage) )[m[K
+[527.770s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[527.771s] [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:[m[K In member function ‘[01m[Kvoid g2o::tutorial::Simulator::[01;32m[Ksimulate[m[K(int, const g2o::tutorial::SE2&)[m[K’:
+[527.773s] [01m[K/home/vvoxel/ros2_ws_mgr/src/g2o/g2o/examples/tutorial_slam2d/simulator.cpp:266:54:[m[K [01;36m[Knote: [m[K‘[01m[K<anonymous>[m[K’ declared here
+[527.773s]   266 |         _landmarkObservations.push_back(LandmarkEdge([01;36m[K)[m[K);
+[527.774s]       |                                                      [01;36m[K^[m[K
+[528.343s] [ 65%] [32m[1mLinking CXX shared library ../../../lib/libg2o_tutorial_slam2d.so[0m
+[528.627s] [ 65%] Built target tutorial_slam2d_library
+[528.886s] [ 65%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/vertex_se3_expmap.cpp.o[0m
+[539.130s] [ 65%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_xyz2uv.cpp.o[0m
+[549.651s] [ 66%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_xyz2uvu.cpp.o[0m
+[554.929s] [ 66%] [34m[1mGenerating ui_base_main_window.h[0m
+[554.967s] [ 66%] [34m[1mGenerating moc_main_window.cpp[0m
+[555.226s] [ 67%] [32mBuilding CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.o[0m
+[556.253s] [ 68%] [32mBuilding CXX object g2o/examples/convert_segment_line/CMakeFiles/convertSegmentLine_application.dir/convertSegmentLine.cpp.o[0m
+[557.283s] [ 68%] [32mBuilding CXX object g2o/examples/simple_optimize/CMakeFiles/simple_optimize.dir/simple_optimize.cpp.o[0m
+[558.334s] [ 69%] [32mBuilding CXX object g2o/examples/target/CMakeFiles/static_target.dir/static_target.cpp.o[0m
+[559.933s] [ 69%] [32mBuilding CXX object g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.o[0m
+[561.880s] [ 69%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_xyz.cpp.o[0m
+[563.012s] [ 69%] [32m[1mLinking CXX executable ../../../bin/simple_optimize[0m
+[563.386s] [ 69%] Built target simple_optimize
+[564.431s] [ 69%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_psi2uv.cpp.o[0m
+[564.459s] [ 69%] [32mBuilding CXX object g2o/examples/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/g2o_hierarchical.cpp.o[0m
+[566.533s] [ 69%] [32mBuilding CXX object g2o/examples/bal/CMakeFiles/bal_example.dir/bal_example.cpp.o[0m
+[566.616s] [ 69%] [32m[1mLinking CXX executable ../../../bin/convertSegmentLine[0m
+[567.105s] [ 69%] Built target convertSegmentLine_application
+[567.154s] [ 69%] [32mBuilding CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o[0m
+[577.060s] [ 69%] [32m[1mLinking CXX executable ../../../bin/g2o_hierarchical[0m
+[577.609s] [ 69%] Built target g2o_hierarchical_application
+[585.033s] [ 70%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_se3_expmap.cpp.o[0m
+[587.644s] [ 70%] [32m[1mLinking CXX executable ../../../bin/static_target[0m
+[587.898s] [ 70%] Built target static_target
+[589.391s] [ 71%] [32mBuilding CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/moc_main_window.cpp.o[0m
+[592.714s] [ 71%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_xyz_onlypose.cpp.o[0m
+[594.348s] [ 71%] [32m[1mLinking CXX shared library ../../../../lib/libg2o_interactive.so[0m
+[594.530s] [ 71%] [32mBuilding CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o[0m
+[594.555s] [ 72%] [32mBuilding CXX object g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o[0m
+[594.667s] [ 72%] Built target g2o_interactive_library
+[594.706s] [ 72%] [32mBuilding CXX object g2o/apps/g2o_viewer/CMakeFiles/g2o_viewer.dir/g2o_viewer.cpp.o[0m
+[594.726s] [ 73%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o[0m
+[594.740s] [ 73%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_stereo_xyz.cpp.o[0m
+[595.809s] [ 74%] [32mBuilding CXX object g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o[0m
+[601.213s] [ 74%] [32m[1mLinking CXX executable ../../../bin/g2o_viewer[0m
+[602.687s] [ 74%] Built target g2o_viewer
+[603.662s] [ 74%] [32m[1mLinking CXX executable ../../../bin/slam2d_g2o[0m
+[604.533s] [ 74%] Built target slam2d_g2o
+[609.653s] [ 75%] [32mBuilding CXX object g2o/types/sba/CMakeFiles/types_sba.dir/edge_project_stereo_xyz_onlypose.cpp.o[0m
+[611.038s] [ 75%] [32mBuilding CXX object g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o[0m
+[612.238s] [ 75%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o[0m
+[614.263s] [ 75%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o[0m
+[616.849s] [ 75%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_sba.so[0m
+[617.183s] [ 75%] Built target types_sba
+[617.208s] [ 76%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o[0m
+[617.266s] [ 77%] [32mBuilding CXX object g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.o[0m
+[619.973s] [ 77%] [32m[1mLinking CXX executable ../../../bin/bal_example[0m
+[620.497s] [ 77%] Built target bal_example
+[623.180s] [ 77%] [32m[1mLinking CXX executable ../../../bin/tutorial_slam2d[0m
+[623.441s] [ 77%] Built target tutorial_slam2d
+[624.504s] [ 78%] [32mBuilding CXX object g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/g2o_online.cpp.o[0m
+[624.956s] [ 78%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o[0m
+[629.777s] [ 78%] [32m[1mLinking CXX executable ../../../../bin/g2o_online[0m
+[630.075s] [ 78%] Built target g2o_online_application
+[636.291s] [ 78%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o[0m
+[637.304s] [ 79%] [32mBuilding CXX object g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o[0m
+[642.492s] [ 80%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o[0m
+[649.520s] [ 80%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o[0m
+[649.531s] [ 80%] [32mBuilding CXX object g2o/examples/ba/CMakeFiles/ba_demo.dir/ba_demo.cpp.o[0m
+[650.560s] [ 80%] [32mBuilding CXX object g2o/types/sim3/CMakeFiles/types_sim3.dir/types_seven_dof_expmap.cpp.o[0m
+[650.800s] [ 80%] [32mBuilding CXX object g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o[0m
+[650.857s] [ 80%] [32mBuilding CXX object g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.o[0m
+[651.920s] [ 80%] [32mBuilding CXX object g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o[0m
+[661.286s] [ 80%] [32m[1mLinking CXX shared library ../../../lib/libg2o_calibration_odom_laser.so[0m
+[661.619s] [ 80%] Built target calibration_odom_laser_library
+[662.805s] [ 80%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o[0m
+[664.858s] [ 81%] [32mBuilding CXX object g2o/examples/calibration_odom_laser/CMakeFiles/sclam_odom_laser.dir/sclam_odom_laser.cpp.o[0m
+[666.926s] [ 81%] [32mBuilding CXX object g2o/examples/data_convert/CMakeFiles/convert_sba_slam3d.dir/convert_sba_slam3d.cpp.o[0m
+[671.465s] [ 81%] [32m[1mLinking CXX shared library ../../../../lib/libg2o_incremental.so[0m
+[671.938s] [ 81%] Built target g2o_incremental_library
+[672.748s] [ 82%] [32m[1mLinking CXX executable ../../../bin/ba_demo[0m
+[673.012s] [ 82%] [32m[1mLinking CXX executable ../../../bin/sclam_odom_laser[0m
+[673.069s] [ 82%] Built target ba_demo
+[673.300s] [ 82%] Built target sclam_odom_laser
+[680.757s] [ 83%] [32m[1mLinking CXX executable ../../../bin/convert_sba_slam3d[0m
+[680.961s] [ 83%] Built target convert_sba_slam3d
+[681.793s] [ 84%] [32mBuilding CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o[0m
+[685.817s] [ 85%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_sim3.so[0m
+[686.103s] [ 85%] Built target types_sim3
+[688.143s] [ 85%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_icp.so[0m
+[688.353s] [ 85%] Built target types_icp
+[688.870s] [ 85%] [32m[1mLinking CXX executable ../../../bin/ba_anchored_inverse_depth_demo[0m
+[689.039s] [ 85%] Built target ba_anchored_inverse_depth_demo
+[697.969s] [ 85%] [32m[1mLinking CXX shared library ../../../lib/libg2o_types_slam3d_addons.so[0m
+[698.163s] [ 85%] Built target types_slam3d_addons
+[698.195s] [ 85%] [32mBuilding CXX object g2o/examples/icp/CMakeFiles/gicp_sba_demo.dir/gicp_sba_demo.cpp.o[0m
+[698.196s] [ 85%] [32mBuilding CXX object g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o[0m
+[698.205s] [ 86%] [32mBuilding CXX object g2o/examples/sim3/CMakeFiles/optimize_sphere_by_sim3.dir/optimize_sphere_by_sim3.cpp.o[0m
+[698.205s] [ 86%] [32mBuilding CXX object g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o[0m
+[699.241s] [ 86%] [32mBuilding CXX object g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_application.dir/g2o_incremental.cpp.o[0m
+[699.244s] [ 87%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o[0m
+[699.252s] [ 87%] [32mBuilding CXX object g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/sclam_laser_calib.cpp.o[0m
+[700.335s] [ 87%] [32mBuilding CXX object g2o/examples/calibration_odom_laser/CMakeFiles/sclam_pure_calibration.dir/sclam_pure_calibration.cpp.o[0m
+[706.061s] [ 87%] [32m[1mLinking CXX executable ../../../../bin/g2o_incremental[0m
+[706.450s] [ 87%] Built target g2o_incremental_application
+[706.515s] [ 88%] [32mBuilding CXX object g2o/examples/line_slam/CMakeFiles/simulator_3d_line.dir/simulator_3d_line.cpp.o[0m
+[708.692s] [ 88%] [32m[1mLinking CXX executable ../../../bin/sclam_laser_calib[0m
+[709.059s] [ 88%] Built target sclam_laser_calib
+[709.151s] [ 88%] [32mBuilding CXX object g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o[0m
+[713.532s] [ 88%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o[0m
+[714.044s] [ 88%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o[0m
+[733.372s] [ 89%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o[0m
+[735.246s] [ 89%] [32m[1mLinking CXX executable ../../../bin/simulator_3d_line[0m
+[735.645s] [ 89%] Built target simulator_3d_line
+[736.637s] [ 90%] [32m[1mLinking CXX executable ../../../bin/simulator_3d_plane[0m
+[736.915s] [ 90%] Built target simulator_3d_plane
+[736.977s] [ 91%] [32m[1mLinking CXX executable ../../../bin/sclam_pure_calibration[0m
+[737.329s] [ 91%] Built target sclam_pure_calibration
+[742.828s] [ 92%] [32m[1mLinking CXX executable ../../../bin/optimize_sphere_by_sim3[0m
+[743.128s] [ 92%] Built target optimize_sphere_by_sim3
+[744.774s] [ 92%] [32m[1mLinking CXX executable ../../../bin/gicp_demo[0m
+[745.001s] [ 92%] Built target gicp_demo
+[747.369s] [ 93%] [32m[1mLinking CXX executable ../../../bin/sba_demo[0m
+[747.622s] [ 93%] Built target sba_demo
+[748.702s] [ 94%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o[0m
+[750.825s] [ 95%] [32m[1mLinking CXX executable ../../../bin/gicp_sba_demo[0m
+[751.011s] [ 95%] Built target gicp_sba_demo
+[757.172s] [ 95%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o[0m
+[759.185s] [ 96%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o[0m
+[759.185s] [ 96%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o[0m
+[760.206s] [ 96%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o[0m
+[760.206s] [ 96%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o[0m
+[761.231s] [ 97%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o[0m
+[761.238s] [ 97%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o[0m
+[762.281s] [ 97%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o[0m
+[779.280s] [ 98%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o[0m
+[779.447s] [ 98%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o[0m
+[780.313s] [ 98%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o[0m
+[782.122s] [ 98%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o[0m
+[782.833s] [ 98%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o[0m
+[805.142s] [ 99%] [32m[1mLinking CXX shared library ../../../lib/libg2o_simulator.so[0m
+[805.392s] [ 99%] Built target g2o_simulator_library
+[805.434s] [ 99%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator3d_application.dir/test_simulator3d.cpp.o[0m
+[805.435s] [ 99%] [32mBuilding CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator2d.cpp.o[0m
+[839.593s] [100%] [32m[1mLinking CXX executable ../../../bin/g2o_simulator2d[0m
+[839.900s] [100%] Built target g2o_simulator2d_application
+[845.989s] [100%] [32m[1mLinking CXX executable ../../../bin/g2o_simulator3d[0m
+[846.246s] [100%] Built target g2o_simulator3d_application
+[846.285s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/g2o' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/g2o -- -j8 -l8
+[846.290s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/g2o': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/g2o
+[846.311s] -- Install configuration: "Release"
+[846.311s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/config.h
+[846.312s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/cmake/g2o/g2oConfig.cmake
+[846.312s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/cmake/g2o/g2oConfigVersion.cmake
+[846.312s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/cmake/g2o/g2oTargets.cmake
+[846.313s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/cmake/g2o/g2oTargets-release.cmake
+[846.314s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_ext_freeglut_minimal.so.0.2.0
+[846.315s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_ext_freeglut_minimal.so.0.2
+[846.315s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_ext_freeglut_minimal.so
+[846.315s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+[846.316s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/array_selector.h
+[846.317s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/autodiff.h
+[846.317s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/disable_warnings.h
+[846.317s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/eigen.h
+[846.317s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/fixed_array.h
+[846.318s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/integer_sequence_algorithm.h
+[846.318s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/jet.h
+[846.318s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/memory.h
+[846.318s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/parameter_dims.h
+[846.319s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/reenable_warnings.h
+[846.319s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/types.h
+[846.319s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/variadic_evaluate.h
+[846.319s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/LICENSE
+[846.320s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_stuff.so.0.2.0
+[846.321s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_stuff.so.0.2
+[846.321s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_stuff.so
+[846.321s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_opengl_helper.so.0.2.0
+[846.322s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_opengl_helper.so.0.2
+[846.322s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_opengl_helper.so
+[846.322s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/color_macros.h
+[846.322s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/command_args.h
+[846.323s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/filesys_tools.h
+[846.323s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/g2o_stuff_api.h
+[846.323s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/logger.h
+[846.323s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/logger_format.h
+[846.324s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/macros.h
+[846.324s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/misc.h
+[846.324s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/opengl_primitives.h
+[846.324s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/opengl_wrapper.h
+[846.325s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/property.h
+[846.325s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/sampler.h
+[846.325s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/sparse_helper.h
+[846.325s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/string_tools.h
+[846.325s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/tictoc.h
+[846.325s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/timeutil.h
+[846.326s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/tuple_tools.h
+[846.326s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/unscented.h
+[846.326s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_core.so.0.2.0
+[846.327s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_core.so.0.2
+[846.328s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_core.so.0.2.0" to ""
+[846.328s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_core.so
+[846.328s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/auto_differentiation.h
+[846.329s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_binary_edge.h
+[846.329s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_dynamic_vertex.h
+[846.329s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_edge.h
+[846.329s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_fixed_sized_edge.h
+[846.330s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_fixed_sized_edge.hpp
+[846.330s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_multi_edge.h
+[846.330s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_unary_edge.h
+[846.330s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_variable_sized_edge.h
+[846.331s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_variable_sized_edge.hpp
+[846.331s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_vertex.h
+[846.331s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_vertex.hpp
+[846.331s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/batch_stats.h
+[846.332s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/block_solver.h
+[846.332s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/block_solver.hpp
+[846.332s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/cache.h
+[846.332s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/creators.h
+[846.333s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/dynamic_aligned_buffer.hpp
+[846.333s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/eigen_types.h
+[846.333s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/estimate_propagator.h
+[846.333s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/factory.h
+[846.333s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/g2o_core_api.h
+[846.334s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/hyper_dijkstra.h
+[846.334s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/hyper_graph.h
+[846.334s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/hyper_graph_action.h
+[846.334s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/io_helper.h
+[846.335s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/jacobian_workspace.h
+[846.335s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/linear_solver.h
+[846.335s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/marginal_covariance_cholesky.h
+[846.335s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/matrix_operations.h
+[846.336s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/matrix_structure.h
+[846.336s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/openmp_mutex.h
+[846.336s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimizable_graph.h
+[846.336s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm.h
+[846.337s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_dogleg.h
+[846.337s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_factory.h
+[846.337s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_gauss_newton.h
+[846.337s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_levenberg.h
+[846.338s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_property.h
+[846.338s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_with_hessian.h
+[846.338s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/ownership.h
+[846.338s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/parameter.h
+[846.338s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/parameter_container.h
+[846.339s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/robust_kernel.h
+[846.339s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/robust_kernel_factory.h
+[846.339s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/robust_kernel_impl.h
+[846.339s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/solver.h
+[846.340s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_block_matrix.h
+[846.340s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_block_matrix.hpp
+[846.340s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_block_matrix_ccs.h
+[846.340s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_block_matrix_diagonal.h
+[846.340s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_optimizer.h
+[846.341s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_optimizer_terminate_action.h
+[846.341s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_cli.so.0.2.0
+[846.342s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_cli.so.0.2
+[846.342s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_cli.so.0.2.0" to ""
+[846.342s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_cli.so
+[846.343s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o
+[846.343s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o" to ""
+[846.343s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_cli/dl_wrapper.h
+[846.343s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_cli/g2o_cli_api.h
+[846.344s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_cli/g2o_common.h
+[846.344s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_cli/output_helper.h
+[846.344s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_simulator.so.0.2.0
+[846.345s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_simulator.so.0.2
+[846.345s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_simulator.so.0.2.0" to ""
+[846.346s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_simulator.so
+[846.346s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_simulator2d
+[846.346s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_simulator2d" to ""
+[846.347s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_simulator3d
+[846.347s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_simulator3d" to ""
+[846.348s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/g2o_simulator_api.h
+[846.348s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/pointsensorparameters.h
+[846.348s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_line3d.h
+[846.348s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_odometry.h
+[846.349s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_odometry2d.h
+[846.349s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_odometry3d.h
+[846.349s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxy.h
+[846.349s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxy_bearing.h
+[846.350s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxy_offset.h
+[846.350s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxyz.h
+[846.350s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxyz_depth.h
+[846.351s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.h
+[846.351s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pose2d.h
+[846.351s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pose3d.h
+[846.352s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pose3d_offset.h
+[846.352s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_se3_prior.h
+[846.352s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_segment2d.h
+[846.352s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_segment2d_line.h
+[846.352s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_segment2d_pointline.h
+[846.353s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator.h
+[846.353s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator2d.h
+[846.353s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator2d_base.h
+[846.353s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator3d.h
+[846.353s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator3d_base.h
+[846.354s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simutils.h
+[846.354s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_viewer.so.0.2.0
+[846.354s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_viewer.so.0.2
+[846.354s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_viewer.so.0.2.0" to ""
+[846.355s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_viewer.so
+[846.355s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_viewer
+[846.355s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_viewer" to ""
+[846.355s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/g2o_qglviewer.h
+[846.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/g2o_viewer_api.h
+[846.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
+[846.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/main_window.h
+[846.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/properties_widget.h
+[846.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/run_g2o_viewer.h
+[846.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/stream_redirect.h
+[846.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/viewer_properties_widget.h
+[846.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/ui_base_main_window.h
+[846.358s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/ui_base_properties_widget.h
+[846.359s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d.so.0.2.0
+[846.360s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d.so.0.2
+[846.360s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d.so.0.2.0" to ""
+[846.360s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d.so
+[846.361s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_pointxy.h
+[846.361s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2.h
+[846.361s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_lotsofxy.h
+[846.361s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_offset.h
+[846.362s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_pointxy.h
+[846.362s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_pointxy_bearing.h
+[846.362s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_pointxy_calib.h
+[846.362s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_pointxy_offset.h
+[846.363s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_prior.h
+[846.363s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_twopointsxy.h
+[846.363s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_xyprior.h
+[846.363s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_xy_prior.h
+[846.363s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/g2o_types_slam2d_api.h
+[846.364s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/parameter_se2_offset.h
+[846.364s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/se2.h
+[846.364s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/types_slam2d.h
+[846.364s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/vertex_point_xy.h
+[846.364s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/vertex_se2.h
+[846.365s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d_addons.so.0.2.0
+[846.365s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d_addons.so.0.2
+[846.366s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d_addons.so.0.2.0" to ""
+[846.367s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d_addons.so
+[846.367s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_line2d.h
+[846.367s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_line2d_pointxy.h
+[846.368s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_se2_line2d.h
+[846.368s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_se2_segment2d.h
+[846.368s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_se2_segment2d_line.h
+[846.368s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.h
+[846.368s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+[846.369s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/line_2d.h
+[846.369s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/types_slam2d_addons.h
+[846.369s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/vertex_line2d.h
+[846.369s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/vertex_segment2d.h
+[846.369s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_data.so.0.2.0
+[846.370s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_data.so.0.2
+[846.370s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_data.so.0.2.0" to ""
+[846.370s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_data.so
+[846.370s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/data_queue.h
+[846.371s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/g2o_types_data_api.h
+[846.371s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/laser_parameters.h
+[846.371s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/raw_laser.h
+[846.371s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/robot_data.h
+[846.372s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/robot_laser.h
+[846.372s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/types_data.h
+[846.372s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/vertex_ellipse.h
+[846.372s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/vertex_tag.h
+[846.373s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sclam2d.so.0.2.0
+[846.373s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sclam2d.so.0.2
+[846.373s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sclam2d.so.0.2.0" to ""
+[846.374s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sclam2d.so
+[846.374s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/edge_se2_odom_differential_calib.h
+[846.374s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/edge_se2_sensor_calib.h
+[846.375s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/g2o_types_sclam2d_api.h
+[846.375s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/odometry_measurement.h
+[846.375s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/types_sclam2d.h
+[846.375s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/vertex_odom_differential_params.h
+[846.376s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d.so.0.2.0
+[846.377s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d.so.0.2
+[846.377s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d.so.0.2.0" to ""
+[846.378s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d.so
+[846.378s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/dquat2mat.h
+[846.378s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_pointxyz.h
+[846.378s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3.h
+[846.379s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_lotsofxyz.h
+[846.379s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_offset.h
+[846.379s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_pointxyz.h
+[846.379s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_pointxyz_depth.h
+[846.380s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_pointxyz_disparity.h
+[846.380s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_prior.h
+[846.380s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_xyzprior.h
+[846.380s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_xyz_prior.h
+[846.380s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/g2o_types_slam3d_api.h
+[846.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/isometry3d_gradients.h
+[846.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/isometry3d_mappings.h
+[846.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/parameter_camera.h
+[846.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/parameter_se3_offset.h
+[846.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/parameter_stereo_camera.h
+[846.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/se3_ops.h
+[846.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/se3_ops.hpp
+[846.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/se3quat.h
+[846.383s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/types_slam3d.h
+[846.383s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/vertex_pointxyz.h
+[846.383s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/vertex_se3.h
+[846.383s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d_addons.so.0.2.0
+[846.384s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d_addons.so.0.2
+[846.385s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d_addons.so.0.2.0" to ""
+[846.385s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d_addons.so
+[846.385s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_plane.h
+[846.386s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_se3_calib.h
+[846.386s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_se3_euler.h
+[846.387s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_se3_line.h
+[846.387s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_se3_plane_calib.h
+[846.387s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+[846.387s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/line3d.h
+[846.388s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/plane3d.h
+[846.388s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/types_slam3d_addons.h
+[846.388s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/vertex_line3d.h
+[846.388s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/vertex_plane.h
+[846.389s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/vertex_se3_euler.h
+[846.389s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sba.so.0.2.0
+[846.390s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sba.so.0.2
+[846.390s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sba.so.0.2.0" to ""
+[846.390s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sba.so
+[846.391s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_p2mc.h
+[846.391s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_p2sc.h
+[846.391s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_psi2uv.h
+[846.392s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_stereo_xyz.h
+[846.392s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_stereo_xyz_onlypose.h
+[846.392s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_xyz.h
+[846.392s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_xyz2uv.h
+[846.393s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_xyz2uvu.h
+[846.393s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_xyz_onlypose.h
+[846.393s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_sba_cam.h
+[846.394s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_sba_scale.h
+[846.394s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_se3_expmap.h
+[846.395s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/g2o_types_sba_api.h
+[846.395s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/parameter_cameraparameters.h
+[846.395s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/sba_utils.h
+[846.395s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/sbacam.h
+[846.396s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/types_sba.h
+[846.396s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/types_six_dof_expmap.h
+[846.396s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/vertex_cam.h
+[846.396s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/vertex_intrinsics.h
+[846.396s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/vertex_se3_expmap.h
+[846.397s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_icp.so.0.2.0
+[846.397s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_icp.so.0.2
+[846.397s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_icp.so.0.2.0" to ""
+[846.397s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_icp.so
+[846.398s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/icp/g2o_types_icp_api.h
+[846.398s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/icp/types_icp.h
+[846.399s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sim3.so.0.2.0
+[846.400s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sim3.so.0.2
+[846.400s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sim3.so.0.2.0" to ""
+[846.401s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sim3.so
+[846.401s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sim3/sim3.h
+[846.402s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sim3/types_seven_dof_expmap.h
+[846.402s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_pcg.so.0.2.0
+[846.403s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_pcg.so.0.2
+[846.403s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_pcg.so.0.2.0" to ""
+[846.404s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_pcg.so
+[846.404s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/pcg/linear_solver_pcg.h
+[846.404s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/pcg/linear_solver_pcg.hpp
+[846.405s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_dense.so.0.2.0
+[846.406s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_dense.so.0.2
+[846.407s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_dense.so.0.2.0" to ""
+[846.407s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_dense.so
+[846.407s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/dense/linear_solver_dense.h
+[846.408s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_slam2d_linear.so.0.2.0
+[846.409s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_slam2d_linear.so.0.2
+[846.409s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_slam2d_linear.so.0.2.0" to ""
+[846.410s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_slam2d_linear.so
+[846.410s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/slam2d_linear/g2o_slam2d_linear_api.h
+[846.410s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/slam2d_linear/solver_slam2d_linear.h
+[846.411s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_structure_only.so.0.2.0
+[846.411s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_structure_only.so.0.2
+[846.411s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_structure_only.so.0.2.0" to ""
+[846.412s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_structure_only.so
+[846.412s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/structure_only/structure_only_solver.h
+[846.413s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_csparse.so.0.2.0
+[846.414s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_csparse.so.0.2
+[846.414s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_csparse.so.0.2.0" to ""
+[846.414s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_csparse.so
+[846.415s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_csparse_extension.so.0.2.0
+[846.415s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_csparse_extension.so.0.2
+[846.415s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_csparse_extension.so.0.2.0" to ""
+[846.416s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_csparse_extension.so
+[846.416s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/csparse_extension.h
+[846.416s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/csparse_helper.h
+[846.417s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/csparse_wrapper.h
+[846.417s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/g2o_csparse_api.h
+[846.417s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/g2o_csparse_extension_api.h
+[846.417s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/linear_solver_csparse.h
+[846.419s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_cholmod.so.0.2.0
+[846.420s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_cholmod.so.0.2
+[846.420s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_cholmod.so.0.2.0" to ""
+[846.420s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_cholmod.so
+[846.421s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/cholmod/linear_solver_cholmod.h
+[846.421s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/cholmod/cholmod_wrapper.h
+[846.422s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_eigen.so.0.2.0
+[846.423s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_eigen.so.0.2
+[846.423s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_eigen.so.0.2.0" to ""
+[846.424s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_eigen.so
+[846.424s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/eigen/linear_solver_eigen.h
+[846.429s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_parser.so.0.2.0
+[846.430s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_parser.so.0.2
+[846.430s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_parser.so
+[846.431s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/FlexLexer.h
+[846.431s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.h
+[846.431s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/commands.h
+[846.432s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/driver.h
+[846.432s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/location.hh
+[846.432s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/position.hh
+[846.432s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/scanner.h
+[846.433s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/slam_context.h
+[846.434s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interface.so.0.2.0
+[846.434s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interface.so.0.2
+[846.434s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interface.so.0.2.0" to ""
+[846.435s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interface.so
+[846.435s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/interface/abstract_slam_interface.h
+[846.435s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/interface/parser_interface.h
+[846.435s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/interface/slam_context_interface.h
+[846.436s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interactive.so.0.2.0
+[846.437s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interactive.so.0.2
+[846.438s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interactive.so.0.2.0" to ""
+[846.438s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interactive.so
+[846.438s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_online
+[846.439s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_online" to ""
+[846.439s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/fast_output.h
+[846.439s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/g2o_interactive_api.h
+[846.440s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/g2o_slam_interface.h
+[846.440s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/graph_optimizer_sparse_online.h
+[846.440s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/types_slam2d_online.h
+[846.441s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/types_slam3d_online.h
+[846.441s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_incremental.so.0.2.0
+[846.442s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_incremental.so.0.2
+[846.442s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_incremental.so.0.2.0" to ""
+[846.443s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_incremental.so
+[846.443s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_incremental
+[846.443s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_incremental" to ""
+[846.444s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_incremental/g2o_incremental_api.h
+[846.444s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.h
+[846.444s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_incremental/linear_solver_cholmod_online.h
+[846.446s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_hierarchical.so.0.2.0
+[846.446s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_hierarchical.so.0.2
+[846.447s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_hierarchical.so.0.2.0" to ""
+[846.447s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_hierarchical.so
+[846.447s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/backbone_tree_action.h
+[846.448s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/edge_creator.h
+[846.448s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/edge_labeler.h
+[846.448s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/edge_types_cost_function.h
+[846.449s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/g2o_hierarchical_api.h
+[846.449s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/simple_star_ops.h
+[846.449s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/star.h
+[846.454s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/g2o' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/g2o
