@@ -119,49 +119,6 @@
         <enable_wind>false</enable_wind>
       </link>
       
-      <link name = 'camera'>
-      <pose>0.2 0 0.8 0 0 0</pose>
-        <inertial>
-          <mass>0.1</mass>
-          <inertia>
-            <ixx>0.000166667</ixx>
-            <iyy>0.000166667</iyy>
-            <izz>0.000166667</izz>
-          </inertia>
-        </inertial>
-        <collision name="collision">
-          <geometry>
-            <box>
-              <size>0.1 0.1 0.1</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name="visual">
-          <geometry>
-            <box>
-              <size>0.1 0.1 0.1</size>
-            </box>
-          </geometry>
-        </visual>
-        <sensor name="rgbd_camera" type="rgbd_camera">
-          <camera>
-            <horizontal_fov>1.047</horizontal_fov>
-            <image>
-              <width>320</width>
-              <height>240</height>
-            </image>
-            <clip>
-              <near>0.1</near>
-              <far>100</far>
-            </clip>
-          </camera>
-          <always_on>1</always_on>
-          <update_rate>30</update_rate>
-          <visualize>true</visualize>
-          <topic>kamera</topic>
-        </sensor>
-      </link>
-      
       <link name='left_wheel'>
         <pose>0 0.55000000000000004 0.59999999999999998 -1.5706999999999995 0 0</pose>
         <inertial>
@@ -297,28 +254,6 @@
           </dynamics>
         </axis>
       </joint>
-      <joint name='camera_joint' type='fixed'>
-        <pose>0 0 2 0 0 0</pose>
-        <parent>chassis</parent>
-        <child>camera</child>
-        <axis>
-          <xyz>0 0 2</xyz>
-          <limit>
-            <lower>-1.7976900000000001e+308</lower>
-            <upper>1.7976900000000001e+308</upper>
-            <effort>inf</effort>
-            <velocity>inf</velocity>
-            <stiffness>100000000</stiffness>
-            <dissipation>1</dissipation>
-          </limit>
-          <dynamics>
-            <spring_reference>0</spring_reference>
-            <spring_stiffness>0</spring_stiffness>
-            <damping>0</damping>
-            <friction>0</friction>
-          </dynamics>
-        </axis>
-      </joint>
       <plugin filename="ignition-gazebo-diff-drive-system"
         name="ignition::gazebo::systems::DiffDrive">
         <left_joint>left_wheel_joint</left_joint>
@@ -337,6 +272,52 @@
      </plugin>
       <static>false</static>
       <self_collide>false</self_collide>
+</model>
+
+<model name="kamera">
+      <pose>5 0 0.5 0 0.0 3.14</pose>
+      <link name="link">
+        <pose>0.05 0.05 0.05 0 0 0</pose>
+        <inertial>
+          <mass>0.1</mass>
+          <inertia>
+            <ixx>0.000166667</ixx>
+            <iyy>0.000166667</iyy>
+            <izz>0.000166667</izz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.1 0.1 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.1 0.1 0.1</size>
+            </box>
+          </geometry>
+        </visual>
+        <sensor name="rgbd_camera" type="rgbd_camera">
+          <camera>
+            <horizontal_fov>1.047</horizontal_fov>
+            <image>
+              <width>320</width>
+              <height>240</height>
+            </image>
+            <clip>
+              <near>0.1</near>
+              <far>100</far>
+            </clip>
+          </camera>
+          <always_on>1</always_on>
+          <update_rate>30</update_rate>
+          <visualize>true</visualize>
+          <topic>kamera</topic>
+        </sensor>
+      </link>
 </model>
     
     <include>
