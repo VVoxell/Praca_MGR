@@ -1,0 +1,255 @@
+[0.131s] Invoking command in '/home/vvoxel/ros2_ws_mgr/src/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/src/build/realsense2_camera_msgs -- -j8 -l8
+[0.437s] [  1%] Built target realsense2_camera_msgs__rosidl_generator_type_description
+[0.572s] [  1%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[0.735s] [  2%] Built target realsense2_camera_msgs__cpp
+[0.789s] [ 25%] Built target realsense2_camera_msgs__rosidl_generator_c
+[1.172s] [ 35%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[1.194s] [ 44%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[1.209s] [ 54%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[1.221s] [ 63%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[1.250s] [ 72%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[1.283s] [ 82%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[1.473s] [ 82%] Built target realsense2_camera_msgs
+[1.686s] [ 83%] Built target realsense2_camera_msgs__py
+[1.988s] [ 91%] Built target realsense2_camera_msgs__rosidl_generator_py
+[2.210s] running egg_info
+[2.306s] [ 94%] Built target realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c
+[2.307s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[2.308s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[2.313s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[2.341s] [ 97%] Built target realsense2_camera_msgs_s__rosidl_typesupport_introspection_c
+[2.386s] [100%] Built target realsense2_camera_msgs_s__rosidl_typesupport_c
+[2.687s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.689s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.939s] [100%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[3.034s] Invoked command in '/home/vvoxel/ros2_ws_mgr/src/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/src/build/realsense2_camera_msgs -- -j8 -l8
+[3.046s] Invoking command in '/home/vvoxel/ros2_ws_mgr/src/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/src/build/realsense2_camera_msgs
+[3.801s] -- Install configuration: ""
+[3.804s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[3.804s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.json
+[3.804s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.json
+[3.804s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.json
+[3.805s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.json
+[3.814s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.json
+[3.815s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[3.816s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[3.816s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[3.816s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[3.821s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.c
+[3.822s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[3.822s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__description.c
+[3.822s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[3.822s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[3.823s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h
+[3.823s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[3.823s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h
+[3.823s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h
+[3.824s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h
+[3.824s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.824s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.h
+[3.824s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[3.831s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__description.c
+[3.832s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.c
+[3.832s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.h
+[3.832s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[3.833s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
+[3.833s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[3.833s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__description.c
+[3.834s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[3.834s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.h
+[3.834s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.c
+[3.834s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.c
+[3.834s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__description.c
+[3.835s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[3.835s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__description.c
+[3.835s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[3.835s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
+[3.839s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[3.839s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[3.844s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[3.849s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.c
+[3.849s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[3.851s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[3.853s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[3.853s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[3.853s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[3.854s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[3.855s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[3.859s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[3.859s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[3.859s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[3.861s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[3.861s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[3.866s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.873s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[3.874s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[3.875s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[3.876s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[3.876s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[3.877s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[3.878s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[3.878s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[3.880s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[3.880s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[3.880s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[3.881s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[3.881s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.881s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[3.882s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[3.882s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.c
+[3.882s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[3.882s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[3.883s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[3.883s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[3.883s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[3.884s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[3.888s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[3.890s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[3.891s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[3.895s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[3.896s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp
+[3.896s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[3.896s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.hpp
+[3.896s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[3.897s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[3.898s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[3.898s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[3.898s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp
+[3.899s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp
+[3.899s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[3.899s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[3.899s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[3.903s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.hpp
+[3.903s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.hpp
+[3.903s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[3.904s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[3.904s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[3.904s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[3.904s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.hpp
+[3.904s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[3.904s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.hpp
+[3.905s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[3.905s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__builder.hpp
+[3.906s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__traits.hpp
+[3.906s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[3.906s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[3.907s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp
+[3.908s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.908s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.hpp
+[3.916s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[3.917s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[3.918s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[3.921s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.922s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/dds_fastrtps
+[3.922s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[3.923s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[3.923s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[3.923s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[3.924s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.924s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.928s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/dds_fastrtps
+[3.928s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.928s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.929s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[3.929s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[3.929s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[3.930s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp
+[3.930s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[3.930s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[3.930s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[3.931s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[3.931s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[3.931s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp
+[3.934s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[3.937s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[3.937s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp
+[3.938s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[3.938s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp
+[3.938s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[3.938s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[3.941s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[3.943s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[3.944s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info
+[3.944s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info/dependency_links.txt
+[3.944s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info/top_level.txt
+[3.945s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info/SOURCES.txt
+[3.945s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info/PKG-INFO
+[3.945s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs
+[3.946s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.946s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.946s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/__init__.py
+[3.946s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv
+[3.947s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv/_device_info_s.c
+[3.947s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv/__init__.py
+[3.947s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv/_device_info.py
+[3.947s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.so
+[3.948s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.so
+[3.948s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg
+[3.948s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_imu_info_s.c
+[3.948s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_imu_info.py
+[3.949s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_metadata_s.c
+[3.949s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/__init__.py
+[3.950s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[3.950s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_metadata.py
+[3.950s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_rgbd.py
+[3.950s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_extrinsics_s.c
+[3.951s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_rgbd_s.c
+[3.951s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.951s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c
+[4.203s] Listing '/home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs'...
+[4.204s] Listing '/home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg'...
+[4.204s] Listing '/home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv'...
+[4.247s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.252s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.so
+[4.262s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.so
+[4.281s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so
+[4.284s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[4.285s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[4.292s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[4.292s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.idl
+[4.295s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[4.302s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[4.302s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[4.303s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[4.303s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.msg
+[4.304s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[4.304s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[4.305s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[4.305s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[4.305s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[4.306s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[4.307s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[4.307s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[4.307s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[4.308s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[4.308s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[4.308s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[4.308s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[4.308s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[4.323s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.324s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.324s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.324s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.324s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.324s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[4.325s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.328s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[4.328s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.329s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.331s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.333s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.334s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[4.334s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.336s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake
+[4.350s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.350s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[4.350s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.350s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.350s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.351s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.351s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.351s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.351s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[4.351s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[4.352s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[4.580s] Invoked command in '/home/vvoxel/ros2_ws_mgr/src/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/src/build/realsense2_camera_msgs

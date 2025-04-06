@@ -340,9 +340,9 @@
 </model>
     
     <include>
-      <uri>file:///home/vvoxel/Local_Gazebo_Resources/models/Apriltag36_11_00003</uri>
+      <uri>Local_Gazebo_Resources/models/Apriltag36_11_00003</uri>
       <name>tag36_11_00003</name>
-      <pose>7.8574423789978027 1.119309663772583 1.1188147068023682 3.1415900000058401 1.5415899677749065 3.1415800000060901</pose>
+      <pose>2 0 0.8 3.1415900000058401 1.5415899677749065 3.1415800000060901</pose>
     </include>
     <light name='sun' type='directional'>
       <pose>0 0 10 0 0 0</pose>

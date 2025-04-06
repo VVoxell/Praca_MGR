@@ -1,0 +1,1070 @@
+[0.077s] Invoking command in '/home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_interfaces -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces
+[0.353s] -- The C compiler identification is GNU 13.3.0
+[0.582s] -- The CXX compiler identification is GNU 13.3.0
+[0.653s] -- Detecting C compiler ABI info
+[0.984s] -- Detecting C compiler ABI info - done
+[1.018s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.021s] -- Detecting C compile features
+[1.022s] -- Detecting C compile features - done
+[1.047s] -- Detecting CXX compiler ABI info
+[1.434s] -- Detecting CXX compiler ABI info - done
+[1.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.464s] -- Detecting CXX compile features
+[1.467s] -- Detecting CXX compile features - done
+[1.527s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.111s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.685s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.834s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.903s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.048s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.126s] -- Found rcl_interfaces: 2.0.2 (/opt/ros/jazzy/share/rcl_interfaces/cmake)
+[3.327s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.392s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.455s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.507s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[8.683s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[8.711s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[8.727s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[8.778s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[14.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.299s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.351s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[20.103s] -- Found PythonExtra: /usr/bin/python3  
+[23.569s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[24.552s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[24.593s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[24.648s] -- Configuring done (24.5s)
+[25.221s] -- Generating done (0.5s)
+[25.336s] -- Build files have been written to: /home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces
+[25.414s] Invoked command in '/home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/ros_gz/ros_gz_interfaces -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces
+[25.421s] Invoking command in '/home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces -- -j8 -l8
+[58.781s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[58.781s] [  0%] Built target ros_gz_interfaces__rosidl_generator_type_description
+[58.781s] [  0%] Built target ament_cmake_python_copy_ros_gz_interfaces
+[58.781s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[58.782s] [  1%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/altimeter__description.c.o[0m
+[58.782s] [  2%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__type_support.c.o[0m
+[58.782s] [  2%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__description.c.o[0m
+[58.785s] [  3%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__functions.c.o[0m
+[58.787s] [  3%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__type_support.c.o[0m
+[58.788s] [  3%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__description.c.o[0m
+[58.788s] [  4%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__functions.c.o[0m
+[58.788s] [  4%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__type_support.c.o[0m
+[58.789s] [  4%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__description.c.o[0m
+[58.789s] [  5%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__functions.c.o[0m
+[58.790s] [  5%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__type_support.c.o[0m
+[58.790s] [  5%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__description.c.o[0m
+[58.790s] [  6%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__functions.c.o[0m
+[58.790s] [  6%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__type_support.c.o[0m
+[58.791s] [  7%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_wrench__description.c.o[0m
+[58.791s] [  7%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_wrench__functions.c.o[0m
+[58.791s] [  7%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support.c.o[0m
+[58.791s] [  8%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__description.c.o[0m
+[58.791s] [  8%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__functions.c.o[0m
+[58.791s] [  8%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__type_support.c.o[0m
+[58.792s] [  9%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__description.c.o[0m
+[58.792s] [  9%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__functions.c.o[0m
+[58.898s] [  9%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__type_support.c.o[0m
+[59.013s] [ 10%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__description.c.o[0m
+[59.174s] [ 10%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__functions.c.o[0m
+[59.351s] [ 11%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c.o[0m
+[59.448s] [ 11%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__description.c.o[0m
+[59.594s] [ 11%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__functions.c.o[0m
+[59.795s] [ 12%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__type_support.c.o[0m
+[59.911s] [ 12%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/logical_camera_image__description.c.o[0m
+[60.066s] [ 12%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/logical_camera_image__functions.c.o[0m
+[60.245s] [ 13%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.c.o[0m
+[60.359s] [ 13%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/logical_camera_image_model__description.c.o[0m
+[60.497s] [ 13%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/logical_camera_image_model__functions.c.o[0m
+[60.673s] [ 14%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.c.o[0m
+[60.774s] [ 14%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/material_color__description.c.o[0m
+[60.912s] [ 15%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/material_color__functions.c.o[0m
+[61.080s] [ 15%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/material_color__type_support.c.o[0m
+[61.204s] [ 15%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__description.c.o[0m
+[61.359s] [ 16%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__functions.c.o[0m
+[61.525s] [ 16%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__type_support.c.o[0m
+[61.625s] [ 16%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/sensor_noise__description.c.o[0m
+[61.772s] [ 17%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/sensor_noise__functions.c.o[0m
+[61.947s] [ 17%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support.c.o[0m
+[62.066s] [ 17%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__description.c.o[0m
+[62.217s] [ 18%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__functions.c.o[0m
+[62.393s] [ 18%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__type_support.c.o[0m
+[62.491s] [ 19%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__description.c.o[0m
+[62.621s] [ 19%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__functions.c.o[0m
+[62.794s] [ 19%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__type_support.c.o[0m
+[62.906s] [ 20%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__description.c.o[0m
+[63.048s] [ 20%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__functions.c.o[0m
+[63.220s] [ 20%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__type_support.c.o[0m
+[63.322s] [ 21%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__description.c.o[0m
+[63.455s] [ 21%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__functions.c.o[0m
+[63.636s] [ 21%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__type_support.c.o[0m
+[63.744s] [ 22%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__description.c.o[0m
+[63.896s] [ 22%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__functions.c.o[0m
+[64.054s] [ 23%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__type_support.c.o[0m
+[64.172s] [ 23%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__description.c.o[0m
+[64.371s] [ 23%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__functions.c.o[0m
+[64.639s] [ 24%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__type_support.c.o[0m
+[64.780s] [ 24%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__description.c.o[0m
+[64.956s] [ 24%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__functions.c.o[0m
+[65.228s] [ 25%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__type_support.c.o[0m
+[65.360s] [ 25%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__description.c.o[0m
+[65.556s] [ 26%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__functions.c.o[0m
+[65.848s] [ 26%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c.o[0m
+[65.999s] [ 26%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__description.c.o[0m
+[66.227s] [ 27%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__functions.c.o[0m
+[66.495s] [ 27%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c.o[0m
+[66.672s] [ 27%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__functions.c.o[0m
+[66.877s] [ 27%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__description.c.o[0m
+[67.026s] [ 28%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/altimeter__type_support.c.o[0m
+[67.144s] [ 28%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/altimeter__functions.c.o[0m
+[67.332s] [ 28%] [32m[1mLinking C shared library libros_gz_interfaces__rosidl_generator_c.so[0m
+[67.559s] [ 28%] Built target ros_gz_interfaces__rosidl_generator_c
+[68.493s] running egg_info
+[68.495s] creating ros_gz_interfaces.egg-info
+[68.585s] writing ros_gz_interfaces.egg-info/PKG-INFO
+[68.585s] writing dependency_links to ros_gz_interfaces.egg-info/dependency_links.txt
+[68.586s] writing top-level names to ros_gz_interfaces.egg-info/top_level.txt
+[68.587s] writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[68.845s] reading manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[68.846s] writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'
+[68.994s] [ 28%] Built target ament_cmake_python_build_ros_gz_interfaces_egg
+[69.047s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[76.400s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/altimeter__type_support.cpp.o[0m
+[76.553s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity__type_support.cpp.o[0m
+[76.700s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o[0m
+[76.842s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o[0m
+[76.976s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/float32_array__type_support.cpp.o[0m
+[77.092s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o[0m
+[77.245s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o[0m
+[77.424s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/light__type_support.cpp.o[0m
+[77.569s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/logical_camera_image__type_support.cpp.o[0m
+[77.707s] [ 32%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/logical_camera_image_model__type_support.cpp.o[0m
+[77.841s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/material_color__type_support.cpp.o[0m
+[77.981s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/param_vec__type_support.cpp.o[0m
+[78.113s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o[0m
+[78.251s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/string_vec__type_support.cpp.o[0m
+[78.383s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/track_visual__type_support.cpp.o[0m
+[78.496s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/video_record__type_support.cpp.o[0m
+[78.642s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_control__type_support.cpp.o[0m
+[78.788s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_reset__type_support.cpp.o[0m
+[78.924s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/control_world__type_support.cpp.o[0m
+[79.068s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o[0m
+[79.230s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o[0m
+[79.388s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o[0m
+[79.530s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/dataframe__type_support.cpp.o[0m
+[79.654s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contacts__type_support.cpp.o[0m
+[79.840s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contact__type_support.cpp.o[0m
+[79.985s] [ 38%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_c.so[0m
+[80.156s] [ 38%] Built target ros_gz_interfaces__rosidl_typesupport_c
+[80.200s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[89.440s] [ 38%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/altimeter__type_support.c.o[0m
+[89.573s] [ 38%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_factory__type_support.c.o[0m
+[89.704s] [ 39%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support.c.o[0m
+[89.840s] [ 39%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/float32_array__type_support.c.o[0m
+[89.978s] [ 39%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/gui_camera__type_support.c.o[0m
+[90.122s] [ 40%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c.o[0m
+[90.292s] [ 40%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/light__type_support.c.o[0m
+[90.432s] [ 40%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.c.o[0m
+[90.604s] [ 41%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.c.o[0m
+[90.720s] [ 41%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/material_color__type_support.c.o[0m
+[90.842s] [ 41%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/param_vec__type_support.c.o[0m
+[90.963s] [ 42%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support.c.o[0m
+[91.084s] [ 42%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/string_vec__type_support.c.o[0m
+[91.241s] [ 43%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/track_visual__type_support.c.o[0m
+[91.385s] [ 43%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/video_record__type_support.c.o[0m
+[91.521s] [ 43%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_control__type_support.c.o[0m
+[91.642s] [ 44%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_reset__type_support.c.o[0m
+[91.756s] [ 44%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/control_world__type_support.c.o[0m
+[91.910s] [ 44%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/delete_entity__type_support.c.o[0m
+[92.075s] [ 45%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c.o[0m
+[92.247s] [ 45%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c.o[0m
+[92.427s] [ 46%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity__type_support.c.o[0m
+[92.541s] [ 46%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/dataframe__type_support.c.o[0m
+[92.679s] [ 46%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contacts__type_support.c.o[0m
+[92.841s] [ 47%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contact__type_support.c.o[0m
+[93.003s] [ 47%] [32m[1mLinking C shared library libros_gz_interfaces__rosidl_typesupport_introspection_c.so[0m
+[93.151s] [ 47%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c
+[93.201s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[104.204s] [ 48%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/altimeter__type_support_c.cpp.o[0m
+[105.954s] [ 49%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support_c.cpp.o[0m
+[107.750s] [ 49%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/float32_array__type_support_c.cpp.o[0m
+[109.401s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/gui_camera__type_support_c.cpp.o[0m
+[111.077s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support_c.cpp.o[0m
+[112.855s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/light__type_support_c.cpp.o[0m
+[114.649s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/logical_camera_image__type_support_c.cpp.o[0m
+[116.378s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support_c.cpp.o[0m
+[118.242s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/material_color__type_support_c.cpp.o[0m
+[119.888s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/param_vec__type_support_c.cpp.o[0m
+[121.413s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support_c.cpp.o[0m
+[123.020s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/string_vec__type_support_c.cpp.o[0m
+[124.679s] [ 53%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/track_visual__type_support_c.cpp.o[0m
+[126.165s] [ 53%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/video_record__type_support_c.cpp.o[0m
+[127.762s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_control__type_support_c.cpp.o[0m
+[129.493s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_reset__type_support_c.cpp.o[0m
+[130.954s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/control_world__type_support_c.cpp.o[0m
+[132.524s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/delete_entity__type_support_c.cpp.o[0m
+[134.290s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support_c.cpp.o[0m
+[135.879s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support_c.cpp.o[0m
+[137.570s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_factory__type_support_c.cpp.o[0m
+[139.312s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity__type_support_c.cpp.o[0m
+[140.943s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/dataframe__type_support_c.cpp.o[0m
+[142.880s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contacts__type_support_c.cpp.o[0m
+[144.555s] [ 56%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contact__type_support_c.cpp.o[0m
+[146.262s] [ 57%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[146.631s] [ 57%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c
+[146.709s] [ 57%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[156.675s] [ 57%] Built target ros_gz_interfaces__cpp
+[156.703s] [ 57%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[161.294s] [ 58%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/altimeter__type_support.cpp.o[0m
+[162.021s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o[0m
+[162.752s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o[0m
+[163.468s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/float32_array__type_support.cpp.o[0m
+[164.322s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o[0m
+[165.087s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o[0m
+[165.855s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/light__type_support.cpp.o[0m
+[166.576s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/logical_camera_image__type_support.cpp.o[0m
+[167.304s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/logical_camera_image_model__type_support.cpp.o[0m
+[168.053s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/material_color__type_support.cpp.o[0m
+[168.797s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/param_vec__type_support.cpp.o[0m
+[169.507s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o[0m
+[170.203s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/string_vec__type_support.cpp.o[0m
+[170.893s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/track_visual__type_support.cpp.o[0m
+[171.602s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/video_record__type_support.cpp.o[0m
+[172.251s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_control__type_support.cpp.o[0m
+[172.949s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_reset__type_support.cpp.o[0m
+[173.623s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/control_world__type_support.cpp.o[0m
+[174.475s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o[0m
+[175.448s] [ 65%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o[0m
+[176.360s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o[0m
+[177.293s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity__type_support.cpp.o[0m
+[177.982s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/dataframe__type_support.cpp.o[0m
+[178.703s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contacts__type_support.cpp.o[0m
+[179.423s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contact__type_support.cpp.o[0m
+[180.159s] [ 67%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_cpp.so[0m
+[180.380s] [ 67%] Built target ros_gz_interfaces__rosidl_typesupport_cpp
+[180.408s] [ 68%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[185.730s] [ 68%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/altimeter__type_support.cpp.o[0m
+[186.464s] [ 68%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_wrench__type_support.cpp.o[0m
+[187.224s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/float32_array__type_support.cpp.o[0m
+[188.024s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/gui_camera__type_support.cpp.o[0m
+[188.792s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/joint_wrench__type_support.cpp.o[0m
+[189.576s] [ 70%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/light__type_support.cpp.o[0m
+[190.330s] [ 70%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.cpp.o[0m
+[191.159s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.cpp.o[0m
+[191.898s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/material_color__type_support.cpp.o[0m
+[192.641s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/param_vec__type_support.cpp.o[0m
+[194.028s] [ 72%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/sensor_noise__type_support.cpp.o[0m
+[194.685s] [ 72%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/string_vec__type_support.cpp.o[0m
+[195.460s] [ 72%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/track_visual__type_support.cpp.o[0m
+[196.220s] [ 73%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/video_record__type_support.cpp.o[0m
+[196.925s] [ 73%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_control__type_support.cpp.o[0m
+[197.654s] [ 73%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_reset__type_support.cpp.o[0m
+[198.352s] [ 74%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/control_world__type_support.cpp.o[0m
+[199.384s] [ 74%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/delete_entity__type_support.cpp.o[0m
+[200.694s] [ 75%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.cpp.o[0m
+[202.244s] [ 75%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/spawn_entity__type_support.cpp.o[0m
+[203.761s] [ 75%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_factory__type_support.cpp.o[0m
+[204.957s] [ 76%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity__type_support.cpp.o[0m
+[206.064s] [ 76%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/dataframe__type_support.cpp.o[0m
+[207.285s] [ 76%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contacts__type_support.cpp.o[0m
+[209.313s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contact__type_support.cpp.o[0m
+[210.837s] [ 77%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[211.229s] [ 77%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_cpp
+[211.266s] [ 77%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[221.378s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/altimeter__type_support.cpp.o[0m
+[222.961s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/float32_array__type_support.cpp.o[0m
+[224.673s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/gui_camera__type_support.cpp.o[0m
+[226.366s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/joint_wrench__type_support.cpp.o[0m
+[228.147s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/light__type_support.cpp.o[0m
+[229.952s] [ 78%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/logical_camera_image__type_support.cpp.o[0m
+[231.775s] [ 79%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/logical_camera_image_model__type_support.cpp.o[0m
+[232.807s] [ 79%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/material_color__type_support.cpp.o[0m
+[233.548s] [ 80%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_wrench__type_support.cpp.o[0m
+[234.617s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/param_vec__type_support.cpp.o[0m
+[234.938s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_factory__type_support.cpp.o[0m
+[234.990s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/sensor_noise__type_support.cpp.o[0m
+[235.975s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[236.068s] [ 81%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/string_vec__type_support.cpp.o[0m
+[237.151s] [ 82%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/dataframe__type_support.cpp.o[0m
+[240.051s] [ 82%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/control_world__type_support.cpp.o[0m
+[244.108s] [ 83%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/delete_entity__type_support.cpp.o[0m
+[246.811s] [ 83%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/set_entity_pose__type_support.cpp.o[0m
+[249.497s] [ 83%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/spawn_entity__type_support.cpp.o[0m
+[252.116s] [ 84%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_reset__type_support.cpp.o[0m
+[254.020s] [ 84%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_control__type_support.cpp.o[0m
+[256.020s] [ 84%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/video_record__type_support.cpp.o[0m
+[258.066s] [ 85%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/track_visual__type_support.cpp.o[0m
+[260.094s] [ 85%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o[0m
+[262.439s] [ 86%] [32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contact__type_support.cpp.o[0m
+[265.036s] [ 87%] [32m[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[265.475s] [ 87%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp
+[265.561s] [ 87%] Built target ros_gz_interfaces
+[265.656s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[287.447s] [ 87%] Built target ros_gz_interfaces__py
+[287.531s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_altimeter_s.c.o[0m
+[288.051s] [ 88%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_float32_array_s.c.o[0m
+[288.612s] [ 89%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_gui_camera_s.c.o[0m
+[289.107s] [ 89%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_joint_wrench_s.c.o[0m
+[289.679s] [ 89%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_light_s.c.o[0m
+[290.269s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_logical_camera_image_s.c.o[0m
+[290.792s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_logical_camera_image_model_s.c.o[0m
+[291.298s] [ 90%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_material_color_s.c.o[0m
+[291.780s] [ 91%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_param_vec_s.c.o[0m
+[292.321s] [ 91%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_sensor_noise_s.c.o[0m
+[292.846s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_string_vec_s.c.o[0m
+[293.462s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_track_visual_s.c.o[0m
+[294.131s] [ 92%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_video_record_s.c.o[0m
+[294.613s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_control_s.c.o[0m
+[295.130s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_reset_s.c.o[0m
+[295.641s] [ 93%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_control_world_s.c.o[0m
+[296.213s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_delete_entity_s.c.o[0m
+[296.820s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_set_entity_pose_s.c.o[0m
+[297.413s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_spawn_entity_s.c.o[0m
+[297.975s] [ 94%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_wrench_s.c.o[0m
+[298.491s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_factory_s.c.o[0m
+[298.998s] [ 95%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_s.c.o[0m
+[299.504s] [ 96%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_dataframe_s.c.o[0m
+[300.036s] [ 96%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contacts_s.c.o[0m
+[300.556s] [ 96%] [32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contact_s.c.o[0m
+[301.166s] [ 97%] [32m[1mLinking C shared library libros_gz_interfaces__rosidl_generator_py.so[0m
+[301.419s] [ 97%] Built target ros_gz_interfaces__rosidl_generator_py
+[301.507s] [ 97%] [32mBuilding C object CMakeFiles/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[302.406s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[302.541s] [ 98%] Built target ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c
+[302.623s] [ 99%] [32mBuilding C object CMakeFiles/ros_gz_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[303.445s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.so[0m
+[303.560s] [ 99%] Built target ros_gz_interfaces_s__rosidl_typesupport_c
+[303.631s] [ 99%] [32mBuilding C object CMakeFiles/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[304.463s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[304.605s] [100%] Built target ros_gz_interfaces_s__rosidl_typesupport_introspection_c
+[304.647s] Invoked command in '/home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces -- -j8 -l8
+[304.656s] Invoking command in '/home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces
+[304.683s] -- Install configuration: ""
+[304.684s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_gz_interfaces
+[304.685s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Altimeter.json
+[304.686s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.json
+[304.688s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.json
+[304.689s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.json
+[304.689s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.json
+[304.690s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.json
+[304.691s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityWrench.json
+[304.691s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.json
+[304.691s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.json
+[304.692s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.json
+[304.692s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.json
+[304.693s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/LogicalCameraImage.json
+[304.693s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/LogicalCameraImageModel.json
+[304.694s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/MaterialColor.json
+[304.694s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.json
+[304.694s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/SensorNoise.json
+[304.694s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.json
+[304.695s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.json
+[304.695s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.json
+[304.695s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.json
+[304.695s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.json
+[304.696s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.json
+[304.696s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.json
+[304.696s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.json
+[304.697s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.json
+[304.697s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces
+[304.698s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv
+[304.698s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.h
+[304.698s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.h
+[304.699s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.h
+[304.699s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail
+[304.699s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.c
+[304.699s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__description.c
+[304.700s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.h
+[304.700s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c
+[304.700s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.h
+[304.701s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__description.c
+[304.703s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__functions.c
+[304.703s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.h
+[304.704s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__functions.c
+[304.705s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__functions.h
+[304.708s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__description.c
+[304.709s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c
+[304.709s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.c
+[304.710s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__functions.c
+[304.711s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.h
+[304.711s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.h
+[304.711s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__description.c
+[304.712s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__functions.h
+[304.712s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.h
+[304.712s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__functions.c
+[304.712s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__functions.h
+[304.712s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__functions.h
+[304.712s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.h
+[304.713s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.h
+[304.713s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.h
+[304.713s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg
+[304.714s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.h
+[304.714s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.h
+[304.714s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_wrench.h
+[304.715s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.h
+[304.715s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.h
+[304.715s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.h
+[304.716s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.h
+[304.716s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/material_color.h
+[304.716s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.h
+[304.717s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.h
+[304.717s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_c__visibility_control.h
+[304.717s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.h
+[304.717s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail
+[304.717s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.c
+[304.718s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__functions.c
+[304.718s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__functions.c
+[304.718s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.h
+[304.719s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__description.c
+[304.721s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__functions.c
+[304.723s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.c
+[304.725s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__description.c
+[304.726s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__functions.c
+[304.726s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__description.c
+[304.727s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.h
+[304.727s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.c
+[304.727s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__functions.h
+[304.729s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__struct.h
+[304.729s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__functions.c
+[304.729s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.h
+[304.730s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__functions.h
+[304.730s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__functions.h
+[304.730s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__description.c
+[304.730s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.h
+[304.731s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__functions.h
+[304.731s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.h
+[304.731s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__description.c
+[304.732s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__description.c
+[304.732s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__functions.h
+[304.732s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__functions.c
+[304.732s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.h
+[304.733s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.c
+[304.733s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.h
+[304.733s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.h
+[304.733s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__functions.h
+[304.734s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.h
+[304.734s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.h
+[304.734s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__functions.h
+[304.735s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__functions.h
+[304.735s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.c
+[304.736s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.h
+[304.736s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.h
+[304.737s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.h
+[304.739s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.c
+[304.740s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.h
+[304.741s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__functions.h
+[304.742s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.c
+[304.743s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.c
+[304.745s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.h
+[304.746s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.c
+[304.746s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__functions.h
+[304.746s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.h
+[304.747s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__functions.h
+[304.747s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__functions.c
+[304.747s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__functions.c
+[304.747s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__description.c
+[304.747s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__description.c
+[304.748s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.h
+[304.748s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__struct.h
+[304.748s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__functions.h
+[304.748s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.h
+[304.749s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__functions.c
+[304.749s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.c
+[304.749s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.h
+[304.749s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__functions.h
+[304.750s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.h
+[304.750s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__functions.c
+[304.750s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.h
+[304.750s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__description.c
+[304.750s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__functions.c
+[304.751s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.h
+[304.751s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__description.c
+[304.751s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.h
+[304.751s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__functions.h
+[304.752s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.h
+[304.752s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__functions.h
+[304.752s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__functions.c
+[304.752s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__description.c
+[304.752s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__functions.c
+[304.753s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.c
+[304.753s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__functions.h
+[304.753s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.h
+[304.754s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__functions.h
+[304.754s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__functions.c
+[304.757s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__functions.c
+[304.759s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__functions.h
+[304.761s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__description.c
+[304.763s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__functions.c
+[304.763s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__functions.h
+[304.764s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.h
+[304.764s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__description.c
+[304.765s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__description.c
+[304.765s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__description.c
+[304.765s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__functions.c
+[304.766s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.h
+[304.766s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__description.c
+[304.766s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__functions.c
+[304.766s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.h
+[304.767s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__struct.h
+[304.767s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.h
+[304.767s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.c
+[304.767s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.c
+[304.768s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.c
+[304.768s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.h
+[304.768s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__description.c
+[304.769s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.h
+[304.770s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__functions.h
+[304.770s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__struct.h
+[304.771s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.c
+[304.771s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__functions.c
+[304.771s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.c
+[304.773s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.c
+[304.775s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.h
+[304.777s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.h
+[304.778s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.h
+[304.779s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__description.c
+[304.782s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.c
+[304.782s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__functions.h
+[304.782s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__functions.c
+[304.783s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c
+[304.783s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.h
+[304.783s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.c
+[304.783s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__functions.c
+[304.784s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__description.c
+[304.784s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__description.c
+[304.784s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__description.c
+[304.785s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.c
+[304.785s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.h
+[304.785s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.h
+[304.785s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__struct.h
+[304.786s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.h
+[304.786s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.h
+[304.786s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.h
+[304.787s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.h
+[304.788s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.h
+[304.788s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/logical_camera_image_model.h
+[304.789s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.h
+[304.789s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/logical_camera_image.h
+[304.789s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.h
+[304.790s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.h
+[304.791s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/library_path.sh
+[304.792s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/library_path.dsv
+[304.794s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_c.so
+[304.797s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_c.so" to ""
+[304.797s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces
+[304.797s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv
+[304.798s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail
+[304.798s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_c.h
+[304.798s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_c.h
+[304.798s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_c.h
+[304.799s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_c.h
+[304.799s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg
+[304.799s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[304.800s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail
+[304.800s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__rosidl_typesupport_fastrtps_c.h
+[304.800s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_c.h
+[304.800s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_c.h
+[304.801s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_c.h
+[304.801s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_c.h
+[304.801s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[304.802s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_fastrtps_c.h
+[304.802s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_c.h
+[304.802s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_c.h
+[304.802s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_c.h
+[304.803s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_c.h
+[304.803s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_c.h
+[304.803s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[304.804s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_c.h
+[304.804s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_c.h
+[304.804s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_fastrtps_c.h
+[304.805s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__rosidl_typesupport_fastrtps_c.h
+[304.805s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_c.h
+[304.805s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_c.h
+[304.806s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_c.h
+[304.806s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_fastrtps_c.h
+[304.807s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so
+[304.808s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[304.809s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces
+[304.810s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv
+[304.813s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/spawn_entity.hpp
+[304.814s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/control_world.hpp
+[304.814s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail
+[304.814s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.hpp
+[304.814s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__traits.hpp
+[304.815s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__builder.hpp
+[304.815s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__builder.hpp
+[304.815s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__struct.hpp
+[304.815s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__builder.hpp
+[304.815s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.hpp
+[304.815s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__builder.hpp
+[304.816s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.hpp
+[304.816s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__struct.hpp
+[304.816s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__traits.hpp
+[304.816s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.hpp
+[304.817s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__traits.hpp
+[304.817s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__traits.hpp
+[304.817s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__struct.hpp
+[304.817s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__struct.hpp
+[304.817s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/delete_entity.hpp
+[304.817s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/set_entity_pose.hpp
+[304.818s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg
+[304.818s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/string_vec.hpp
+[304.818s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/logical_camera_image_model.hpp
+[304.818s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contact.hpp
+[304.819s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/logical_camera_image.hpp
+[304.819s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/gui_camera.hpp
+[304.819s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/sensor_noise.hpp
+[304.820s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_reset.hpp
+[304.821s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/world_control.hpp
+[304.821s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity.hpp
+[304.821s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/dataframe.hpp
+[304.822s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/light.hpp
+[304.822s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/joint_wrench.hpp
+[304.822s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/param_vec.hpp
+[304.823s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail
+[304.823s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__traits.hpp
+[304.824s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__struct.hpp
+[304.825s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__traits.hpp
+[304.826s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.hpp
+[304.827s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__builder.hpp
+[304.829s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__struct.hpp
+[304.830s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__traits.hpp
+[304.831s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__traits.hpp
+[304.831s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__traits.hpp
+[304.831s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__builder.hpp
+[304.832s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__struct.hpp
+[304.832s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__struct.hpp
+[304.832s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.hpp
+[304.833s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__struct.hpp
+[304.833s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__builder.hpp
+[304.833s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.hpp
+[304.833s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__traits.hpp
+[304.834s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__struct.hpp
+[304.834s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__struct.hpp
+[304.834s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__struct.hpp
+[304.834s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__builder.hpp
+[304.835s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.hpp
+[304.835s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.hpp
+[304.835s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__builder.hpp
+[304.835s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__struct.hpp
+[304.836s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__struct.hpp
+[304.836s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.hpp
+[304.836s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__traits.hpp
+[304.837s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.hpp
+[304.837s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__builder.hpp
+[304.837s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__traits.hpp
+[304.837s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__builder.hpp
+[304.838s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__builder.hpp
+[304.838s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__struct.hpp
+[304.839s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__builder.hpp
+[304.840s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__builder.hpp
+[304.840s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.hpp
+[304.841s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.hpp
+[304.842s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.hpp
+[304.842s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.hpp
+[304.843s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__struct.hpp
+[304.843s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__traits.hpp
+[304.843s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__traits.hpp
+[304.844s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__struct.hpp
+[304.844s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__traits.hpp
+[304.845s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.hpp
+[304.847s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__traits.hpp
+[304.848s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.hpp
+[304.848s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__traits.hpp
+[304.848s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__traits.hpp
+[304.848s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__traits.hpp
+[304.849s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__builder.hpp
+[304.849s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.hpp
+[304.849s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__struct.hpp
+[304.850s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__traits.hpp
+[304.850s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__struct.hpp
+[304.850s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__builder.hpp
+[304.850s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__builder.hpp
+[304.851s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__struct.hpp
+[304.851s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__traits.hpp
+[304.851s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__traits.hpp
+[304.851s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__traits.hpp
+[304.852s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.hpp
+[304.852s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.hpp
+[304.852s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__struct.hpp
+[304.853s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__traits.hpp
+[304.853s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__struct.hpp
+[304.853s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__struct.hpp
+[304.854s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__builder.hpp
+[304.854s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__builder.hpp
+[304.854s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__traits.hpp
+[304.854s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__builder.hpp
+[304.855s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.hpp
+[304.855s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__struct.hpp
+[304.855s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__struct.hpp
+[304.856s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.hpp
+[304.856s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__builder.hpp
+[304.856s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__builder.hpp
+[304.856s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__builder.hpp
+[304.857s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__builder.hpp
+[304.858s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.hpp
+[304.859s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__builder.hpp
+[304.859s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.hpp
+[304.860s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.hpp
+[304.861s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/contacts.hpp
+[304.862s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[304.862s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/track_visual.hpp
+[304.863s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_factory.hpp
+[304.864s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/material_color.hpp
+[304.865s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/altimeter.hpp
+[304.866s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/float32_array.hpp
+[304.867s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/video_record.hpp
+[304.867s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/entity_wrench.hpp
+[304.868s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces
+[304.868s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv
+[304.868s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail
+[304.869s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[304.869s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_fastrtps_cpp.hpp
+[304.869s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_fastrtps_cpp.hpp
+[304.869s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/dds_fastrtps
+[304.870s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[304.870s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg
+[304.870s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail
+[304.870s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__rosidl_typesupport_fastrtps_cpp.hpp
+[304.871s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[304.871s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[304.871s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_fastrtps_cpp.hpp
+[304.871s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_fastrtps_cpp.hpp
+[304.872s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_fastrtps_cpp.hpp
+[304.872s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[304.873s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_fastrtps_cpp.hpp
+[304.874s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_fastrtps_cpp.hpp
+[304.874s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_fastrtps_cpp.hpp
+[304.874s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_fastrtps_cpp.hpp
+[304.875s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_fastrtps_cpp.hpp
+[304.876s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_fastrtps_cpp.hpp
+[304.876s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[304.876s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_fastrtps_cpp.hpp
+[304.876s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[304.877s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dds_fastrtps
+[304.877s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[304.877s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[304.878s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__rosidl_typesupport_fastrtps_cpp.hpp
+[304.879s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_fastrtps_cpp.hpp
+[304.879s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_fastrtps_cpp.hpp
+[304.880s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[304.881s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[304.881s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[304.881s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces
+[304.882s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv
+[304.882s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail
+[304.882s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.c
+[304.883s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_c.h
+[304.883s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c
+[304.884s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_c.h
+[304.884s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c
+[304.885s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.c
+[304.886s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_c.h
+[304.887s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_c.h
+[304.887s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg
+[304.888s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[304.888s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail
+[304.888s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.c
+[304.888s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.c
+[304.889s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.c
+[304.889s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.c
+[304.889s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_c.h
+[304.890s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_introspection_c.h
+[304.891s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.c
+[304.891s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__rosidl_typesupport_introspection_c.h
+[304.891s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.c
+[304.892s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_c.h
+[304.892s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.c
+[304.892s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.c
+[304.893s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_c.h
+[304.893s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.c
+[304.893s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_c.h
+[304.893s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.c
+[304.893s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_c.h
+[304.894s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_c.h
+[304.895s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.c
+[304.896s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_introspection_c.h
+[304.896s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_c.h
+[304.897s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_c.h
+[304.897s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[304.898s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__rosidl_typesupport_introspection_c.h
+[304.898s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_c.h
+[304.898s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_c.h
+[304.899s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.c
+[304.899s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.c
+[304.900s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.c
+[304.900s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_c.h
+[304.901s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.c
+[304.903s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_c.h
+[304.904s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.c
+[304.904s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.c
+[304.905s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_c.h
+[304.906s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.c
+[304.907s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_introspection_c.h
+[304.907s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c
+[304.908s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.c
+[304.908s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_c.h
+[304.908s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[304.909s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.c
+[304.909s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so
+[304.909s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[304.910s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_c.so
+[304.910s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_c.so" to ""
+[304.910s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces
+[304.910s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv
+[304.911s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail
+[304.911s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__type_support.cpp
+[304.912s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__type_support.cpp
+[304.912s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__type_support.cpp
+[304.912s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/control_world__rosidl_typesupport_introspection_cpp.hpp
+[304.913s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/spawn_entity__rosidl_typesupport_introspection_cpp.hpp
+[304.914s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/delete_entity__rosidl_typesupport_introspection_cpp.hpp
+[304.915s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__rosidl_typesupport_introspection_cpp.hpp
+[304.915s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.cpp
+[304.916s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg
+[304.916s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail
+[304.916s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__type_support.cpp
+[304.917s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[304.917s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__rosidl_typesupport_introspection_cpp.hpp
+[304.918s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__rosidl_typesupport_introspection_cpp.hpp
+[304.918s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__type_support.cpp
+[304.920s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__rosidl_typesupport_introspection_cpp.hpp
+[304.921s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__type_support.cpp
+[304.922s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__rosidl_typesupport_introspection_cpp.hpp
+[304.923s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__type_support.cpp
+[304.924s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/sensor_noise__rosidl_typesupport_introspection_cpp.hpp
+[304.925s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_reset__rosidl_typesupport_introspection_cpp.hpp
+[304.925s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__rosidl_typesupport_introspection_cpp.hpp
+[304.926s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__rosidl_typesupport_introspection_cpp.hpp
+[304.926s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__type_support.cpp
+[304.926s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/material_color__type_support.cpp
+[304.927s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__rosidl_typesupport_introspection_cpp.hpp
+[304.927s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__rosidl_typesupport_introspection_cpp.hpp
+[304.927s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__rosidl_typesupport_introspection_cpp.hpp
+[304.927s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__type_support.cpp
+[304.928s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__type_support.cpp
+[304.928s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/gui_camera__type_support.cpp
+[304.928s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contacts__type_support.cpp
+[304.928s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[304.929s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/joint_wrench__rosidl_typesupport_introspection_cpp.hpp
+[304.929s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image__type_support.cpp
+[304.929s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/string_vec__rosidl_typesupport_introspection_cpp.hpp
+[304.930s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__rosidl_typesupport_introspection_cpp.hpp
+[304.930s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/altimeter__type_support.cpp
+[304.931s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/logical_camera_image_model__type_support.cpp
+[304.932s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity__type_support.cpp
+[304.932s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__type_support.cpp
+[304.932s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_factory__type_support.cpp
+[304.933s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/contact__type_support.cpp
+[304.933s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/track_visual__rosidl_typesupport_introspection_cpp.hpp
+[304.934s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__type_support.cpp
+[304.934s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/light__rosidl_typesupport_introspection_cpp.hpp
+[304.934s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/video_record__type_support.cpp
+[304.935s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/dataframe__rosidl_typesupport_introspection_cpp.hpp
+[304.935s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/entity_wrench__rosidl_typesupport_introspection_cpp.hpp
+[304.935s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/world_control__rosidl_typesupport_introspection_cpp.hpp
+[304.936s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/float32_array__type_support.cpp
+[304.937s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/include/ros_gz_interfaces/ros_gz_interfaces/msg/detail/param_vec__type_support.cpp
+[304.938s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so
+[304.939s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[304.940s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so
+[304.940s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_typesupport_cpp.so" to ""
+[304.940s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/pythonpath.sh
+[304.941s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/pythonpath.dsv
+[304.941s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces-1.0.11-py3.12.egg-info
+[304.941s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces-1.0.11-py3.12.egg-info/dependency_links.txt
+[304.942s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces-1.0.11-py3.12.egg-info/top_level.txt
+[304.942s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces-1.0.11-py3.12.egg-info/SOURCES.txt
+[304.942s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces-1.0.11-py3.12.egg-info/PKG-INFO
+[304.942s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces
+[304.943s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[304.943s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/__init__.py
+[304.943s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c
+[304.944s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv
+[304.944s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_delete_entity.py
+[304.944s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_spawn_entity_s.c
+[304.945s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_set_entity_pose_s.c
+[304.945s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/__init__.py
+[304.945s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_control_world.py
+[304.945s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_control_world_s.c
+[304.946s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_set_entity_pose.py
+[304.946s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_delete_entity_s.c
+[304.946s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_spawn_entity.py
+[304.947s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[304.948s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.so
+[304.949s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg
+[304.950s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_string_vec_s.c
+[304.952s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_sensor_noise_s.c
+[304.953s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_world_control_s.c
+[304.954s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_world_control.py
+[304.954s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_logical_camera_image.py
+[304.954s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity_wrench_s.c
+[304.955s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_light_s.c
+[304.955s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_video_record_s.c
+[304.955s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_joint_wrench_s.c
+[304.955s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/__init__.py
+[304.956s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_logical_camera_image_s.c
+[304.956s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_contact_s.c
+[304.956s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_video_record.py
+[304.957s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_float32_array_s.c
+[304.957s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity_factory.py
+[304.957s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity.py
+[304.958s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_world_reset_s.c
+[304.958s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_track_visual.py
+[304.958s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_contact.py
+[304.958s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity_s.c
+[304.959s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_altimeter.py
+[304.959s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_track_visual_s.c
+[304.959s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_string_vec.py
+[304.960s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_float32_array.py
+[304.960s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_altimeter_s.c
+[304.960s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_light.py
+[304.960s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_logical_camera_image_model_s.c
+[304.961s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_param_vec.py
+[304.961s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_material_color.py
+[304.961s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_dataframe_s.c
+[304.961s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_dataframe.py
+[304.962s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_joint_wrench.py
+[304.962s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_contacts_s.c
+[304.963s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_param_vec_s.c
+[304.965s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_world_reset.py
+[304.965s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_gui_camera_s.c
+[304.966s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity_wrench.py
+[304.969s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_contacts.py
+[304.970s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_gui_camera.py
+[304.970s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_sensor_noise.py
+[304.970s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_logical_camera_image_model.py
+[304.971s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity_factory_s.c
+[304.971s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_material_color_s.c
+[304.971s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[304.972s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.so
+[305.302s] Listing '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces'...
+[305.304s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/__init__.py'...
+[305.304s] Listing '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg'...
+[305.304s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/__init__.py'...
+[305.304s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_altimeter.py'...
+[305.305s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_contact.py'...
+[305.305s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_contacts.py'...
+[305.305s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_dataframe.py'...
+[305.305s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity.py'...
+[305.306s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity_factory.py'...
+[305.306s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_entity_wrench.py'...
+[305.306s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_float32_array.py'...
+[305.307s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_gui_camera.py'...
+[305.307s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_joint_wrench.py'...
+[305.307s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_light.py'...
+[305.307s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_logical_camera_image.py'...
+[305.307s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_logical_camera_image_model.py'...
+[305.307s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_material_color.py'...
+[305.309s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_param_vec.py'...
+[305.309s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_sensor_noise.py'...
+[305.309s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_string_vec.py'...
+[305.310s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_track_visual.py'...
+[305.310s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_video_record.py'...
+[305.310s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_world_control.py'...
+[305.310s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/msg/_world_reset.py'...
+[305.310s] Listing '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv'...
+[305.311s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/__init__.py'...
+[305.311s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_control_world.py'...
+[305.311s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_delete_entity.py'...
+[305.311s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_set_entity_pose.py'...
+[305.312s] Compiling '/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/srv/_spawn_entity.py'...
+[305.331s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[305.332s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[305.334s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.so
+[305.335s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[305.336s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.so
+[305.337s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/python3.12/site-packages/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.so" to ""
+[305.338s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_py.so
+[305.341s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/lib/libros_gz_interfaces__rosidl_generator_py.so" to ""
+[305.342s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Altimeter.idl
+[305.343s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.idl
+[305.343s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.idl
+[305.343s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.idl
+[305.344s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.idl
+[305.344s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.idl
+[305.344s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityWrench.idl
+[305.346s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.idl
+[305.346s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.idl
+[305.347s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.idl
+[305.347s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.idl
+[305.347s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/LogicalCameraImage.idl
+[305.348s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/LogicalCameraImageModel.idl
+[305.348s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/MaterialColor.idl
+[305.348s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.idl
+[305.348s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/SensorNoise.idl
+[305.349s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.idl
+[305.349s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.idl
+[305.349s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.idl
+[305.350s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.idl
+[305.351s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.idl
+[305.353s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.idl
+[305.355s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.idl
+[305.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.idl
+[305.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.idl
+[305.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Altimeter.msg
+[305.358s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contact.msg
+[305.358s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Contacts.msg
+[305.359s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Dataframe.msg
+[305.360s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Entity.msg
+[305.360s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityFactory.msg
+[305.361s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/EntityWrench.msg
+[305.361s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Float32Array.msg
+[305.362s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/GuiCamera.msg
+[305.362s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/JointWrench.msg
+[305.362s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/Light.msg
+[305.363s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/LogicalCameraImage.msg
+[305.363s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/LogicalCameraImageModel.msg
+[305.363s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/MaterialColor.msg
+[305.364s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/ParamVec.msg
+[305.364s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/SensorNoise.msg
+[305.364s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/StringVec.msg
+[305.365s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/TrackVisual.msg
+[305.365s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/VideoRecord.msg
+[305.366s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldControl.msg
+[305.366s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/msg/WorldReset.msg
+[305.367s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/ControlWorld.srv
+[305.368s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/DeleteEntity.srv
+[305.368s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SetEntityPose.srv
+[305.370s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/srv/SpawnEntity.srv
+[305.370s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_gz_interfaces
+[305.372s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_gz_interfaces
+[305.372s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/ament_prefix_path.sh
+[305.372s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/ament_prefix_path.dsv
+[305.373s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/path.sh
+[305.374s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/environment/path.dsv
+[305.375s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.bash
+[305.376s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.sh
+[305.376s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.zsh
+[305.377s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/local_setup.dsv
+[305.380s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv
+[305.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ament_index/resource_index/packages/ros_gz_interfaces
+[305.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport.cmake
+[305.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cExport-noconfig.cmake
+[305.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[305.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[305.383s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_cppExport.cmake
+[305.383s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[305.384s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[305.384s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[305.385s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[305.385s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport.cmake
+[305.385s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[305.386s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[305.387s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[305.387s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport.cmake
+[305.388s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[305.388s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport.cmake
+[305.391s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/export_ros_gz_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[305.393s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake-extras.cmake
+[305.393s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[305.394s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[305.396s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[305.397s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[305.398s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[305.398s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[305.399s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig.cmake
+[305.399s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/cmake/ros_gz_interfacesConfig-version.cmake
+[305.399s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/ros_gz_interfaces/share/ros_gz_interfaces/package.xml
+[305.410s] Invoked command in '/home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/src/build/ros_gz_interfaces

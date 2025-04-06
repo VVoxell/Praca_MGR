@@ -1,0 +1,125 @@
+[0.053s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/install/apriltag
+[0.267s] -- The C compiler identification is GNU 13.3.0
+[0.351s] -- Detecting C compiler ABI info
+[0.703s] -- Detecting C compiler ABI info - done
+[0.729s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.729s] -- Detecting C compile features
+[0.730s] -- Detecting C compile features - done
+[0.732s] -- Setting build type to 'Release' as none was specified.
+[0.739s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.077s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.079s] -- Found Threads: TRUE  
+[3.257s] -- The CXX compiler identification is GNU 13.3.0
+[3.303s] -- Detecting CXX compiler ABI info
+[3.674s] -- Detecting CXX compiler ABI info - done
+[3.710s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.711s] -- Detecting CXX compile features
+[3.715s] -- Detecting CXX compile features - done
+[3.720s] -- Configuring done (3.7s)
+[3.767s] -- Generating done (0.0s)
+[3.774s] -- Build files have been written to: /home/vvoxel/ros2_ws_mgr/build/apriltag
+[3.813s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/install/apriltag
+[3.813s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/apriltag -- -j8 -l8
+[5.728s] [  2%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[5.728s] [  4%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[5.729s] [  7%] [32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[5.730s] [  9%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[5.731s] [ 14%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o[0m
+[5.735s] [ 14%] [32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o[0m
+[5.739s] [ 17%] [32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[5.739s] [ 19%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[5.739s] [ 21%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[5.739s] [ 21%] Built target apriltag_py_docstrings
+[5.740s] [ 24%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o[0m
+[5.740s] [ 26%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o[0m
+[5.740s] [ 29%] [32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[5.740s] [ 31%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o[0m
+[5.740s] [ 34%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o[0m
+[5.801s] [ 36%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o[0m
+[5.856s] [ 39%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[6.160s] [ 41%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pthreads_cross.c.o[0m
+[6.218s] [ 43%] [32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[6.256s] [ 46%] [32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[6.346s] [ 48%] [32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[6.704s] [ 51%] [32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[6.726s] [ 53%] [32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[6.945s] [ 56%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[7.329s] [ 58%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[7.442s] [ 60%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[7.702s] [ 63%] [32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[8.010s] [ 65%] [32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[8.233s] [ 68%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h10.c.o[0m
+[8.580s] [ 70%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o[0m
+[8.592s] [ 73%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[8.611s] [ 75%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o[0m
+[8.707s] [ 78%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o[0m
+[8.926s] [ 80%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o[0m
+[9.043s] [ 82%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o[0m
+[11.909s] [ 85%] [32m[1mLinking C shared library libapriltag.so[0m
+[12.547s] [ 85%] Built target apriltag
+[12.750s] [ 87%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o[0m
+[12.756s] [ 90%] [32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o[0m
+[12.769s] [ 92%] [32mBuilding C object CMakeFiles/apriltag.cpython-312-x86_64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[13.980s] [ 95%] [32m[1mLinking C executable apriltag_demo[0m
+[14.322s] [ 95%] Built target apriltag_demo
+[15.461s] [ 97%] [32m[1mLinking C shared module apriltag.cpython-312-x86_64-linux-gnu.so[0m
+[15.828s] [ 97%] Built target apriltag.cpython-312-x86_64-linux-gnu
+[26.272s] [100%] [32m[1mLinking CXX executable opencv_demo[0m
+[31.124s] [100%] Built target opencv_demo
+[31.184s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/apriltag -- -j8 -l8
+[31.255s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/apriltag
+[69.353s] -- Install configuration: "Release"
+[69.355s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/apriltag.h
+[69.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/apriltag_math.h
+[69.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/apriltag_pose.h
+[69.356s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/debug_print.h
+[69.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/doubles.h
+[69.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[69.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/floats.h
+[69.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/g2d.h
+[69.357s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/getopt.h
+[69.358s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/homography.h
+[69.367s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/image_types.h
+[69.373s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/image_u8.h
+[69.374s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/image_u8x3.h
+[69.378s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/image_u8x4.h
+[69.380s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/matd.h
+[69.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/math_util.h
+[69.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/pam.h
+[69.381s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/pjpeg.h
+[69.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/pnm.h
+[69.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/postscript_utils.h
+[69.382s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/pthreads_cross.h
+[69.383s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/string_util.h
+[69.383s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/svd22.h
+[69.392s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/time_util.h
+[69.401s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/timeprofile.h
+[69.401s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/unionfind.h
+[69.402s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/workerpool.h
+[69.406s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/zarray.h
+[69.433s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/zhash.h
+[69.434s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/zmaxheap.h
+[69.435s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tag16h5.h
+[69.436s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tag25h9.h
+[69.442s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tag36h10.h
+[69.443s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tag36h11.h
+[69.443s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagCircle21h7.h
+[69.444s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagCircle49h12.h
+[69.444s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagCustom48h12.h
+[69.444s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagStandard41h12.h
+[69.445s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagStandard52h13.h
+[69.445s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/libapriltag.so.3.4.2
+[69.449s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/libapriltag.so.3
+[69.450s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/libapriltag.so
+[69.450s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[69.450s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[69.450s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[69.451s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+[69.451s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/pkgconfig/apriltag.pc
+[69.452s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages/apriltag.cpython-312-x86_64-linux-gnu.so
+[69.452s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages/apriltag.cpython-312-x86_64-linux-gnu.so" to ""
+[69.452s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/bin/opencv_demo
+[69.452s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/apriltag/bin/opencv_demo" to ""
+[69.453s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/bin/apriltag_demo
+[69.453s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/apriltag/bin/apriltag_demo" to ""
+[69.459s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/apriltag

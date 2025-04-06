@@ -1,0 +1,8 @@
+ros2 launch realsense2_camera rs_launch.pl
+ros2 run apriltag_ros apriltag_node --ros-args -r image_rect:=/camera/camera/color/image_raw -r camera_info:=/camera/camera/color/camera_info --params-file `ros2 pkg prefix apriltag_ros`/share/apriltag_ros/cfg/tags_36h11.yaml
+ros2 run mtracker mtracker_drv
+ros2 run anglecalc angle
+
+// GAZEBO //
+ros2 run apriltag_ros apriltag_node --ros-args -r image_rect:=/kamera/image -r camera_info:=/kamera/camera_info --params-file `ros2 pkg prefix apriltag_ros`/share/apriltag_ros/cfg/tags_36h11.yaml
+ros2 run anglecalc angle

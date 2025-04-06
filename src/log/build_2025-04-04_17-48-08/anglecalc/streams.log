@@ -1,0 +1,22 @@
+[0.113s] Invoking command in '/home/vvoxel/ros2_ws_mgr/src/build/anglecalc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/src/build/anglecalc -- -j8 -l8
+[0.600s] [100%] Built target angle
+[0.696s] Invoked command in '/home/vvoxel/ros2_ws_mgr/src/build/anglecalc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/src/build/anglecalc -- -j8 -l8
+[0.778s] Invoking command in '/home/vvoxel/ros2_ws_mgr/src/build/anglecalc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/src/build/anglecalc
+[3.722s] -- Install configuration: ""
+[3.722s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/lib/anglecalc/angle
+[3.723s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/ament_index/resource_index/package_run_dependencies/anglecalc
+[3.723s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/ament_index/resource_index/parent_prefix_path/anglecalc
+[3.723s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/environment/ament_prefix_path.sh
+[3.723s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/environment/ament_prefix_path.dsv
+[3.724s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/environment/path.sh
+[3.724s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/environment/path.dsv
+[3.724s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/local_setup.bash
+[3.725s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/local_setup.sh
+[3.725s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/local_setup.zsh
+[3.731s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/local_setup.dsv
+[3.733s] -- Installing: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/package.dsv
+[3.735s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/ament_index/resource_index/packages/anglecalc
+[3.742s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/cmake/anglecalcConfig.cmake
+[3.743s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/cmake/anglecalcConfig-version.cmake
+[3.744s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/src/install/anglecalc/share/anglecalc/package.xml
+[3.882s] Invoked command in '/home/vvoxel/ros2_ws_mgr/src/build/anglecalc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/src/build/anglecalc
