@@ -2,6 +2,7 @@ from launch import LaunchDescription
 from launch.actions import ExecuteProcess, TimerAction
 from ament_index_python.packages import get_package_share_directory
 from launch.actions import SetEnvironmentVariable
+from launch_ros.actions import Node
 import os
 
 def generate_launch_description():
@@ -14,15 +15,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-    
-        SetEnvironmentVariable(
-            name='GZ_SIM_RESOURCE_PATH',
-            value=os.environ.get('GZ_SIM_RESOURCE_PATH', '') + ':/home/vvoxel/ros2_ws_mgr/gazebo/Local_Gazebo_Resources'
-        ),
-        SetEnvironmentVariable(
-            name='GAZEBO_MODEL_PATH',
-            value=os.environ.get('GZ_MODEL_PATH', '') + ':/home/vvoxel/ros2_ws_mgr/gazebo/Local_Gazebo_Resources/models'
-        ),
 
         # GAZEBO - symulacja
         ExecuteProcess(
@@ -31,38 +23,49 @@ def generate_launch_description():
         ),
 
         # ROS-GZ Bridges
-        ExecuteProcess(
-            cmd=[
-                'ros2', 'run', 'ros_gz_bridge', 'parameter_bridge',
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            arguments=[
                 '/model/MTracker/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist'
             ],
-            output='screen'
-        ),
-
-        # Apriltag node
-        ExecuteProcess(
-            cmd=[
-                'ros2', 'run', 'apriltag_ros', 'apriltag_node',
-                '--ros-args',
-                '-r', 'image_rect:=/kamera/image',
-                '-r', 'camera_info:=/kamera/camera_info',
-                '--params-file', apriltag_config
-            ],
-            output='screen'
-        ),
-
-        # Dodanie opóźnienia, aby uniknąć crasha bridge’a
-        TimerAction(
-            period=3.0,
-            actions=[
-                ExecuteProcess(
-                    cmd=[
-                        'ros2', 'run', 'ros_gz_bridge', 'parameter_bridge',
-                        '/kamera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo'
-                    ],
-                    output='screen'
-                )
+            remappings=[
+                ('/model/MTracker/cmd_vel', '/cmd_vel')
             ]
+        ),
+        
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            arguments=[
+                '/kamera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo'
+            ],
+            remappings=[
+                ('/kamera/camera_info', '/kamera/camera_info')
+            ]
+        ),
+        
+        Node(
+            package='ros_gz_image',
+            executable='image_bridge',
+            arguments=['/kamera/image']
+        ),
+        
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            arguments=[
+                '/model/MTracker/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V'
+            ],
+            remappings=[
+                ('/model/MTracker/tf', '/tf')
+            ]
+        ),
+
+        # Launch rviz
+        Node(
+            package='rviz2',
+            executable='rviz2'
         )
     ])
 

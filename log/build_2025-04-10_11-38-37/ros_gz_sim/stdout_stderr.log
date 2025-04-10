@@ -1,0 +1,79 @@
+[  0%] Built target ament_cmake_python_copy_ros_gz_sim_setup
+[  0%] Built target ament_cmake_python_copy_ros_gz_sim
+[ 10%] Built target create
+[ 20%] Built target gtest_main
+[ 30%] Built target gtest
+[ 40%] Built target gzserver
+[ 50%] Built target gzserver_component
+running egg_info
+writing ros_gz_sim.egg-info/PKG-INFO
+writing dependency_links to ros_gz_sim.egg-info/dependency_links.txt
+writing entry points to ros_gz_sim.egg-info/entry_points.txt
+writing top-level names to ros_gz_sim.egg-info/top_level.txt
+reading manifest file 'ros_gz_sim.egg-info/SOURCES.txt'
+writing manifest file 'ros_gz_sim.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_ros_gz_sim_egg
+[ 60%] Built target test_remove
+[ 70%] Built target test_create
+[ 80%] Built target ros_gz_sim
+[ 90%] Built target remove
+[100%] Built target test_stopwatch
+-- Install configuration: ""
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/pythonpath.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/pythonpath.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/entry_points.txt
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/top_level.txt
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/__init__.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions/gz_spawn_model.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions/__init__.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions/gzserver.py
+Listing '/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim'...
+Listing '/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions'...
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/include/ros_gz_sim
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/include/ros_gz_sim/Stopwatch.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/gzserver
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_sim.launch.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_server.launch
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_server.launch.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_spawn_model.launch
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_spawn_model.launch.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/ros_gz_sim.launch
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/ros_gz_sim.launch.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/ros_gz_spawn_model.launch.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_remove_model.launch.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/create
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/remove
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/gzserver
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/libgzserver_component.so
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/libros_gz_sim.so
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/test_stopwatch
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/test_create
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/test_remove
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ament_index/resource_index/package_run_dependencies/ros_gz_sim
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ament_index/resource_index/parent_prefix_path/ros_gz_sim
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/path.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/path.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/local_setup.bash
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/local_setup.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/local_setup.zsh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/local_setup.dsv
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/package.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ament_index/resource_index/packages/ros_gz_sim
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ament_index/resource_index/rclcpp_components/ros_gz_sim
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/export_gzserver_componentExport.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/export_gzserver_componentExport-noconfig.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport-noconfig.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig-version.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/package.xml

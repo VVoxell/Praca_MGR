@@ -1,0 +1,147 @@
+[  2%] Built target gtest
+[  4%] Built target gtest_main
+[  4%] Built target ament_cmake_python_copy_ros_gz_bridge
+[  6%] Built target bridge_node
+[  6%] Built target ament_cmake_python_copy_ros_gz_bridge_setup
+[  9%] Built target test_rcl_interfaces
+[ 10%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/utils/ros_test_msg.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/service_factories/ros_gz_interfaces.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/ros_gz_bridge.dir/generated/factories/ros_gz_interfaces.cpp.o[0m
+running egg_info
+writing ros_gz_bridge.egg-info/PKG-INFO
+writing dependency_links to ros_gz_bridge.egg-info/dependency_links.txt
+writing entry points to ros_gz_bridge.egg-info/entry_points.txt
+writing top-level names to ros_gz_bridge.egg-info/top_level.txt
+reading manifest file 'ros_gz_bridge.egg-info/SOURCES.txt'
+writing manifest file 'ros_gz_bridge.egg-info/SOURCES.txt'
+[ 14%] Built target ament_cmake_python_build_ros_gz_bridge_egg
+[ 15%] [32m[1mLinking CXX static library libtest_utils.a[0m
+[ 16%] Built target test_utils
+[ 17%] [32mBuilding CXX object CMakeFiles/test_ros_client.dir/test/serverclient/ros_client.cpp.o[0m
+[ 18%] [32m[1mLinking CXX executable test_gz_server[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/test_ros_publisher.dir/generated/test/ros_publisher.cpp.o[0m
+[ 20%] [32m[1mLinking CXX executable test_gz_publisher[0m
+[ 21%] [32m[1mLinking CXX executable test_gz_subscriber[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/test/subscribers/ros_subscriber.cpp.o[0m
+[ 24%] Built target test_gz_server
+[ 25%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/builtin_interfaces_subscriber.cpp.o[0m
+[ 27%] Built target test_gz_publisher
+[ 28%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/actuator_msgs_subscriber.cpp.o[0m
+[ 30%] Built target test_gz_subscriber
+[ 31%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/geometry_msgs_subscriber.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/gps_msgs_subscriber.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable test_ros_client[0m
+[ 34%] Built target test_ros_client
+[ 35%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/nav_msgs_subscriber.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rcl_interfaces_subscriber.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/ros_gz_interfaces_subscriber.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/rosgraph_msgs_subscriber.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/sensor_msgs_subscriber.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/std_msgs_subscriber.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/tf2_msgs_subscriber.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/trajectory_msgs_subscriber.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/test_ros_subscriber.dir/generated/test/vision_msgs_subscriber.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libros_gz_bridge.so[0m
+[ 46%] [32m[1mLinking CXX executable test_ros_publisher[0m
+[ 47%] Built target test_ros_publisher
+[ 48%] [32m[1mLinking CXX executable test_ros_subscriber[0m
+[ 86%] Built target ros_gz_bridge
+[ 87%] [32m[1mLinking CXX executable ros_gz_bridge_bridge_config[0m
+[ 89%] [32m[1mLinking CXX executable bridge_types[0m
+[ 90%] [32m[1mLinking CXX executable parameter_bridge[0m
+[ 91%] [32m[1mLinking CXX executable static_bridge[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_ros_gz_interfaces.dir/src/convert/ros_gz_interfaces.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/test_ros_gz_interfaces.dir/src/convert/ros_gz_interfaces_TEST.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable test_ros_gz_interfaces[0m
+[ 95%] Built target test_ros_subscriber
+[ 96%] Built target ros_gz_bridge_bridge_config
+[ 97%] Built target bridge_types
+[ 98%] Built target parameter_bridge
+[100%] Built target static_bridge
+[100%] Built target test_ros_gz_interfaces
+-- Install configuration: ""
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/pythonpath.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/pythonpath.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/entry_points.txt
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/top_level.txt
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge-1.0.11-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/__init__.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions/__init__.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions/ros_gz_bridge.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/mappings.py
+Listing '/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge'...
+Listing '/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/python3.12/site-packages/ros_gz_bridge/actions'...
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_node
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/libros_gz_bridge.so
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/libros_gz_bridge.so" to ""
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/ros_gz_bridge.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert_decl.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/trajectory_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/rosgraph_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/gps_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/vision_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/ros_gz_interfaces.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/rcl_interfaces.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/actuator_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/nav_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/std_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/sensor_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/tf2_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/builtin_interfaces.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert/geometry_msgs.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/convert.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/include/ros_gz_bridge/ros_gz_bridge/bridge_config.hpp
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/launch
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/launch/ros_gz_bridge.launch.py
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/launch/ros_gz_bridge.launch
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/parameter_bridge
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/parameter_bridge" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/static_bridge
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/static_bridge" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_types
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/bridge_types" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_publisher
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_publisher" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_subscriber
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_subscriber" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_publisher
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_publisher" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_subscriber
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_subscriber" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_server
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_gz_server" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_client
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/lib/ros_gz_bridge/test_ros_client" to ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/library_path.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ament_index/resource_index/package_run_dependencies/ros_gz_bridge
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ament_index/resource_index/parent_prefix_path/ros_gz_bridge
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/environment/path.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.bash
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.zsh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/local_setup.dsv
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/package.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ament_index/resource_index/packages/ros_gz_bridge
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ament_index/resource_index/rclcpp_components/ros_gz_bridge
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/export_ros_gz_bridgeExport.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/export_ros_gz_bridgeExport-noconfig.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig-version.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge/share/ros_gz_bridge/package.xml
