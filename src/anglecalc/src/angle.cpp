@@ -52,9 +52,8 @@ private:
         // Przeszukiwanie wszystkich transformacji w wiadomości
         for (const auto& transform : msg->transforms) {
             // Sprawdzanie, czy transformacja jest między "camera_color_optical_frame" a "map"
-            
-            if (transform.header.frame_id == "camera_color_optical_frame" &&
-                transform.child_frame_id == "map") {
+            //transform.header.frame_id == "camera_color_optical_frame" &&
+            if (transform.child_frame_id == "map4") {
                 
                 znaleziono = true;
                 
@@ -114,9 +113,9 @@ private:
                 RCLCPP_INFO(this->get_logger(), "Opublikowano Twist - Linear X: %.2f, Angular Z: %.2f", twist_msg.linear.x, twist_msg.angular.z);
                 RCLCPP_INFO(this->get_logger(), "ODystans: %.2f", distance); 
             }
-            else if(delta.seconds() < 15.0 && znaleziono == false){
-            	twist_msg.angular.z = 0.5;
-            	twist_msg.linear.x = 0.15;
+            else if(delta.seconds() < 60.0 && znaleziono == false){
+            	twist_msg.angular.z = 0.25;
+            	twist_msg.linear.x = 0.35;
             	RCLCPP_INFO(this->get_logger(), "Nie widzę taga od: %.2f sekund", delta.seconds()); 
             }
             else if(delta.seconds() > 15.0 && znaleziono == false){

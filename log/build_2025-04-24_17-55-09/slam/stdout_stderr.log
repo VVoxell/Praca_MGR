@@ -1,0 +1,116 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/slam_node.cpp.o[0m
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:[m[K In member function ‘[01m[Kvoid SlamNode::[01;32m[KtagCallback[m[K(apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:77:51:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K((const std::__shared_ptr_access<apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& msg))->std::__shared_ptr_access<apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->apriltag_msgs::msg::AprilTagDetectionArray_<std::allocator<void> >::detections.std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > >::operator[](((std::vector<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >, std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > > >::size_type)i)).apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >::id[m[K’, which is of non-class type ‘[01m[Kapriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >::_id_type[m[K’ {aka ‘[01m[Kint[m[K’}
+   77 |         for (int j = 0; j < msg->detections[i].id.[01;31m[Ksize[m[K(); j++) {
+      |                                                   [01;31m[K^~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:78:49:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kapriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >::_id_type {aka int}[int][m[K’ for array subscript
+   78 |           int new_tag_id = msg->detections[i].id[01;31m[K[[m[Kj];
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:81:64:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >, apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   81 |           tf2::Vector3 point = tf2::Vector3(msg->detections[i].[01;31m[Kpose[m[K.pose.pose.position.x,
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:82:64:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >, apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   82 |                                             msg->detections[i].[01;31m[Kpose[m[K.pose.pose.position.y,
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:83:64:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >, apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct apriltag_msgs::msg::AprilTagDetection_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   83 |                                             msg->detections[i].[01;31m[Kpose[m[K.pose.pose.position.z);
+      |                                                                [01;31m[K^~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:86:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ktags_[m[K’ was not declared in this scope
+   86 |           if ([01;31m[Ktags_[m[K.count(new_tag_id) == 0) {
+      |               [01;31m[K^~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:89:71:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   89 |               geometry_msgs::msg::TransformStamped transformStamped = [01;31m[Ktf_buffer_[m[K->lookupTransform(
+      |                                                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:90:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Duration::Duration(double)[m[K’
+   90 |                 "odom", "fisheye_rect", rclcpp::Time(0), rclcpp::Duration(3.0[01;31m[K)[m[K);
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:49:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Rep, class Period> rclcpp::Duration::[01;32m[KDuration[m[K(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+   49 |   [01;36m[KDuration[m[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:49:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:90:78:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+   90 |                 "odom", "fisheye_rect", rclcpp::Time(0), rclcpp::Duration(3.0[01;36m[K)[m[K);
+      |                                                                              [01;36m[K^[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::[01;32m[KDuration[m[K()[m[K’
+  159 |   [01;36m[KDuration[m[K() = default;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:159:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:62:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::[01;32m[KDuration[m[K(const rclcpp::Duration&)[m[K’
+   62 |   [01;36m[KDuration[m[K(const Duration & rhs);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:62:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+   62 |   Duration([01;36m[Kconst Duration & rhs[m[K);
+      |            [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:60:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::[01;32m[KDuration[m[K(const rcl_duration_t&)[m[K’
+   60 |   explicit [01;36m[KDuration[m[K(const rcl_duration_t & duration);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:60:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst rcl_duration_t&[m[K’ {aka ‘[01m[Kconst rcl_duration_s&[m[K’}
+   60 |   explicit Duration([01;36m[Kconst rcl_duration_t & duration[m[K);
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:54:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::[01;32m[KDuration[m[K(const builtin_interfaces::msg::Duration&)[m[K’
+   54 |   [01;36m[KDuration[m[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:54:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst builtin_interfaces::msg::Duration&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&[m[K’}
+   54 |   Duration([01;36m[Kconst builtin_interfaces::msg::Duration & duration_msg[m[K);  // NOLINT(runtime/explicit)
+      |            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:43:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::[01;32m[KDuration[m[K(std::chrono::nanoseconds)[m[K’
+   43 |   explicit [01;36m[KDuration[m[K(std::chrono::nanoseconds nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:43:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kstd::chrono::nanoseconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’}
+   43 |   explicit Duration([01;36m[Kstd::chrono::nanoseconds nanoseconds[m[K);
+      |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:40:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::[01;32m[KDuration[m[K(int32_t, uint32_t)[m[K’
+   40 |   [01;36m[KDuration[m[K(int32_t seconds, uint32_t nanoseconds);
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/duration.hpp:40:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:99:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTransform[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Transform[m[K’?
+   99 |               tf2::[01;31m[KTransform[m[K transf_camera2odom(R, t);
+      |                    [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+                 from [01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:138:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Transform[m[K’ declared here
+  138 | using [01;36m[KTransform[m[K =
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:102:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransf_camera2odom[m[K’ was not declared in this scope
+  102 |               tf2::Vector3 pointw = [01;31m[Ktransf_camera2odom[m[K * point;
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:109:50:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  109 |             catch (const tf2::TransformException [01;31m[K&[m[Kex) {
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:109:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:109:19:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  109 |             catch [01;36m[K([m[Kconst tf2::TransformException &ex) {
+      |                   [01;36m[K^[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:109:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+  109 |             catch (const tf2::TransformException [01;31m[K&[m[Kex) {
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:109:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kex[m[K’ was not declared in this scope; did you mean ‘[01m[Kexp[m[K’?
+  109 |             catch (const tf2::TransformException &[01;31m[Kex[m[K) {
+      |                                                   [01;31m[K^~[m[K
+      |                                                   [32m[Kexp[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:123:16:[m[K [01;31m[Kerror: [m[K‘[01m[KTransform[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Transform[m[K’?
+  123 |           tf2::[01;31m[KTransform[m[K transf_current2old(quat, vec);
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:138:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Transform[m[K’ declared here
+  138 | using [01;36m[KTransform[m[K =
+      |       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/slam/src/src/slam_node.cpp:125:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransf_current2old[m[K’ was not declared in this scope
+  125 |           tf2::Vector3 pointr = [01;31m[Ktransf_current2old[m[K * point;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/slam_node.dir/build.make:76: CMakeFiles/slam_node.dir/src/slam_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/slam_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

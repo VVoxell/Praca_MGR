@@ -73,7 +73,7 @@
     
     
 <model name='MTracker' canonical_link='chassis'>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>0 0 0 0 0 3.14</pose>
       <link name='chassis'>
         <pose>0 0 0.2 0 0 0</pose>
         <inertial>
@@ -121,7 +121,7 @@
       </link>
       
       <link name = 'camera'>
-      <pose relative_to = 'chassis' >0.025 0 0.04 0 -0.2 0</pose>
+      <pose relative_to = 'chassis' >0.025 0 0.06 0 -0.2 0</pose>
         <inertial>
           <mass>0.1</mass>
           <inertia>
@@ -146,10 +146,10 @@
         </visual>
         <sensor name="rgbd_camera" type="rgbd_camera">
           <camera>
-            <horizontal_fov>1.047</horizontal_fov>
+            <horizontal_fov>1.20428</horizontal_fov>
             <image>
-              <width>320</width>
-              <height>240</height>
+              <width>1280</width>
+              <height>720</height>
             </image>
             <clip>
               <near>0.1</near>
@@ -415,10 +415,10 @@
         <min_linear_acceleration>-1</min_linear_acceleration>
         <max_angular_acceleration>2</max_angular_acceleration>
         <min_angular_acceleration>-2</min_angular_acceleration>
-        <max_linear_velocity>2</max_linear_velocity>
-        <min_linear_velocity>2</min_linear_velocity>
-        <max_angular_velocity>1</max_angular_velocity>
-        <min_angular_velocity>-1</min_angular_velocity>
+        <max_linear_velocity>5</max_linear_velocity>
+        <min_linear_velocity>-5</min_linear_velocity>
+        <max_angular_velocity>5</max_angular_velocity>
+        <min_angular_velocity>-5</min_angular_velocity>
      </plugin>
       <static>false</static>
       <self_collide>false</self_collide>
@@ -427,7 +427,13 @@
     <include>
       <uri>file:///home/vvoxel/Local_Gazebo_Resources/models/Apriltag36_11_00003</uri>
       <name>tag36_11_00003</name>
-      <pose>-0.8 -0.2 0.5 3.1415900000058401 1.5415899677749065 0</pose>
+      <pose>-1 0 0.25 3.14 1.54 0</pose>
+    </include>
+    
+    <include>
+      <uri>file:///home/vvoxel/Local_Gazebo_Resources/models/Apriltag36_11_00004</uri>
+      <name>tag36_11_00004</name>
+      <pose>0 1 0.25 0 1.54 1.54</pose>
     </include>
     
     <light name='sun' type='directional'>

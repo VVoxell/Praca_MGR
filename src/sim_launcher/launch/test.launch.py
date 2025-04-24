@@ -61,6 +61,17 @@ def generate_launch_description():
                 ('/model/MTracker/tf', '/tf')
             ]
         ),
+        
+        Node(
+            package='ros_gz_bridge',
+            executable='parameter_bridge',
+            arguments=[
+                '/model/MTracker/odometry@nav_msgs/msg/Odometry@gz.msgs.Odometry'
+            ],
+            remappings=[
+                ('/model/MTracker/odometry', '/odom')
+            ]
+        ),
 
         # Launch rviz
         Node(

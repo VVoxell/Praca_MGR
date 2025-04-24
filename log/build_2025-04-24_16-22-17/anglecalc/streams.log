@@ -1,0 +1,49 @@
+[0.081s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/anglecalc': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/anglecalc -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/install/anglecalc
+[0.131s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.105s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.149s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.377s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.446s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.909s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.916s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.153s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.398s] -- Found tf2_msgs: 0.36.9 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[2.687s] -- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)
+[2.696s] -- Found geometry2: 0.36.9 (/opt/ros/jazzy/share/geometry2/cmake)
+[2.697s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.018s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.019s] -- Configured cppcheck include dirs: 
+[3.019s] -- Configured cppcheck exclude dirs and/or files: 
+[3.021s] -- Added test 'lint_cmake' to check CMake code style
+[3.023s] -- Added test 'uncrustify' to check C / C++ code style
+[3.024s] -- Configured uncrustify additional arguments: 
+[3.024s] -- Added test 'xmllint' to check XML markup files
+[3.028s] -- Configuring done (2.9s)
+[3.062s] -- Generating done (0.0s)
+[3.071s] -- Build files have been written to: /home/vvoxel/ros2_ws_mgr/build/anglecalc
+[3.108s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/anglecalc' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vvoxel/ros2_ws_mgr/src/anglecalc -DCMAKE_INSTALL_PREFIX=/home/vvoxel/ros2_ws_mgr/install/anglecalc
+[3.180s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/anglecalc': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/anglecalc -- -j8 -l8
+[3.300s] [100%] Built target angle
+[3.998s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/anglecalc' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/anglecalc -- -j8 -l8
+[4.001s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/anglecalc': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/anglecalc
+[4.021s] -- Install configuration: ""
+[4.023s] -- Execute custom install script
+[4.024s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/lib/anglecalc/angle
+[4.024s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/ament_index/resource_index/package_run_dependencies/anglecalc
+[4.025s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/ament_index/resource_index/parent_prefix_path/anglecalc
+[4.026s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/environment/ament_prefix_path.sh
+[4.027s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/environment/ament_prefix_path.dsv
+[4.027s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/environment/path.sh
+[4.028s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/environment/path.dsv
+[4.029s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/local_setup.bash
+[4.029s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/local_setup.sh
+[4.030s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/local_setup.zsh
+[4.031s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/local_setup.dsv
+[4.031s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/package.dsv
+[4.059s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/ament_index/resource_index/packages/anglecalc
+[4.059s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/cmake/anglecalcConfig.cmake
+[4.060s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/cmake/anglecalcConfig-version.cmake
+[4.060s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/anglecalc/share/anglecalc/package.xml
+[4.066s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/anglecalc' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/anglecalc

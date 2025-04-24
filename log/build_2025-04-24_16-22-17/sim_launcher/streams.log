@@ -1,0 +1,34 @@
+[2.728s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/sim_launcher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vvoxel/ros2_ws_mgr/build/sim_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build
+[3.900s] running develop
+[4.513s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[4.513s]   self.local_index = Environment(self.shadow_path + sys.path)
+[4.646s] Removing /home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages/sim-launcher.egg-link (link to .)
+[4.735s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/sim_launcher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vvoxel/ros2_ws_mgr/build/sim_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build
+[4.740s] Invoking command in '/home/vvoxel/ros2_ws_mgr/src/sim_launcher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vvoxel/ros2_ws_mgr/build/sim_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_launcher build --build-base /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build install --record /home/vvoxel/ros2_ws_mgr/build/sim_launcher/install.log --single-version-externally-managed install_data --force
+[5.530s] running egg_info
+[5.583s] writing ../../build/sim_launcher/sim_launcher.egg-info/PKG-INFO
+[5.583s] writing dependency_links to ../../build/sim_launcher/sim_launcher.egg-info/dependency_links.txt
+[5.584s] writing requirements to ../../build/sim_launcher/sim_launcher.egg-info/requires.txt
+[5.584s] writing top-level names to ../../build/sim_launcher/sim_launcher.egg-info/top_level.txt
+[5.748s] reading manifest file '../../build/sim_launcher/sim_launcher.egg-info/SOURCES.txt'
+[5.750s] writing manifest file '../../build/sim_launcher/sim_launcher.egg-info/SOURCES.txt'
+[5.750s] running build
+[5.750s] running build_py
+[5.751s] creating /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build
+[5.751s] creating /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build/lib
+[5.751s] creating /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build/lib/sim_launcher
+[5.751s] copying sim_launcher/__init__.py -> /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build/lib/sim_launcher
+[5.752s] running install
+[5.767s] running install_lib
+[5.815s] creating /home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages/sim_launcher
+[5.815s] copying /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build/lib/sim_launcher/__init__.py -> /home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages/sim_launcher
+[5.816s] byte-compiling /home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages/sim_launcher/__init__.py to __init__.cpython-312.pyc
+[5.816s] running install_data
+[5.816s] copying resource/sim_launcher -> /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/ament_index/resource_index/packages
+[5.817s] copying package.xml -> /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/sim_launcher
+[5.817s] copying launch/test.launch.py -> /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/sim_launcher/launch
+[5.817s] running install_egg_info
+[5.871s] Copying ../../build/sim_launcher/sim_launcher.egg-info to /home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages/sim_launcher-0.0.0-py3.12.egg-info
+[5.872s] running install_scripts
+[6.203s] writing list of installed files to '/home/vvoxel/ros2_ws_mgr/build/sim_launcher/install.log'
+[6.297s] Invoked command in '/home/vvoxel/ros2_ws_mgr/src/sim_launcher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vvoxel/ros2_ws_mgr/build/sim_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_launcher build --build-base /home/vvoxel/ros2_ws_mgr/build/sim_launcher/build install --record /home/vvoxel/ros2_ws_mgr/build/sim_launcher/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating sim_launcher.egg-info
+writing sim_launcher.egg-info/PKG-INFO
+writing dependency_links to sim_launcher.egg-info/dependency_links.txt
+writing requirements to sim_launcher.egg-info/requires.txt
+writing top-level names to sim_launcher.egg-info/top_level.txt
+writing manifest file 'sim_launcher.egg-info/SOURCES.txt'
+reading manifest file 'sim_launcher.egg-info/SOURCES.txt'
+writing manifest file 'sim_launcher.egg-info/SOURCES.txt'
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running build_ext
+Creating /home/vvoxel/ros2_ws_mgr/install/sim_launcher/lib/python3.12/site-packages/sim-launcher.egg-link (link to .)
+
+Installed /home/vvoxel/ros2_ws_mgr/build/sim_launcher
+running symlink_data
+creating /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/ament_index
+creating /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/ament_index/resource_index
+creating /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/ament_index/resource_index/packages
+symbolically linking /home/vvoxel/ros2_ws_mgr/build/sim_launcher/resource/sim_launcher -> /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/ament_index/resource_index/packages
+symbolically linking /home/vvoxel/ros2_ws_mgr/build/sim_launcher/package.xml -> /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/sim_launcher
+creating /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/sim_launcher/launch
+symbolically linking /home/vvoxel/ros2_ws_mgr/build/sim_launcher/launch/test.launch.py -> /home/vvoxel/ros2_ws_mgr/install/sim_launcher/share/sim_launcher/launch
