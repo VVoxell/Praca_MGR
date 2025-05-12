@@ -1,0 +1,129 @@
+[0.101s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/mtracker': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/mtracker -- -j8 -l8
+[2.215s] [  2%] Built target mtracker__rosidl_generator_type_description
+[2.215s] [  7%] Built target controller
+[2.215s] [  7%] Built target ament_cmake_python_symlink_mtracker
+[2.215s] [ 12%] Built target mtracker_joy
+[2.216s] [ 14%] Built target mtracker__cpp
+[2.216s] [ 26%] Built target mtracker__rosidl_generator_c
+[2.216s] [ 34%] Built target mtracker__rosidl_typesupport_c
+[2.216s] [ 41%] Built target mtracker__rosidl_typesupport_cpp
+[2.216s] [ 48%] Built target mtracker__rosidl_typesupport_fastrtps_c
+[2.216s] [ 56%] Built target mtracker__rosidl_typesupport_introspection_c
+[2.217s] [ 63%] Built target mtracker__rosidl_typesupport_fastrtps_cpp
+[2.217s] [ 70%] Built target mtracker__rosidl_typesupport_introspection_cpp
+[2.217s] [ 70%] Built target mtracker
+[2.217s] [ 78%] Built target mtracker_drv
+[2.217s] [ 80%] Built target mtracker__py
+[2.217s] [ 85%] Built target mtracker__rosidl_generator_py
+[2.218s] [ 90%] Built target mtracker_s__rosidl_typesupport_c
+[2.218s] [ 95%] Built target mtracker_s__rosidl_typesupport_introspection_c
+[2.218s] [100%] Built target mtracker_s__rosidl_typesupport_fastrtps_c
+[2.218s] running egg_info
+[2.247s] writing mtracker.egg-info/PKG-INFO
+[2.248s] writing dependency_links to mtracker.egg-info/dependency_links.txt
+[2.250s] writing top-level names to mtracker.egg-info/top_level.txt
+[2.717s] reading manifest file 'mtracker.egg-info/SOURCES.txt'
+[2.725s] writing manifest file 'mtracker.egg-info/SOURCES.txt'
+[2.754s] [100%] Built target ament_cmake_python_build_mtracker_egg
+[3.102s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/mtracker' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/mtracker -- -j8 -l8
+[3.103s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/mtracker': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/mtracker
+[3.223s] -- Install configuration: ""
+[3.223s] -- Execute custom install script
+[3.231s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker//launch/mtracker_master.launch.py
+[3.231s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker//launch/mtracker_remote.launch
+[3.232s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/ament_index/resource_index/rosidl_interfaces/mtracker
+[3.232s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/srv/Trigger.json
+[3.232s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/msg/rosidl_generator_c__visibility_control.h
+[3.232s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__functions.h
+[3.232s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__struct.h
+[3.232s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__type_support.h
+[3.233s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/trigger.h
+[3.233s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/environment/library_path.sh
+[3.233s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/environment/library_path.dsv
+[3.233s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.233s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[3.233s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.233s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__builder.hpp
+[3.234s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__struct.hpp
+[3.234s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__traits.hpp
+[3.234s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__type_support.hpp
+[3.234s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/trigger.hpp
+[3.235s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.235s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[3.235s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.236s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[3.236s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/include/mtracker/mtracker/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[3.244s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/environment/pythonpath.sh
+[3.245s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/environment/pythonpath.dsv
+[3.245s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker-0.0.0-py3.12.egg-info/PKG-INFO
+[3.245s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.246s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.246s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker-0.0.0-py3.12.egg-info/top_level.txt
+[3.246s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/__init__.py
+[3.246s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/_mtracker_s.ep.rosidl_typesupport_c.c
+[3.246s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/_mtracker_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.247s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/_mtracker_s.ep.rosidl_typesupport_introspection_c.c
+[3.247s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/mtracker_s__rosidl_typesupport_c.so
+[3.247s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/mtracker_s__rosidl_typesupport_fastrtps_c.so
+[3.247s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/mtracker_s__rosidl_typesupport_introspection_c.so
+[3.247s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/srv/__init__.py
+[3.248s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/srv/_trigger.py
+[3.248s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/srv/_trigger_s.c
+[3.248s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/mtracker_s__rosidl_typesupport_fastrtps_c.so
+[3.248s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/mtracker_s__rosidl_typesupport_introspection_c.so
+[3.249s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/mtracker_s__rosidl_typesupport_c.so
+[3.249s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/srv/Trigger.idl
+[3.249s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/srv/Trigger.srv
+[3.249s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/mtracker/mtracker_drv
+[3.249s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/mtracker/controller
+[3.250s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/mtracker/mtracker_joy
+[3.250s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/ament_index/resource_index/package_run_dependencies/mtracker
+[3.250s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/ament_index/resource_index/parent_prefix_path/mtracker
+[3.250s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/environment/ament_prefix_path.sh
+[3.250s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/environment/ament_prefix_path.dsv
+[3.250s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/environment/path.sh
+[3.252s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/environment/path.dsv
+[3.252s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/local_setup.bash
+[3.252s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/local_setup.sh
+[3.252s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/local_setup.zsh
+[3.253s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/local_setup.dsv
+[3.253s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/package.dsv
+[3.272s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/ament_index/resource_index/packages/mtracker
+[3.272s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/rosidl_cmake-extras.cmake
+[3.272s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.273s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.273s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/ament_cmake_export_libraries-extras.cmake
+[3.274s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/ament_cmake_export_targets-extras.cmake
+[3.274s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.274s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.279s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtrackerConfig.cmake
+[3.279s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtrackerConfig-version.cmake
+[3.280s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/package.xml
+[3.283s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/libmtracker__rosidl_generator_c.so
+[3.288s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/libmtracker__rosidl_typesupport_fastrtps_c.so
+[3.289s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/libmtracker__rosidl_typesupport_fastrtps_cpp.so
+[3.289s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/libmtracker__rosidl_typesupport_introspection_c.so
+[3.299s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/libmtracker__rosidl_typesupport_c.so
+[3.301s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/libmtracker__rosidl_typesupport_introspection_cpp.so
+[3.316s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/libmtracker__rosidl_typesupport_cpp.so
+[3.378s] Listing '/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker'...
+[3.378s] Listing '/home/vvoxel/ros2_ws_mgr/install/mtracker/lib/python3.12/site-packages/mtracker/srv'...
+[3.379s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/lib/libmtracker__rosidl_generator_py.so
+[3.379s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_generator_cExport.cmake
+[3.380s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_generator_cExport-noconfig.cmake
+[3.380s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_typesupport_fastrtps_cExport.cmake
+[3.381s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.381s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_generator_cppExport.cmake
+[3.381s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.381s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.381s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtracker__rosidl_typesupport_introspection_cExport.cmake
+[3.381s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtracker__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.382s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtracker__rosidl_typesupport_cExport.cmake
+[3.383s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtracker__rosidl_typesupport_cExport-noconfig.cmake
+[3.384s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtracker__rosidl_typesupport_introspection_cppExport.cmake
+[3.385s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtracker__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.385s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtracker__rosidl_typesupport_cppExport.cmake
+[3.386s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/mtracker__rosidl_typesupport_cppExport-noconfig.cmake
+[3.386s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_generator_pyExport.cmake
+[3.387s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/mtracker/share/mtracker/cmake/export_mtracker__rosidl_generator_pyExport-noconfig.cmake
+[3.461s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/mtracker' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/mtracker

@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[01m[K/home/vvoxel/ros2_ws_mgr/src/g2o_driver/src/driver.cpp:[m[K In constructor ‘[01m[KBasicDriver::[01;32m[KBasicDriver[m[K()[m[K’:
+[01m[K/home/vvoxel/ros2_ws_mgr/src/g2o_driver/src/driver.cpp:20:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kreal_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   20 |         float [01;35m[Kreal_dist[m[K, graph_dist;
+      |               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/g2o_driver/src/driver.cpp:20:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgraph_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   20 |         float real_dist, [01;35m[Kgraph_dist[m[K;
+      |                          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/g2o_driver/src/driver.cpp:[m[K In member function ‘[01m[Kvoid BasicDriver::[01;32m[KprintTagComparison[m[K(int, int)[m[K’:
+[01m[K/home/vvoxel/ros2_ws_mgr/src/g2o_driver/src/driver.cpp:58:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kgraph_dist[m[K’ was not declared in this scope
+   58 |             [01;31m[Kgraph_dist[m[K = computeDistance(g1, g2);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/g2o_driver/src/driver.cpp:70:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kreal_dist[m[K’ was not declared in this scope
+   70 |             [01;31m[Kreal_dist[m[K = computeDistance(r1, r2);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/g2o_driver/src/driver.cpp:79:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreal_dist[m[K’ was not declared in this scope
+   79 |           float k = [01;31m[Kreal_dist[m[K / graph_dist;
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/g2o_driver/src/driver.cpp:79:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kgraph_dist[m[K’ was not declared in this scope
+   79 |           float k = real_dist / [01;31m[Kgraph_dist[m[K;
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

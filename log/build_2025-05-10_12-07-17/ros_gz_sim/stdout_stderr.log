@@ -1,0 +1,20 @@
+[  0%] Built target ament_cmake_python_symlink_ros_gz_sim
+[  0%] Built target ament_cmake_python_symlink_ros_gz_sim_setup
+[ 10%] Built target remove
+[ 20%] Built target create
+[ 30%] Built target gtest_main
+[ 40%] Built target ros_gz_sim
+[ 50%] Built target gzserver_component
+[ 60%] Built target gzserver
+[ 70%] Built target gtest
+[ 80%] Built target test_create
+[ 90%] Built target test_remove
+[100%] Built target test_stopwatch
+running egg_info
+writing ros_gz_sim.egg-info/PKG-INFO
+writing dependency_links to ros_gz_sim.egg-info/dependency_links.txt
+writing entry points to ros_gz_sim.egg-info/entry_points.txt
+writing top-level names to ros_gz_sim.egg-info/top_level.txt
+reading manifest file 'ros_gz_sim.egg-info/SOURCES.txt'
+writing manifest file 'ros_gz_sim.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ros_gz_sim_egg

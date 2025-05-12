@@ -4,5 +4,7 @@ ros2 run mtracker mtracker_drv
 ros2 run anglecalc angle
 
 // GAZEBO //
-ros2 run apriltag_ros apriltag_node --ros-args -r image_rect:=/kamera/image -r camera_info:=/kamera/camera_info --params-file `ros2 pkg prefix apriltag_ros`/share/apriltag_ros/cfg/tags_36h11.yaml
-ros2 run anglecalc angle
+ros2 launch sim_launcher test.launch.py 
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0 ,y: 0.0, z: 0.0}, angular: {x: 0.0,  y: 0.0, z: -0.5}}"
+ros2 run tf2_ros static_transform_publisher 0.025 0 0.06 0 -0.2 0 MTracker/chassis MTracker/camera/rgbd_camera
+ros2 run slam slam_node 

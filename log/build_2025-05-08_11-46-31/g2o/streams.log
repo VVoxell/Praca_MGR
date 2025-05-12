@@ -1,0 +1,437 @@
+[0.295s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/g2o': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/g2o -- -j8 -l8
+[0.749s] [  1%] Built target freeglut_minimal
+[0.877s] [  2%] Built target parser_library
+[1.055s] [  3%] Built target opengl_helper
+[1.225s] [  4%] Built target interface_library
+[1.378s] [  7%] Built target stuff
+[1.590s] [ 15%] Built target core
+[1.716s] [ 15%] Built target logging_application
+[1.942s] [ 15%] Built target solver_eigen
+[2.136s] [ 16%] Built target solver_structure_only
+[2.345s] [ 17%] Built target solver_cholmod
+[2.564s] [ 18%] Built target polynomial_fit
+[2.722s] [ 18%] Built target static_dynamic_function_fit
+[2.921s] [ 18%] Built target bal_example
+[3.086s] [ 19%] Built target static_target
+[3.303s] [ 22%] Built target tutorial_slam2d_library
+[3.494s] [ 25%] Built target g2o_hierarchical_library
+[3.682s] [ 26%] Built target tutorial_slam2d
+[3.850s] [ 27%] Built target solver_dense
+[3.994s] [ 28%] Built target solver_pcg
+[4.126s] [ 29%] Built target curve_fit
+[4.331s] [ 29%] Built target constant_velocity_target
+[4.532s] [ 30%] Built target circle_fit
+[4.780s] [ 35%] Built target types_slam2d
+[5.044s] [ 41%] Built target types_slam3d
+[5.328s] [ 43%] Built target slam2d_g2o
+[5.528s] [ 47%] Built target types_slam3d_addons
+[5.795s] [ 54%] Built target types_sba
+[6.013s] [ 55%] Built target create_sphere
+[6.158s] [ 56%] Built target g2o_anonymize_observations_application
+[6.345s] [ 57%] Built target g2o_interactive_library
+[6.501s] [ 57%] Built target simple_optimize
+[6.656s] [ 57%] Built target types_icp
+[6.816s] [ 58%] Built target types_sim3
+[6.963s] [ 59%] Built target ba_demo
+[7.132s] [ 59%] Built target ba_anchored_inverse_depth_demo
+[7.277s] [ 60%] Built target convert_sba_slam3d
+[7.449s] [ 61%] Built target gicp_demo
+[7.583s] [ 62%] Built target gicp_sba_demo
+[7.757s] [ 63%] Built target sba_demo
+[7.903s] [ 64%] Built target simulator_3d_line
+[8.222s] [ 65%] Built target simulator_3d_plane
+[8.561s] [ 66%] Built target optimize_sphere_by_sim3
+[8.757s] [ 67%] Built target g2o_online_application
+[8.776s] [ 68%] Built target g2o_incremental_library
+[8.992s] [ 69%] Built target solver_slam2d_linear
+[9.142s] [ 69%] Built target g2o_incremental_application
+[9.148s] [ 71%] Built target types_sclam2d
+[9.223s] [ 74%] Built target types_data
+[9.433s] [ 78%] Built target types_slam2d_addons
+[9.603s] [ 80%] Built target calibration_odom_laser_library
+[9.784s] [ 81%] Built target convertSegmentLine_application
+[9.928s] [ 81%] Built target sclam_laser_calib
+[10.077s] [ 82%] Built target sclam_pure_calibration
+[10.229s] [ 83%] Built target sclam_odom_laser
+[10.479s] [ 90%] Built target g2o_simulator_library
+[10.634s] [ 92%] Built target g2o_cli_library
+[10.848s] [ 92%] Built target g2o_simulator3d_application
+[11.042s] [ 92%] Built target g2o_hierarchical_application
+[11.220s] [ 97%] Built target viewer_library
+[11.350s] [ 97%] Built target g2o_cli_application
+[11.502s] [ 97%] Built target g2o_viewer
+[11.644s] [ 98%] Built target g2o_simulator2d_application
+[11.812s] [ 99%] Built target csparse_extension
+[11.966s] [100%] Built target solver_csparse
+[12.047s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/g2o' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/g2o -- -j8 -l8
+[12.056s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/g2o': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/g2o
+[12.122s] -- Install configuration: "Release"
+[12.125s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/config.h
+[12.126s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/cmake/g2o/g2oConfig.cmake
+[12.127s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/cmake/g2o/g2oConfigVersion.cmake
+[12.127s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/cmake/g2o/g2oTargets.cmake
+[12.127s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/cmake/g2o/g2oTargets-release.cmake
+[12.128s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_ext_freeglut_minimal.so.0.2.0
+[12.128s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_ext_freeglut_minimal.so.0.2
+[12.129s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_ext_freeglut_minimal.so
+[12.130s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+[12.132s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/array_selector.h
+[12.133s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/autodiff.h
+[12.133s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/disable_warnings.h
+[12.133s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/eigen.h
+[12.134s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/fixed_array.h
+[12.134s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/integer_sequence_algorithm.h
+[12.134s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/jet.h
+[12.135s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/memory.h
+[12.135s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/parameter_dims.h
+[12.135s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/reenable_warnings.h
+[12.135s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/types.h
+[12.136s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/variadic_evaluate.h
+[12.136s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/autodiff/LICENSE
+[12.137s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_stuff.so.0.2.0
+[12.137s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_stuff.so.0.2
+[12.137s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_stuff.so
+[12.137s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_opengl_helper.so.0.2.0
+[12.137s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_opengl_helper.so.0.2
+[12.138s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_opengl_helper.so
+[12.138s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/color_macros.h
+[12.138s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/command_args.h
+[12.138s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/filesys_tools.h
+[12.139s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/g2o_stuff_api.h
+[12.139s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/logger.h
+[12.139s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/logger_format.h
+[12.140s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/macros.h
+[12.140s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/misc.h
+[12.140s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/opengl_primitives.h
+[12.141s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/opengl_wrapper.h
+[12.141s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/property.h
+[12.141s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/sampler.h
+[12.142s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/sparse_helper.h
+[12.142s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/string_tools.h
+[12.142s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/tictoc.h
+[12.142s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/timeutil.h
+[12.143s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/tuple_tools.h
+[12.143s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/stuff/unscented.h
+[12.143s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_core.so.0.2.0
+[12.143s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_core.so.0.2
+[12.144s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_core.so
+[12.144s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/auto_differentiation.h
+[12.145s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_binary_edge.h
+[12.145s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_dynamic_vertex.h
+[12.145s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_edge.h
+[12.146s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_fixed_sized_edge.h
+[12.146s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_fixed_sized_edge.hpp
+[12.147s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_multi_edge.h
+[12.148s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_unary_edge.h
+[12.148s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_variable_sized_edge.h
+[12.149s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_variable_sized_edge.hpp
+[12.149s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_vertex.h
+[12.150s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/base_vertex.hpp
+[12.150s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/batch_stats.h
+[12.151s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/block_solver.h
+[12.152s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/block_solver.hpp
+[12.154s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/cache.h
+[12.155s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/creators.h
+[12.156s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/dynamic_aligned_buffer.hpp
+[12.157s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/eigen_types.h
+[12.158s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/estimate_propagator.h
+[12.158s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/factory.h
+[12.159s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/g2o_core_api.h
+[12.159s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/hyper_dijkstra.h
+[12.159s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/hyper_graph.h
+[12.160s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/hyper_graph_action.h
+[12.160s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/io_helper.h
+[12.161s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/jacobian_workspace.h
+[12.162s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/linear_solver.h
+[12.163s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/marginal_covariance_cholesky.h
+[12.165s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/matrix_operations.h
+[12.166s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/matrix_structure.h
+[12.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/openmp_mutex.h
+[12.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimizable_graph.h
+[12.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm.h
+[12.168s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_dogleg.h
+[12.168s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_factory.h
+[12.169s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_gauss_newton.h
+[12.169s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_levenberg.h
+[12.169s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_property.h
+[12.170s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/optimization_algorithm_with_hessian.h
+[12.170s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/ownership.h
+[12.170s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/parameter.h
+[12.170s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/parameter_container.h
+[12.171s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/robust_kernel.h
+[12.171s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/robust_kernel_factory.h
+[12.172s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/robust_kernel_impl.h
+[12.172s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/solver.h
+[12.172s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_block_matrix.h
+[12.173s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_block_matrix.hpp
+[12.173s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_block_matrix_ccs.h
+[12.174s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_block_matrix_diagonal.h
+[12.174s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_optimizer.h
+[12.175s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/core/sparse_optimizer_terminate_action.h
+[12.178s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_cli.so.0.2.0
+[12.180s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_cli.so.0.2
+[12.181s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_cli.so
+[12.182s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o
+[12.183s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_cli/dl_wrapper.h
+[12.187s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_cli/g2o_cli_api.h
+[12.188s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_cli/g2o_common.h
+[12.189s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_cli/output_helper.h
+[12.190s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_simulator.so.0.2.0
+[12.191s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_simulator.so.0.2
+[12.192s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_simulator.so
+[12.192s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_simulator2d
+[12.194s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_simulator3d
+[12.196s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/g2o_simulator_api.h
+[12.199s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/pointsensorparameters.h
+[12.203s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_line3d.h
+[12.211s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_odometry.h
+[12.212s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_odometry2d.h
+[12.212s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_odometry3d.h
+[12.212s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxy.h
+[12.213s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxy_bearing.h
+[12.213s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxy_offset.h
+[12.213s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxyz.h
+[12.213s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxyz_depth.h
+[12.214s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.h
+[12.214s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pose2d.h
+[12.215s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pose3d.h
+[12.215s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_pose3d_offset.h
+[12.216s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_se3_prior.h
+[12.217s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_segment2d.h
+[12.217s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_segment2d_line.h
+[12.217s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/sensor_segment2d_pointline.h
+[12.218s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator.h
+[12.218s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator2d.h
+[12.220s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator2d_base.h
+[12.221s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator3d.h
+[12.224s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simulator3d_base.h
+[12.225s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_simulator/simutils.h
+[12.225s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_viewer.so.0.2.0
+[12.225s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_viewer.so.0.2
+[12.226s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_viewer.so
+[12.226s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_viewer
+[12.226s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/g2o_qglviewer.h
+[12.227s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/g2o_viewer_api.h
+[12.227s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
+[12.227s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/main_window.h
+[12.228s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/properties_widget.h
+[12.229s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/run_g2o_viewer.h
+[12.230s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/stream_redirect.h
+[12.230s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/viewer_properties_widget.h
+[12.231s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/ui_base_main_window.h
+[12.232s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_viewer/ui_base_properties_widget.h
+[12.233s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d.so.0.2.0
+[12.234s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d.so.0.2
+[12.234s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d.so
+[12.234s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_pointxy.h
+[12.235s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2.h
+[12.235s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_lotsofxy.h
+[12.235s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_offset.h
+[12.236s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_pointxy.h
+[12.236s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_pointxy_bearing.h
+[12.236s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_pointxy_calib.h
+[12.237s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_pointxy_offset.h
+[12.237s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_prior.h
+[12.237s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_twopointsxy.h
+[12.238s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_se2_xyprior.h
+[12.238s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/edge_xy_prior.h
+[12.240s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/g2o_types_slam2d_api.h
+[12.241s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/parameter_se2_offset.h
+[12.242s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/se2.h
+[12.243s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/types_slam2d.h
+[12.246s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/vertex_point_xy.h
+[12.249s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d/vertex_se2.h
+[12.249s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d_addons.so.0.2.0
+[12.250s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d_addons.so.0.2
+[12.250s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam2d_addons.so
+[12.251s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_line2d.h
+[12.251s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_line2d_pointxy.h
+[12.252s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_se2_line2d.h
+[12.252s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_se2_segment2d.h
+[12.252s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_se2_segment2d_line.h
+[12.253s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.h
+[12.253s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+[12.256s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/line_2d.h
+[12.257s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/types_slam2d_addons.h
+[12.258s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/vertex_line2d.h
+[12.260s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam2d_addons/vertex_segment2d.h
+[12.262s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_data.so.0.2.0
+[12.267s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_data.so.0.2
+[12.268s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_data.so
+[12.268s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/data_queue.h
+[12.269s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/g2o_types_data_api.h
+[12.269s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/laser_parameters.h
+[12.269s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/raw_laser.h
+[12.269s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/robot_data.h
+[12.270s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/robot_laser.h
+[12.270s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/types_data.h
+[12.270s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/vertex_ellipse.h
+[12.276s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/data/vertex_tag.h
+[12.277s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sclam2d.so.0.2.0
+[12.277s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sclam2d.so.0.2
+[12.278s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sclam2d.so
+[12.278s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/edge_se2_odom_differential_calib.h
+[12.279s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/edge_se2_sensor_calib.h
+[12.280s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/g2o_types_sclam2d_api.h
+[12.288s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/odometry_measurement.h
+[12.290s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/types_sclam2d.h
+[12.290s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sclam2d/vertex_odom_differential_params.h
+[12.291s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d.so.0.2.0
+[12.295s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d.so.0.2
+[12.298s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d.so
+[12.304s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/dquat2mat.h
+[12.306s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_pointxyz.h
+[12.310s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3.h
+[12.311s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_lotsofxyz.h
+[12.311s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_offset.h
+[12.311s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_pointxyz.h
+[12.312s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_pointxyz_depth.h
+[12.312s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_pointxyz_disparity.h
+[12.312s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_prior.h
+[12.313s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_se3_xyzprior.h
+[12.313s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/edge_xyz_prior.h
+[12.314s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/g2o_types_slam3d_api.h
+[12.315s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/isometry3d_gradients.h
+[12.315s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/isometry3d_mappings.h
+[12.316s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/parameter_camera.h
+[12.316s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/parameter_se3_offset.h
+[12.316s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/parameter_stereo_camera.h
+[12.317s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/se3_ops.h
+[12.323s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/se3_ops.hpp
+[12.325s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/se3quat.h
+[12.326s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/types_slam3d.h
+[12.330s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/vertex_pointxyz.h
+[12.330s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d/vertex_se3.h
+[12.331s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d_addons.so.0.2.0
+[12.332s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d_addons.so.0.2
+[12.332s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_slam3d_addons.so
+[12.333s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_plane.h
+[12.334s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_se3_calib.h
+[12.334s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_se3_euler.h
+[12.334s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_se3_line.h
+[12.334s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/edge_se3_plane_calib.h
+[12.335s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+[12.335s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/line3d.h
+[12.335s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/plane3d.h
+[12.336s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/types_slam3d_addons.h
+[12.336s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/vertex_line3d.h
+[12.336s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/vertex_plane.h
+[12.336s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/slam3d_addons/vertex_se3_euler.h
+[12.337s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sba.so.0.2.0
+[12.337s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sba.so.0.2
+[12.337s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sba.so
+[12.337s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_p2mc.h
+[12.338s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_p2sc.h
+[12.338s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_psi2uv.h
+[12.338s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_stereo_xyz.h
+[12.338s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_stereo_xyz_onlypose.h
+[12.339s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_xyz.h
+[12.339s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_xyz2uv.h
+[12.339s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_xyz2uvu.h
+[12.339s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_project_xyz_onlypose.h
+[12.340s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_sba_cam.h
+[12.340s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_sba_scale.h
+[12.344s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/edge_se3_expmap.h
+[12.345s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/g2o_types_sba_api.h
+[12.345s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/parameter_cameraparameters.h
+[12.346s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/sba_utils.h
+[12.347s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/sbacam.h
+[12.347s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/types_sba.h
+[12.348s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/types_six_dof_expmap.h
+[12.348s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/vertex_cam.h
+[12.349s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/vertex_intrinsics.h
+[12.349s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sba/vertex_se3_expmap.h
+[12.349s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_icp.so.0.2.0
+[12.350s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_icp.so.0.2
+[12.350s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_icp.so
+[12.356s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/icp/g2o_types_icp_api.h
+[12.357s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/icp/types_icp.h
+[12.357s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sim3.so.0.2.0
+[12.357s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sim3.so.0.2
+[12.358s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_types_sim3.so
+[12.358s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sim3/sim3.h
+[12.358s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/types/sim3/types_seven_dof_expmap.h
+[12.359s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_pcg.so.0.2.0
+[12.359s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_pcg.so.0.2
+[12.360s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_pcg.so
+[12.360s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/pcg/linear_solver_pcg.h
+[12.361s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/pcg/linear_solver_pcg.hpp
+[12.368s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_dense.so.0.2.0
+[12.368s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_dense.so.0.2
+[12.369s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_dense.so
+[12.369s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/dense/linear_solver_dense.h
+[12.369s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_slam2d_linear.so.0.2.0
+[12.370s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_slam2d_linear.so.0.2
+[12.370s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_slam2d_linear.so
+[12.370s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/slam2d_linear/g2o_slam2d_linear_api.h
+[12.370s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/slam2d_linear/solver_slam2d_linear.h
+[12.371s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_structure_only.so.0.2.0
+[12.371s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_structure_only.so.0.2
+[12.375s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_structure_only.so
+[12.376s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/structure_only/structure_only_solver.h
+[12.376s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_csparse.so.0.2.0
+[12.377s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_csparse.so.0.2
+[12.377s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_csparse.so
+[12.378s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_csparse_extension.so.0.2.0
+[12.384s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_csparse_extension.so.0.2
+[12.385s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_csparse_extension.so
+[12.401s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/csparse_extension.h
+[12.408s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/csparse_helper.h
+[12.409s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/csparse_wrapper.h
+[12.409s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/g2o_csparse_api.h
+[12.410s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/g2o_csparse_extension_api.h
+[12.414s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/csparse/linear_solver_csparse.h
+[12.416s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_cholmod.so.0.2.0
+[12.419s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_cholmod.so.0.2
+[12.422s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_cholmod.so
+[12.426s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/cholmod/linear_solver_cholmod.h
+[12.427s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/cholmod/cholmod_wrapper.h
+[12.427s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_eigen.so.0.2.0
+[12.428s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_eigen.so.0.2
+[12.428s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_solver_eigen.so
+[12.430s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/solvers/eigen/linear_solver_eigen.h
+[12.430s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_parser.so.0.2.0
+[12.430s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_parser.so.0.2
+[12.430s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_parser.so
+[12.431s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/FlexLexer.h
+[12.431s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.h
+[12.432s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/commands.h
+[12.434s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/driver.h
+[12.434s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/location.hh
+[12.435s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/position.hh
+[12.435s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/scanner.h
+[12.435s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/parser/slam_context.h
+[12.436s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interface.so.0.2.0
+[12.436s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interface.so.0.2
+[12.436s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interface.so
+[12.436s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/interface/abstract_slam_interface.h
+[12.437s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/interface/parser_interface.h
+[12.437s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/slam_parser/interface/slam_context_interface.h
+[12.437s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interactive.so.0.2.0
+[12.437s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interactive.so.0.2
+[12.438s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_interactive.so
+[12.438s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_online
+[12.439s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/fast_output.h
+[12.439s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/g2o_interactive_api.h
+[12.439s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/g2o_slam_interface.h
+[12.439s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/graph_optimizer_sparse_online.h
+[12.440s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/types_slam2d_online.h
+[12.440s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_interactive/types_slam3d_online.h
+[12.440s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_incremental.so.0.2.0
+[12.440s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_incremental.so.0.2
+[12.441s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_incremental.so
+[12.441s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/bin/g2o_incremental
+[12.441s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_incremental/g2o_incremental_api.h
+[12.441s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.h
+[12.442s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/examples/interactive_slam/g2o_incremental/linear_solver_cholmod_online.h
+[12.442s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_hierarchical.so.0.2.0
+[12.442s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_hierarchical.so.0.2
+[12.442s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/lib/libg2o_hierarchical.so
+[12.443s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/backbone_tree_action.h
+[12.443s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/edge_creator.h
+[12.443s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/edge_labeler.h
+[12.444s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/edge_types_cost_function.h
+[12.444s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/g2o_hierarchical_api.h
+[12.444s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/simple_star_ops.h
+[12.445s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o/include/g2o/apps/g2o_hierarchical/star.h
+[12.445s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/g2o' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/g2o

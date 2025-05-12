@@ -1,0 +1,23 @@
+[  1%] Built target realsense2_camera_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_realsense2_camera_msgs
+[  2%] Built target realsense2_camera_msgs__cpp
+[ 25%] Built target realsense2_camera_msgs__rosidl_generator_c
+[ 35%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[ 44%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[ 54%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[ 63%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[ 72%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[ 82%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[ 82%] Built target realsense2_camera_msgs
+[ 83%] Built target realsense2_camera_msgs__py
+[ 91%] Built target realsense2_camera_msgs__rosidl_generator_py
+[ 94%] Built target realsense2_camera_msgs_s__rosidl_typesupport_introspection_c
+[ 97%] Built target realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target realsense2_camera_msgs_s__rosidl_typesupport_c
+running egg_info
+writing realsense2_camera_msgs.egg-info/PKG-INFO
+writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg

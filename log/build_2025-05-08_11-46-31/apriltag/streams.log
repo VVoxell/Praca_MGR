@@ -1,0 +1,65 @@
+[0.327s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/apriltag': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/apriltag -- -j8 -l8
+[0.620s] [ 80%] Built target apriltag
+[0.774s] [ 82%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[0.898s] [ 85%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[1.158s] [ 85%] Built target apriltag_py_docstrings
+[1.293s] [ 90%] Built target opencv_demo
+[1.480s] [ 92%] [32mBuilding C object CMakeFiles/apriltag.cpython-312-x86_64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[2.542s] [ 95%] [32m[1mLinking C shared module apriltag.cpython-312-x86_64-linux-gnu.so[0m
+[2.911s] [ 95%] Built target apriltag.cpython-312-x86_64-linux-gnu
+[3.081s] [100%] Built target apriltag_demo
+[3.229s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/apriltag -- -j8 -l8
+[3.232s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/apriltag': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/apriltag
+[5.533s] -- Install configuration: "Release"
+[5.534s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/apriltag.h
+[5.534s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/apriltag_math.h
+[5.534s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/apriltag_pose.h
+[5.538s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/debug_print.h
+[5.541s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/doubles.h
+[5.543s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[5.545s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/floats.h
+[5.547s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/g2d.h
+[5.547s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/getopt.h
+[5.548s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/homography.h
+[5.548s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/image_types.h
+[5.574s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/image_u8.h
+[5.575s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/image_u8x3.h
+[5.576s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/image_u8x4.h
+[5.576s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/matd.h
+[5.576s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/math_util.h
+[5.577s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/pam.h
+[5.577s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/pjpeg.h
+[5.577s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/pnm.h
+[5.577s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/postscript_utils.h
+[5.583s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/pthreads_cross.h
+[5.583s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/string_util.h
+[5.584s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/svd22.h
+[5.584s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/time_util.h
+[5.584s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/timeprofile.h
+[5.584s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/unionfind.h
+[5.585s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/workerpool.h
+[5.585s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/zarray.h
+[5.585s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/zhash.h
+[5.585s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/common/zmaxheap.h
+[5.591s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tag16h5.h
+[5.592s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tag25h9.h
+[5.592s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tag36h10.h
+[5.592s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tag36h11.h
+[5.592s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagCircle21h7.h
+[5.593s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagCircle49h12.h
+[5.593s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagCustom48h12.h
+[5.593s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagStandard41h12.h
+[5.593s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/include/apriltag/tagStandard52h13.h
+[5.602s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/libapriltag.so.3.4.2
+[5.608s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/libapriltag.so.3
+[5.608s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/libapriltag.so
+[5.608s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[5.609s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[5.611s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[5.611s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+[5.611s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/pkgconfig/apriltag.pc
+[5.612s] -- Installing: /home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages/apriltag.cpython-312-x86_64-linux-gnu.so
+[5.612s] -- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/apriltag/lib/python3.12/site-packages/apriltag.cpython-312-x86_64-linux-gnu.so" to ""
+[5.617s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/bin/opencv_demo
+[5.617s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag/bin/apriltag_demo
+[5.810s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/apriltag' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/apriltag

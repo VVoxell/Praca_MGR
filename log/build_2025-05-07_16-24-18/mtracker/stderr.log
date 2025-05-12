@@ -1,0 +1,20 @@
+[01m[K/home/vvoxel/ros2_ws_mgr/src/mtracker/src/mtracker_joy.cpp:22:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Joy_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   22 |   void joyCallback(const sensor_msgs::msg::Joy::ConstPtr& joy_msg[01;35m[K)[m[K
+      |                                                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/joy.hpp:7[m[K,
+                 from [01m[K/home/vvoxel/ros2_ws_mgr/src/mtracker/src/mtracker_joy.cpp:7[m[K:
+[01m[K/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp:123:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  123 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/vvoxel/ros2_ws_mgr/src/mtracker/include/mtracker/Robot.hpp:11[m[K,
+                 from [01m[K/home/vvoxel/ros2_ws_mgr/src/mtracker/src/mtracker.cpp:8[m[K:
+[01m[K/home/vvoxel/ros2_ws_mgr/src/mtracker/include/mtracker/Serial.hpp:[m[K In constructor ‘[01m[KMtrackerSerialMsgs::TrSetWheelsVelAndOdom::[01;32m[KTrSetWheelsVelAndOdom[m[K()[m[K’:
+[01m[K/home/vvoxel/ros2_ws_mgr/src/mtracker/include/mtracker/Serial.hpp:49:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KMtrackerSerialMsgs::TrSetWheelsVelAndOdom::command[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   49 |             uint8_t [01;35m[Kcommand[m[K;
+      |                     [01;35m[K^~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/mtracker/include/mtracker/Serial.hpp:47:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kuint8_t MtrackerSerialMsgs::TrSetWheelsVelAndOdom::num_data_bytes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   47 |             uint8_t [01;35m[Knum_data_bytes[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/vvoxel/ros2_ws_mgr/src/mtracker/include/mtracker/Serial.hpp:44:13:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |             [01;35m[KTrSetWheelsVelAndOdom[m[K() : header(headerChar), command(0x3), num_data_bytes(22), group_number(groupNumber), robot_number(robotNumber) {}
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,24 @@
+[0.061s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/g2o_driver:/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/realsense2_camera_msgs -- -j8 -l8
+[0.244s] [  1%] Built target realsense2_camera_msgs__rosidl_generator_type_description
+[0.262s] [  1%] Built target ament_cmake_python_symlink_realsense2_camera_msgs
+[0.316s] [  2%] Built target realsense2_camera_msgs__cpp
+[0.381s] [ 25%] Built target realsense2_camera_msgs__rosidl_generator_c
+[0.533s] [ 35%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.536s] [ 44%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[0.559s] [ 54%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[0.562s] [ 63%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[0.567s] [ 72%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[0.570s] [ 82%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[0.719s] [ 82%] Built target realsense2_camera_msgs
+[0.797s] [ 83%] Built target realsense2_camera_msgs__py
+[0.894s] [ 91%] Built target realsense2_camera_msgs__rosidl_generator_py
+[1.014s] [ 94%] Built target realsense2_camera_msgs_s__rosidl_typesupport_introspection_c
+[1.019s] [ 97%] Built target realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c
+[1.026s] [100%] Built target realsense2_camera_msgs_s__rosidl_typesupport_c
+[1.130s] running egg_info
+[1.212s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[1.212s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[1.213s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[1.403s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[1.404s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[1.478s] [100%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg

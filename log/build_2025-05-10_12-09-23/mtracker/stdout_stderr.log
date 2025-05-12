@@ -1,0 +1,26 @@
+[  2%] Built target mtracker__rosidl_generator_type_description
+[  7%] Built target mtracker_joy
+[  7%] Built target ament_cmake_python_symlink_mtracker
+[ 12%] Built target controller
+[ 14%] Built target mtracker__cpp
+[ 26%] Built target mtracker__rosidl_generator_c
+[ 34%] Built target mtracker__rosidl_typesupport_fastrtps_c
+[ 41%] Built target mtracker__rosidl_typesupport_cpp
+[ 48%] Built target mtracker__rosidl_typesupport_introspection_c
+[ 56%] Built target mtracker__rosidl_typesupport_c
+[ 70%] Built target mtracker__rosidl_typesupport_introspection_cpp
+[ 70%] Built target mtracker__rosidl_typesupport_fastrtps_cpp
+[ 78%] Built target mtracker_drv
+[ 78%] Built target mtracker
+[ 80%] Built target mtracker__py
+[ 85%] Built target mtracker__rosidl_generator_py
+[ 90%] Built target mtracker_s__rosidl_typesupport_c
+[ 95%] Built target mtracker_s__rosidl_typesupport_introspection_c
+[100%] Built target mtracker_s__rosidl_typesupport_fastrtps_c
+running egg_info
+writing mtracker.egg-info/PKG-INFO
+writing dependency_links to mtracker.egg-info/dependency_links.txt
+writing top-level names to mtracker.egg-info/top_level.txt
+reading manifest file 'mtracker.egg-info/SOURCES.txt'
+writing manifest file 'mtracker.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_mtracker_egg

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable driver[0m
+[100%] Built target driver
+-- Install configuration: ""
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/lib/g2o_driver/driver
+-- Set non-toolchain portion of runtime path of "/home/vvoxel/ros2_ws_mgr/install/g2o_driver/lib/g2o_driver/driver" to ""
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/ament_index/resource_index/package_run_dependencies/g2o_driver
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/ament_index/resource_index/parent_prefix_path/g2o_driver
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/environment/path.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/environment/path.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/local_setup.bash
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/local_setup.sh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/local_setup.zsh
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/local_setup.dsv
+-- Installing: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/package.dsv
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/ament_index/resource_index/packages/g2o_driver
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/cmake/g2o_driverConfig.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/cmake/g2o_driverConfig-version.cmake
+-- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/g2o_driver/share/g2o_driver/package.xml

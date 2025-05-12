@@ -1,9 +1,0 @@
-digraph G {
-"MTracker/odom" -> "MTracker/chassis"[label=" Broadcaster: default_authority\nAverage rate: 10.588\nBuffer length: 1.7\nMost recent transform: 17.7\nOldest transform: 16.0\n"];
-"MTracker/chassis" -> "MTracker/camera/rgbd_camera"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
-"MTracker/camera/rgbd_camera" -> "map"[label=" Broadcaster: default_authority\nAverage rate: 12.987\nBuffer length: 0.462\nMost recent transform: 16.501\nOldest transform: 16.039\n"];
-edge [style=invis];
- subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1745513425.2331822"[ shape=plaintext ] ;
-}->"MTracker/odom";
-}

@@ -1,0 +1,157 @@
+[0.370s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/apriltag_msgs': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/apriltag_msgs -- -j8 -l8
+[0.761s] [  1%] Built target apriltag_msgs__rosidl_generator_type_description
+[0.928s] [  1%] Built target ament_cmake_python_symlink_apriltag_msgs
+[1.120s] [ 22%] Built target apriltag_msgs__rosidl_generator_c
+[3.083s] running egg_info
+[3.381s] writing apriltag_msgs.egg-info/PKG-INFO
+[3.381s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[3.385s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[4.199s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[4.203s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[4.495s] [ 22%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[4.694s] [ 31%] Built target apriltag_msgs__rosidl_typesupport_c
+[4.827s] [ 40%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[5.004s] [ 50%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[5.175s] [ 51%] Built target apriltag_msgs__cpp
+[5.466s] [ 61%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[5.632s] [ 70%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[5.894s] [ 79%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[6.116s] [ 79%] Built target apriltag_msgs
+[6.184s] [ 81%] Built target apriltag_msgs__py
+[6.383s] [ 88%] Built target apriltag_msgs__rosidl_generator_py
+[6.537s] [ 92%] Built target apriltag_msgs_s__rosidl_typesupport_fastrtps_c
+[6.705s] [ 96%] Built target apriltag_msgs_s__rosidl_typesupport_c
+[6.869s] [100%] Built target apriltag_msgs_s__rosidl_typesupport_introspection_c
+[8.725s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/apriltag_msgs -- -j8 -l8
+[8.738s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/apriltag_msgs': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/apriltag_msgs
+[8.804s] -- Install configuration: ""
+[8.806s] -- Execute custom install script
+[8.809s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[8.812s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/Point.json
+[8.816s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.json
+[8.824s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.json
+[8.825s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[8.825s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[8.826s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[8.826s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[8.826s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[8.827s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[8.830s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[8.834s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[8.835s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[8.839s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[8.867s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[8.882s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[8.883s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.883s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[8.883s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[8.884s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[8.884s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[8.885s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[8.887s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.900s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[8.900s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[8.901s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[8.901s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.904s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[8.904s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[8.905s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[8.905s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[8.906s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[8.906s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp
+[8.906s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[8.907s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[8.925s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[8.926s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp
+[8.964s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[8.964s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[8.965s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[8.965s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.hpp
+[8.968s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[8.969s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.969s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[8.970s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[8.970s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.971s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.971s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[8.971s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[8.972s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[8.972s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[8.972s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[8.972s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs-2.0.1-py3.12.egg-info/PKG-INFO
+[8.973s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs-2.0.1-py3.12.egg-info/SOURCES.txt
+[8.973s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs-2.0.1-py3.12.egg-info/dependency_links.txt
+[8.974s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs-2.0.1-py3.12.egg-info/top_level.txt
+[8.974s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/__init__.py
+[8.974s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[8.975s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.975s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.976s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.so
+[8.976s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.977s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.so
+[8.977s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/msg/__init__.py
+[8.978s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/msg/_april_tag_detection.py
+[8.978s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[8.979s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[8.979s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[8.980s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/msg/_point.py
+[8.981s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/msg/_point_s.c
+[8.984s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.987s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.so
+[9.071s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.so
+[9.077s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[9.077s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[9.079s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[9.082s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[9.086s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[9.098s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[9.101s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[9.104s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[9.121s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[9.122s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[9.123s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[9.123s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[9.124s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[9.124s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[9.129s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[9.156s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[9.156s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[9.437s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[9.442s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[9.443s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.448s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.449s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.450s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.451s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.463s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.463s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[9.465s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[9.465s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[9.465s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[9.470s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[9.471s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[9.473s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[9.476s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.477s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[9.478s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[9.795s] Listing '/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs'...
+[9.795s] Listing '/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/python3.12/site-packages/apriltag_msgs/msg'...
+[9.871s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[9.883s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[9.884s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.885s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.890s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.893s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.895s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.895s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[9.895s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.896s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[9.903s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.906s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.908s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.908s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.912s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[9.912s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.918s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[9.918s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.995s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/apriltag_msgs

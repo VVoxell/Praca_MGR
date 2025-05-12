@@ -121,7 +121,7 @@
       </link>
       
       <link name = 'camera'>
-      <pose relative_to = 'chassis' >0.025 0 0.06 0 -0.2 0</pose>
+      <pose relative_to='chassis'>0.025 0 0.06 0 -0.2 0</pose>
         <inertial>
           <mass>0.1</mass>
           <inertia>
@@ -373,8 +373,8 @@
           </dynamics>
         </axis>
       </joint>
+      
       <joint name='camera_joint' type='fixed'>
-        <pose>0 0 2 0 0 0</pose>
         <parent>chassis</parent>
         <child>camera</child>
         <axis>
@@ -395,15 +395,17 @@
           </dynamics>
         </axis>
       </joint>
+      
       <joint name='caster1_wheel' type='ball'>
                 <parent>chassis</parent>
                 <child>caster1</child>
-            </joint>
+	</joint>
             
-            <joint name='caster2_wheel' type='ball'>
+      <joint name='caster2_wheel' type='ball'>
                 <parent>chassis</parent>
                 <child>caster2</child>
 	</joint>
+	
       <plugin filename="ignition-gazebo-diff-drive-system"
         name="ignition::gazebo::systems::DiffDrive">
         <left_joint>left_wheel_joint</left_joint>
@@ -427,13 +429,13 @@
     <include>
       <uri>file:///home/vvoxel/Local_Gazebo_Resources/models/Apriltag36_11_00003</uri>
       <name>tag36_11_00003</name>
-      <pose>-1 0 0.25 3.14 1.54 0</pose>
+      <pose>-1.5 0 0.25 3.14 1.54 0</pose>
     </include>
     
     <include>
       <uri>file:///home/vvoxel/Local_Gazebo_Resources/models/Apriltag36_11_00004</uri>
       <name>tag36_11_00004</name>
-      <pose>0 1 0.25 0 1.54 1.54</pose>
+      <pose>-1.5 1 0.25 3.14 1.54 0</pose>
     </include>
     
     <light name='sun' type='directional'>

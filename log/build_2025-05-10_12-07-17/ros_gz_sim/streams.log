@@ -1,0 +1,21 @@
+[0.051s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_sim': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/g2o_driver:/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/ros_gz_sim -- -j8 -l8
+[0.246s] [  0%] Built target ament_cmake_python_symlink_ros_gz_sim
+[0.262s] [  0%] Built target ament_cmake_python_symlink_ros_gz_sim_setup
+[0.279s] [ 10%] Built target remove
+[0.291s] [ 20%] Built target create
+[0.315s] [ 30%] Built target gtest_main
+[0.328s] [ 40%] Built target ros_gz_sim
+[0.337s] [ 50%] Built target gzserver_component
+[0.381s] [ 60%] Built target gzserver
+[0.385s] [ 70%] Built target gtest
+[0.531s] [ 80%] Built target test_create
+[0.599s] [ 90%] Built target test_remove
+[0.620s] [100%] Built target test_stopwatch
+[1.220s] running egg_info
+[1.304s] writing ros_gz_sim.egg-info/PKG-INFO
+[1.304s] writing dependency_links to ros_gz_sim.egg-info/dependency_links.txt
+[1.304s] writing entry points to ros_gz_sim.egg-info/entry_points.txt
+[1.305s] writing top-level names to ros_gz_sim.egg-info/top_level.txt
+[1.456s] reading manifest file 'ros_gz_sim.egg-info/SOURCES.txt'
+[1.457s] writing manifest file 'ros_gz_sim.egg-info/SOURCES.txt'
+[1.519s] [100%] Built target ament_cmake_python_build_ros_gz_sim_egg

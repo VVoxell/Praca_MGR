@@ -1,0 +1,80 @@
+[0.048s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_sim': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/ros_gz_sim -- -j8 -l8
+[0.267s] [ 10%] Built target ros_gz_sim
+[0.290s] [ 10%] Built target ament_cmake_python_symlink_ros_gz_sim
+[0.290s] [ 10%] Built target ament_cmake_python_symlink_ros_gz_sim_setup
+[0.306s] [ 20%] Built target gzserver
+[0.322s] [ 30%] Built target remove
+[0.329s] [ 40%] Built target gzserver_component
+[0.331s] [ 50%] Built target create
+[0.343s] [ 60%] Built target gtest_main
+[0.391s] [ 70%] Built target gtest
+[0.550s] [ 80%] Built target test_create
+[0.619s] [ 90%] Built target test_stopwatch
+[0.629s] [100%] Built target test_remove
+[1.461s] running egg_info
+[1.509s] writing ros_gz_sim.egg-info/PKG-INFO
+[1.510s] writing dependency_links to ros_gz_sim.egg-info/dependency_links.txt
+[1.511s] writing entry points to ros_gz_sim.egg-info/entry_points.txt
+[1.512s] writing top-level names to ros_gz_sim.egg-info/top_level.txt
+[1.688s] reading manifest file 'ros_gz_sim.egg-info/SOURCES.txt'
+[1.692s] writing manifest file 'ros_gz_sim.egg-info/SOURCES.txt'
+[1.781s] [100%] Built target ament_cmake_python_build_ros_gz_sim_egg
+[2.050s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vvoxel/ros2_ws_mgr/build/ros_gz_sim -- -j8 -l8
+[2.052s] Invoking command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_sim': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/ros_gz_sim
+[2.160s] -- Install configuration: ""
+[2.160s] -- Execute custom install script
+[2.161s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/pythonpath.sh
+[2.161s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/pythonpath.dsv
+[2.161s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/PKG-INFO
+[2.162s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/SOURCES.txt
+[2.162s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/dependency_links.txt
+[2.162s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/entry_points.txt
+[2.162s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim-1.0.11-py3.12.egg-info/top_level.txt
+[2.162s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/__init__.py
+[2.162s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions/__init__.py
+[2.162s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions/gz_spawn_model.py
+[2.162s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions/gzserver.py
+[2.163s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/include/ros_gz_sim/Stopwatch.hpp
+[2.163s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/gzserver
+[2.163s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_sim.launch.py
+[2.163s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_server.launch
+[2.164s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_server.launch.py
+[2.164s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_spawn_model.launch
+[2.164s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_spawn_model.launch.py
+[2.164s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/ros_gz_sim.launch
+[2.164s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/ros_gz_sim.launch.py
+[2.164s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/ros_gz_spawn_model.launch.py
+[2.164s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/launch/gz_remove_model.launch.py
+[2.164s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/create
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/remove
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/gzserver
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/test_stopwatch
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/test_create
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/ros_gz_sim/test_remove
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ament_index/resource_index/package_run_dependencies/ros_gz_sim
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ament_index/resource_index/parent_prefix_path/ros_gz_sim
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.sh
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/ament_prefix_path.dsv
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/path.sh
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/environment/path.dsv
+[2.165s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/local_setup.bash
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/local_setup.sh
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/local_setup.zsh
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/local_setup.dsv
+[2.166s] -- Symlinking: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/package.dsv
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ament_index/resource_index/packages/ros_gz_sim
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ament_index/resource_index/rclcpp_components/ros_gz_sim
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_targets-extras.cmake
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig.cmake
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simConfig-version.cmake
+[2.166s] -- Up-to-date symlink: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/package.xml
+[2.166s] Listing '/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim'...
+[2.166s] Listing '/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/python3.12/site-packages/ros_gz_sim/actions'...
+[2.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/libgzserver_component.so
+[2.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/lib/libros_gz_sim.so
+[2.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/export_gzserver_componentExport.cmake
+[2.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/export_gzserver_componentExport-noconfig.cmake
+[2.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport.cmake
+[2.167s] -- Up-to-date: /home/vvoxel/ros2_ws_mgr/install/ros_gz_sim/share/ros_gz_sim/cmake/ros_gz_simExport-noconfig.cmake
+[2.251s] Invoked command in '/home/vvoxel/ros2_ws_mgr/build/ros_gz_sim' returned '0': CMAKE_PREFIX_PATH=/home/vvoxel/ros2_ws_mgr/install/test_ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/sim_launcher:/opt/ros/jazzy:/home/vvoxel/ros2_ws_mgr/install/slam:/home/vvoxel/ros2_ws_mgr/install/ros_gz:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim_demos:/home/vvoxel/ros2_ws_mgr/install/ros_gz_sim:/home/vvoxel/ros2_ws_mgr/install/ros_gz_image:/home/vvoxel/ros2_ws_mgr/install/ros_gz_bridge:/home/vvoxel/ros2_ws_mgr/install/ros_gz_interfaces:/home/vvoxel/ros2_ws_mgr/install/realsense2_description:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera:/home/vvoxel/ros2_ws_mgr/install/realsense2_camera_msgs:/home/vvoxel/ros2_ws_mgr/install/mtracker:/home/vvoxel/ros2_ws_mgr/install/g2o:/home/vvoxel/ros2_ws_mgr/install/apriltag_ros:/home/vvoxel/ros2_ws_mgr/install/apriltag_msgs:/home/vvoxel/ros2_ws_mgr/install/apriltag:/home/vvoxel/ros2_ws_mgr/install/anglecalc:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vvoxel/ros2_ws_mgr/build/ros_gz_sim
